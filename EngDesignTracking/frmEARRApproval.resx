@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>700, 17</value>
+  </metadata>
+  <metadata name="DataSet51.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>517, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT RecordID, EARRNumber, EARRStatus, EARRType, SerialNumber, WorkOrder, ProgramName, DrawingNumber, DrawingRevision, Request, IncorpRedLineYes, IncorpRedLineNo, DrawingReqForConformityYes, 
+                  DrawingReqForConformityNo, EARRResponseDate, OriginatorName, OriginatorDate, OriginatorSignedOff, ReplyInstructions, EffectivityAll, EffectivityOther, EffectivityOtherText, DeviationMinor, DeviationMajor, 
+                  AdditionalEngReqNoAction, AdditionalEngReqUpdate, ACFTInterface, Manufacturability, ProductImprovement, DWGError, DesignError, LiaisonManagerName, LiaisonManagerSignOffDate, EngineeringManagerName, 
+                  EngineeringManagerSignOffDate, LiaisonManagerNameBackup, EngineeringManagerNameBackup, Planner1, Planner2, QCName, QCSignOff, QCNameBackup, FabShop, ProductionError, QCNotes, PlannerSignOffDate, PlannerNotes, 
+                  EndItemType, DeviationNA
+FROM     tblEARR</value>
+  </data>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [tblEARR] ([EARRNumber], [EARRStatus], [EARRType], [SerialNumber], [WorkOrder], [ProgramName], [DrawingNumber], [DrawingRevision], [Request], [IncorpRedLineYes], [IncorpRedLineNo], [DrawingReqForConformityYes], [DrawingReqForConformityNo], [EARRResponseDate], [OriginatorName], [OriginatorDate], [OriginatorSignedOff], [ReplyInstructions], [EffectivityAll], [EffectivityOther], [EffectivityOtherText], [DeviationMinor], [DeviationMajor], [AdditionalEngReqNoAction], [AdditionalEngReqUpdate], [ACFTInterface], [Manufacturability], [ProductImprovement], [DWGError], [DesignError], [LiaisonManagerName], [LiaisonManagerSignOffDate], [EngineeringManagerName], [EngineeringManagerSignOffDate], [LiaisonManagerNameBackup], [EngineeringManagerNameBackup], [Planner1], [Planner2], [QCName], [QCSignOff], [QCNameBackup], [FabShop], [ProductionError], [QCNotes], [PlannerSignOffDate], [PlannerNotes], [EndItemType], [DeviationNA]) VALUES (@EARRNumber, @EARRStatus, @EARRType, @SerialNumber, @WorkOrder, @ProgramName, @DrawingNumber, @DrawingRevision, @Request, @IncorpRedLineYes, @IncorpRedLineNo, @DrawingReqForConformityYes, @DrawingReqForConformityNo, @EARRResponseDate, @OriginatorName, @OriginatorDate, @OriginatorSignedOff, @ReplyInstructions, @EffectivityAll, @EffectivityOther, @EffectivityOtherText, @DeviationMinor, @DeviationMajor, @AdditionalEngReqNoAction, @AdditionalEngReqUpdate, @ACFTInterface, @Manufacturability, @ProductImprovement, @DWGError, @DesignError, @LiaisonManagerName, @LiaisonManagerSignOffDate, @EngineeringManagerName, @EngineeringManagerSignOffDate, @LiaisonManagerNameBackup, @EngineeringManagerNameBackup, @Planner1, @Planner2, @QCName, @QCSignOff, @QCNameBackup, @FabShop, @ProductionError, @QCNotes, @PlannerSignOffDate, @PlannerNotes, @EndItemType, @DeviationNA);
+SELECT RecordID, EARRNumber, EARRStatus, EARRType, SerialNumber, WorkOrder, ProgramName, DrawingNumber, DrawingRevision, Request, IncorpRedLineYes, IncorpRedLineNo, DrawingReqForConformityYes, DrawingReqForConformityNo, EARRResponseDate, OriginatorName, OriginatorDate, OriginatorSignedOff, ReplyInstructions, EffectivityAll, EffectivityOther, EffectivityOtherText, DeviationMinor, DeviationMajor, AdditionalEngReqNoAction, AdditionalEngReqUpdate, ACFTInterface, Manufacturability, ProductImprovement, DWGError, DesignError, LiaisonManagerName, LiaisonManagerSignOffDate, EngineeringManagerName, EngineeringManagerSignOffDate, LiaisonManagerNameBackup, EngineeringManagerNameBackup, Planner1, Planner2, QCName, QCSignOff, QCNameBackup, FabShop, ProductionError, QCNotes, PlannerSignOffDate, PlannerNotes, EndItemType, DeviationNA FROM tblEARR WHERE (RecordID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [tblEARR] SET [EARRNumber] = @EARRNumber, [EARRStatus] = @EARRStatus, [EARRType] = @EARRType, [SerialNumber] = @SerialNumber, [WorkOrder] = @WorkOrder, [ProgramName] = @ProgramName, [DrawingNumber] = @DrawingNumber, [DrawingRevision] = @DrawingRevision, [Request] = @Request, [IncorpRedLineYes] = @IncorpRedLineYes, [IncorpRedLineNo] = @IncorpRedLineNo, [DrawingReqForConformityYes] = @DrawingReqForConformityYes, [DrawingReqForConformityNo] = @DrawingReqForConformityNo, [EARRResponseDate] = @EARRResponseDate, [OriginatorName] = @OriginatorName, [OriginatorDate] = @OriginatorDate, [OriginatorSignedOff] = @OriginatorSignedOff, [ReplyInstructions] = @ReplyInstructions, [EffectivityAll] = @EffectivityAll, [EffectivityOther] = @EffectivityOther, [EffectivityOtherText] = @EffectivityOtherText, [DeviationMinor] = @DeviationMinor, [DeviationMajor] = @DeviationMajor, [AdditionalEngReqNoAction] = @AdditionalEngReqNoAction, [AdditionalEngReqUpdate] = @AdditionalEngReqUpdate, [ACFTInterface] = @ACFTInterface, [Manufacturability] = @Manufacturability, [ProductImprovement] = @ProductImprovement, [DWGError] = @DWGError, [DesignError] = @DesignError, [LiaisonManagerName] = @LiaisonManagerName, [LiaisonManagerSignOffDate] = @LiaisonManagerSignOffDate, [EngineeringManagerName] = @EngineeringManagerName, [EngineeringManagerSignOffDate] = @EngineeringManagerSignOffDate, [LiaisonManagerNameBackup] = @LiaisonManagerNameBackup, [EngineeringManagerNameBackup] = @EngineeringManagerNameBackup, [Planner1] = @Planner1, [Planner2] = @Planner2, [QCName] = @QCName, [QCSignOff] = @QCSignOff, [QCNameBackup] = @QCNameBackup, [FabShop] = @FabShop, [ProductionError] = @ProductionError, [QCNotes] = @QCNotes, [PlannerSignOffDate] = @PlannerSignOffDate, [PlannerNotes] = @PlannerNotes, [EndItemType] = @EndItemType, [DeviationNA] = @DeviationNA WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_EARRNumber = 1 AND [EARRNumber] IS NULL) OR ([EARRNumber] = @Original_EARRNumber)) AND ((@IsNull_EARRStatus = 1 AND [EARRStatus] IS NULL) OR ([EARRStatus] = @Original_EARRStatus)) AND ((@IsNull_EARRType = 1 AND [EARRType] IS NULL) OR ([EARRType] = @Original_EARRType)) AND ((@IsNull_SerialNumber = 1 AND [SerialNumber] IS NULL) OR ([SerialNumber] = @Original_SerialNumber)) AND ((@IsNull_WorkOrder = 1 AND [WorkOrder] IS NULL) OR ([WorkOrder] = @Original_WorkOrder)) AND ((@IsNull_ProgramName = 1 AND [ProgramName] IS NULL) OR ([ProgramName] = @Original_ProgramName)) AND ((@IsNull_DrawingNumber = 1 AND [DrawingNumber] IS NULL) OR ([DrawingNumber] = @Original_DrawingNumber)) AND ((@IsNull_DrawingRevision = 1 AND [DrawingRevision] IS NULL) OR ([DrawingRevision] = @Original_DrawingRevision)) AND ((@IsNull_Request = 1 AND [Request] IS NULL) OR ([Request] = @Original_Request)) AND ((@IsNull_IncorpRedLineYes = 1 AND [IncorpRedLineYes] IS NULL) OR ([IncorpRedLineYes] = @Original_IncorpRedLineYes)) AND ((@IsNull_IncorpRedLineNo = 1 AND [IncorpRedLineNo] IS NULL) OR ([IncorpRedLineNo] = @Original_IncorpRedLineNo)) AND ((@IsNull_DrawingReqForConformityYes = 1 AND [DrawingReqForConformityYes] IS NULL) OR ([DrawingReqForConformityYes] = @Original_DrawingReqForConformityYes)) AND ((@IsNull_DrawingReqForConformityNo = 1 AND [DrawingReqForConformityNo] IS NULL) OR ([DrawingReqForConformityNo] = @Original_DrawingReqForConformityNo)) AND ((@IsNull_EARRResponseDate = 1 AND [EARRResponseDate] IS NULL) OR ([EARRResponseDate] = @Original_EARRResponseDate)) AND ((@IsNull_OriginatorName = 1 AND [OriginatorName] IS NULL) OR ([OriginatorName] = @Original_OriginatorName)) AND ((@IsNull_OriginatorDate = 1 AND [OriginatorDate] IS NULL) OR ([OriginatorDate] = @Original_OriginatorDate)) AND ((@IsNull_OriginatorSignedOff = 1 AND [OriginatorSignedOff] IS NULL) OR ([OriginatorSignedOff] = @Original_OriginatorSignedOff)) AND ((@IsNull_ReplyInstructions = 1 AND [ReplyInstructions] IS NULL) OR ([ReplyInstructions] = @Original_ReplyInstructions)) AND ((@IsNull_EffectivityAll = 1 AND [EffectivityAll] IS NULL) OR ([EffectivityAll] = @Original_EffectivityAll)) AND ((@IsNull_EffectivityOther = 1 AND [EffectivityOther] IS NULL) OR ([EffectivityOther] = @Original_EffectivityOther)) AND ((@IsNull_EffectivityOtherText = 1 AND [EffectivityOtherText] IS NULL) OR ([EffectivityOtherText] = @Original_EffectivityOtherText)) AND ((@IsNull_DeviationMinor = 1 AND [DeviationMinor] IS NULL) OR ([DeviationMinor] = @Original_DeviationMinor)) AND ((@IsNull_DeviationMajor = 1 AND [DeviationMajor] IS NULL) OR ([DeviationMajor] = @Original_DeviationMajor)) AND ((@IsNull_AdditionalEngReqNoAction = 1 AND [AdditionalEngReqNoAction] IS NULL) OR ([AdditionalEngReqNoAction] = @Original_AdditionalEngReqNoAction)) AND ((@IsNull_AdditionalEngReqUpdate = 1 AND [AdditionalEngReqUpdate] IS NULL) OR ([AdditionalEngReqUpdate] = @Original_AdditionalEngReqUpdate)) AND ((@IsNull_ACFTInterface = 1 AND [ACFTInterface] IS NULL) OR ([ACFTInterface] = @Original_ACFTInterface)) AND ((@IsNull_Manufacturability = 1 AND [Manufacturability] IS NULL) OR ([Manufacturability] = @Original_Manufacturability)) AND ((@IsNull_ProductImprovement = 1 AND [ProductImprovement] IS NULL) OR ([ProductImprovement] = @Original_ProductImprovement)) AND ((@IsNull_DWGError = 1 AND [DWGError] IS NULL) OR ([DWGError] = @Original_DWGError)) AND ((@IsNull_DesignError = 1 AND [DesignError] IS NULL) OR ([DesignError] = @Original_DesignError)) AND ((@IsNull_LiaisonManagerName = 1 AND [LiaisonManagerName] IS NULL) OR ([LiaisonManagerName] = @Original_LiaisonManagerName)) AND ((@IsNull_LiaisonManagerSignOffDate = 1 AND [LiaisonManagerSignOffDate] IS NULL) OR ([LiaisonManagerSignOffDate] = @Original_LiaisonManagerSignOffDate)) AND ((@IsNull_EngineeringManagerName = 1 AND [EngineeringManagerName] IS NULL) OR ([EngineeringManagerName] = @Original_EngineeringManagerName)) AND ((@IsNull_EngineeringManagerSignOffDate = 1 AND [EngineeringManagerSignOffDate] IS NULL) OR ([EngineeringManagerSignOffDate] = @Original_EngineeringManagerSignOffDate)) AND ((@IsNull_LiaisonManagerNameBackup = 1 AND [LiaisonManagerNameBackup] IS NULL) OR ([LiaisonManagerNameBackup] = @Original_LiaisonManagerNameBackup)) AND ((@IsNull_EngineeringManagerNameBackup = 1 AND [EngineeringManagerNameBackup] IS NULL) OR ([EngineeringManagerNameBackup] = @Original_EngineeringManagerNameBackup)) AND ((@IsNull_Planner1 = 1 AND [Planner1] IS NULL) OR ([Planner1] = @Original_Planner1)) AND ((@IsNull_Planner2 = 1 AND [Planner2] IS NULL) OR ([Planner2] = @Original_Planner2)) AND ((@IsNull_QCName = 1 AND [QCName] IS NULL) OR ([QCName] = @Original_QCName)) AND ((@IsNull_QCSignOff = 1 AND [QCSignOff] IS NULL) OR ([QCSignOff] = @Original_QCSignOff)) AND ((@IsNull_QCNameBackup = 1 AND [QCNameBackup] IS NULL) OR ([QCNameBackup] = @Original_QCNameBackup)) AND ((@IsNull_FabShop = 1 AND [FabShop] IS NULL) OR ([FabShop] = @Original_FabShop)) AND ((@IsNull_ProductionError = 1 AND [ProductionError] IS NULL) OR ([ProductionError] = @Original_ProductionError)) AND ((@IsNull_QCNotes = 1 AND [QCNotes] IS NULL) OR ([QCNotes] = @Original_QCNotes)) AND ((@IsNull_PlannerSignOffDate = 1 AND [PlannerSignOffDate] IS NULL) OR ([PlannerSignOffDate] = @Original_PlannerSignOffDate)) AND ((@IsNull_PlannerNotes = 1 AND [PlannerNotes] IS NULL) OR ([PlannerNotes] = @Original_PlannerNotes)) AND ((@IsNull_EndItemType = 1 AND [EndItemType] IS NULL) OR ([EndItemType] = @Original_EndItemType)) AND ((@IsNull_DeviationNA = 1 AND [DeviationNA] IS NULL) OR ([DeviationNA] = @Original_DeviationNA)));
+SELECT RecordID, EARRNumber, EARRStatus, EARRType, SerialNumber, WorkOrder, ProgramName, DrawingNumber, DrawingRevision, Request, IncorpRedLineYes, IncorpRedLineNo, DrawingReqForConformityYes, DrawingReqForConformityNo, EARRResponseDate, OriginatorName, OriginatorDate, OriginatorSignedOff, ReplyInstructions, EffectivityAll, EffectivityOther, EffectivityOtherText, DeviationMinor, DeviationMajor, AdditionalEngReqNoAction, AdditionalEngReqUpdate, ACFTInterface, Manufacturability, ProductImprovement, DWGError, DesignError, LiaisonManagerName, LiaisonManagerSignOffDate, EngineeringManagerName, EngineeringManagerSignOffDate, LiaisonManagerNameBackup, EngineeringManagerNameBackup, Planner1, Planner2, QCName, QCSignOff, QCNameBackup, FabShop, ProductionError, QCNotes, PlannerSignOffDate, PlannerNotes, EndItemType, DeviationNA FROM tblEARR WHERE (RecordID = @RecordID)</value>
+  </data>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [tblEARR] WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_EARRNumber = 1 AND [EARRNumber] IS NULL) OR ([EARRNumber] = @Original_EARRNumber)) AND ((@IsNull_EARRStatus = 1 AND [EARRStatus] IS NULL) OR ([EARRStatus] = @Original_EARRStatus)) AND ((@IsNull_EARRType = 1 AND [EARRType] IS NULL) OR ([EARRType] = @Original_EARRType)) AND ((@IsNull_SerialNumber = 1 AND [SerialNumber] IS NULL) OR ([SerialNumber] = @Original_SerialNumber)) AND ((@IsNull_WorkOrder = 1 AND [WorkOrder] IS NULL) OR ([WorkOrder] = @Original_WorkOrder)) AND ((@IsNull_ProgramName = 1 AND [ProgramName] IS NULL) OR ([ProgramName] = @Original_ProgramName)) AND ((@IsNull_DrawingNumber = 1 AND [DrawingNumber] IS NULL) OR ([DrawingNumber] = @Original_DrawingNumber)) AND ((@IsNull_DrawingRevision = 1 AND [DrawingRevision] IS NULL) OR ([DrawingRevision] = @Original_DrawingRevision)) AND ((@IsNull_Request = 1 AND [Request] IS NULL) OR ([Request] = @Original_Request)) AND ((@IsNull_IncorpRedLineYes = 1 AND [IncorpRedLineYes] IS NULL) OR ([IncorpRedLineYes] = @Original_IncorpRedLineYes)) AND ((@IsNull_IncorpRedLineNo = 1 AND [IncorpRedLineNo] IS NULL) OR ([IncorpRedLineNo] = @Original_IncorpRedLineNo)) AND ((@IsNull_DrawingReqForConformityYes = 1 AND [DrawingReqForConformityYes] IS NULL) OR ([DrawingReqForConformityYes] = @Original_DrawingReqForConformityYes)) AND ((@IsNull_DrawingReqForConformityNo = 1 AND [DrawingReqForConformityNo] IS NULL) OR ([DrawingReqForConformityNo] = @Original_DrawingReqForConformityNo)) AND ((@IsNull_EARRResponseDate = 1 AND [EARRResponseDate] IS NULL) OR ([EARRResponseDate] = @Original_EARRResponseDate)) AND ((@IsNull_OriginatorName = 1 AND [OriginatorName] IS NULL) OR ([OriginatorName] = @Original_OriginatorName)) AND ((@IsNull_OriginatorDate = 1 AND [OriginatorDate] IS NULL) OR ([OriginatorDate] = @Original_OriginatorDate)) AND ((@IsNull_OriginatorSignedOff = 1 AND [OriginatorSignedOff] IS NULL) OR ([OriginatorSignedOff] = @Original_OriginatorSignedOff)) AND ((@IsNull_ReplyInstructions = 1 AND [ReplyInstructions] IS NULL) OR ([ReplyInstructions] = @Original_ReplyInstructions)) AND ((@IsNull_EffectivityAll = 1 AND [EffectivityAll] IS NULL) OR ([EffectivityAll] = @Original_EffectivityAll)) AND ((@IsNull_EffectivityOther = 1 AND [EffectivityOther] IS NULL) OR ([EffectivityOther] = @Original_EffectivityOther)) AND ((@IsNull_EffectivityOtherText = 1 AND [EffectivityOtherText] IS NULL) OR ([EffectivityOtherText] = @Original_EffectivityOtherText)) AND ((@IsNull_DeviationMinor = 1 AND [DeviationMinor] IS NULL) OR ([DeviationMinor] = @Original_DeviationMinor)) AND ((@IsNull_DeviationMajor = 1 AND [DeviationMajor] IS NULL) OR ([DeviationMajor] = @Original_DeviationMajor)) AND ((@IsNull_AdditionalEngReqNoAction = 1 AND [AdditionalEngReqNoAction] IS NULL) OR ([AdditionalEngReqNoAction] = @Original_AdditionalEngReqNoAction)) AND ((@IsNull_AdditionalEngReqUpdate = 1 AND [AdditionalEngReqUpdate] IS NULL) OR ([AdditionalEngReqUpdate] = @Original_AdditionalEngReqUpdate)) AND ((@IsNull_ACFTInterface = 1 AND [ACFTInterface] IS NULL) OR ([ACFTInterface] = @Original_ACFTInterface)) AND ((@IsNull_Manufacturability = 1 AND [Manufacturability] IS NULL) OR ([Manufacturability] = @Original_Manufacturability)) AND ((@IsNull_ProductImprovement = 1 AND [ProductImprovement] IS NULL) OR ([ProductImprovement] = @Original_ProductImprovement)) AND ((@IsNull_DWGError = 1 AND [DWGError] IS NULL) OR ([DWGError] = @Original_DWGError)) AND ((@IsNull_DesignError = 1 AND [DesignError] IS NULL) OR ([DesignError] = @Original_DesignError)) AND ((@IsNull_LiaisonManagerName = 1 AND [LiaisonManagerName] IS NULL) OR ([LiaisonManagerName] = @Original_LiaisonManagerName)) AND ((@IsNull_LiaisonManagerSignOffDate = 1 AND [LiaisonManagerSignOffDate] IS NULL) OR ([LiaisonManagerSignOffDate] = @Original_LiaisonManagerSignOffDate)) AND ((@IsNull_EngineeringManagerName = 1 AND [EngineeringManagerName] IS NULL) OR ([EngineeringManagerName] = @Original_EngineeringManagerName)) AND ((@IsNull_EngineeringManagerSignOffDate = 1 AND [EngineeringManagerSignOffDate] IS NULL) OR ([EngineeringManagerSignOffDate] = @Original_EngineeringManagerSignOffDate)) AND ((@IsNull_LiaisonManagerNameBackup = 1 AND [LiaisonManagerNameBackup] IS NULL) OR ([LiaisonManagerNameBackup] = @Original_LiaisonManagerNameBackup)) AND ((@IsNull_EngineeringManagerNameBackup = 1 AND [EngineeringManagerNameBackup] IS NULL) OR ([EngineeringManagerNameBackup] = @Original_EngineeringManagerNameBackup)) AND ((@IsNull_Planner1 = 1 AND [Planner1] IS NULL) OR ([Planner1] = @Original_Planner1)) AND ((@IsNull_Planner2 = 1 AND [Planner2] IS NULL) OR ([Planner2] = @Original_Planner2)) AND ((@IsNull_QCName = 1 AND [QCName] IS NULL) OR ([QCName] = @Original_QCName)) AND ((@IsNull_QCSignOff = 1 AND [QCSignOff] IS NULL) OR ([QCSignOff] = @Original_QCSignOff)) AND ((@IsNull_QCNameBackup = 1 AND [QCNameBackup] IS NULL) OR ([QCNameBackup] = @Original_QCNameBackup)) AND ((@IsNull_FabShop = 1 AND [FabShop] IS NULL) OR ([FabShop] = @Original_FabShop)) AND ((@IsNull_ProductionError = 1 AND [ProductionError] IS NULL) OR ([ProductionError] = @Original_ProductionError)) AND ((@IsNull_QCNotes = 1 AND [QCNotes] IS NULL) OR ([QCNotes] = @Original_QCNotes)) AND ((@IsNull_PlannerSignOffDate = 1 AND [PlannerSignOffDate] IS NULL) OR ([PlannerSignOffDate] = @Original_PlannerSignOffDate)) AND ((@IsNull_PlannerNotes = 1 AND [PlannerNotes] IS NULL) OR ([PlannerNotes] = @Original_PlannerNotes)) AND ((@IsNull_EndItemType = 1 AND [EndItemType] IS NULL) OR ([EndItemType] = @Original_EndItemType)) AND ((@IsNull_DeviationNA = 1 AND [DeviationNA] IS NULL) OR ([DeviationNA] = @Original_DeviationNA)))</value>
+  </data>
+  <metadata name="SqlDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DataSet51BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>943, 17</value>
+  </metadata>
+  <metadata name="BindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>487, 60</value>
+  </metadata>
+  <metadata name="DataSet71.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 60</value>
+  </metadata>
+  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1129, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [tblAttachments] ([Description], [Path], [FileExt]) VALUES (@Description, @Path, @FileExt);
+SELECT RecordID, Description, Path, FileExt FROM tblAttachments WHERE (RecordID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [tblAttachments] SET [Description] = @Description, [Path] = @Path, [FileExt] = @FileExt WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Path = 1 AND [Path] IS NULL) OR ([Path] = @Original_Path)) AND ((@IsNull_FileExt = 1 AND [FileExt] IS NULL) OR ([FileExt] = @Original_FileExt)));
+SELECT RecordID, Description, Path, FileExt FROM tblAttachments WHERE (RecordID = @RecordID)</value>
+  </data>
+  <metadata name="SqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [tblAttachments] WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Path = 1 AND [Path] IS NULL) OR ([Path] = @Original_Path)) AND ((@IsNull_FileExt = 1 AND [FileExt] IS NULL) OR ([FileExt] = @Original_FileExt)))</value>
+  </data>
+  <metadata name="SqlDataAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1271, 17</value>
+  </metadata>
+  <metadata name="DataSet61.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1415, 17</value>
+  </metadata>
+  <metadata name="BindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1522, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDataAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 60</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO [tblEARRAttach] ([EARRID], [FilePath], [FileDescription], [ImgField], [FileName], [FileExt]) VALUES (@EARRID, @FilePath, @FileDescription, @ImgField, @FileName, @FileExt);
+SELECT RecordID, EARRID, FilePath, FileDescription, ImgField, FileName, FileExt FROM tblEARRAttach WHERE (RecordID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [tblEARRAttach] SET [EARRID] = @EARRID, [FilePath] = @FilePath, [FileDescription] = @FileDescription, [ImgField] = @ImgField, [FileName] = @FileName, [FileExt] = @FileExt WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_EARRID = 1 AND [EARRID] IS NULL) OR ([EARRID] = @Original_EARRID)) AND ((@IsNull_FilePath = 1 AND [FilePath] IS NULL) OR ([FilePath] = @Original_FilePath)) AND ((@IsNull_FileDescription = 1 AND [FileDescription] IS NULL) OR ([FileDescription] = @Original_FileDescription)) AND ((@IsNull_FileName = 1 AND [FileName] IS NULL) OR ([FileName] = @Original_FileName)) AND ((@IsNull_FileExt = 1 AND [FileExt] IS NULL) OR ([FileExt] = @Original_FileExt)));
+SELECT RecordID, EARRID, FilePath, FileDescription, ImgField, FileName, FileExt FROM tblEARRAttach WHERE (RecordID = @RecordID)</value>
+  </data>
+  <metadata name="SqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM [tblEARRAttach] WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_EARRID = 1 AND [EARRID] IS NULL) OR ([EARRID] = @Original_EARRID)) AND ((@IsNull_FilePath = 1 AND [FilePath] IS NULL) OR ([FilePath] = @Original_FilePath)) AND ((@IsNull_FileDescription = 1 AND [FileDescription] IS NULL) OR ([FileDescription] = @Original_FileDescription)) AND ((@IsNull_FileName = 1 AND [FileName] IS NULL) OR ([FileName] = @Original_FileName)) AND ((@IsNull_FileExt = 1 AND [FileExt] IS NULL) OR ([FileExt] = @Original_FileExt)))</value>
+  </data>
+  <metadata name="SqlDataAdapter4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+</root>

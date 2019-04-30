@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="BindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>425, 20</value>
+  </metadata>
+  <metadata name="DataSet21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>317, 16</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        RecordID, DocumentType, Priority, Location, Type, DwgRequestBy, DrawingNumber, DwgRequestDate, DrawingTitle, Program, DrawingType, SystemDescription, Status, LastActionDate, ActualFinishDate, ForecastStartDate, 
+                         ForecastFinishDate, PlannedFinishDate, EstimatedDurationHours, PercentComplete, DrawingFolderAssignDate, DesignWIPDate, Notes, ModelTemplateDate, Drafter, DrafterComplete, Engineer, EngineerComplete, SrEngineer, 
+                         SrEngineerComplete, Releaser, ReleaserCompelte, Flammability, FlammabilityComplete, Stress, StressComplete, DwgRevision, RefID, DrafterPlannedCompleteDate, EngineerPlannedCompleteDate, 
+                         SrEngineerPlannedCompleteDate, FlammabilityPlannedCompleteDate, StressPlannedCompleteDate, ReleaserPlannedCompleteDate, Avionics, AvionicsComplete, AvionicsPlannedComplete, Mechanical, MechanicalComplete, 
+                         MechanicalPlannedComplete, WONumber, NextHigherAssembly
+FROM            tblDrawings</value>
+  </data>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [tblDrawings] ([DocumentType], [Priority], [Location], [Type], [DwgRequestBy], [DrawingNumber], [DwgRequestDate], [DrawingTitle], [Program], [DrawingType], [SystemDescription], [Status], [LastActionDate], [ActualFinishDate], [ForecastFinishDate], [PlannedFinishDate], [PercentComplete], [DrawingFolderAssignDate], [DesignWIPDate], [Notes], [ModelTemplateDate], [Drafter], [DrafterComplete], [Engineer], [EngineerComplete], [SrEngineer], [SrEngineerComplete], [Releaser], [ReleaserCompelte], [Flammability], [FlammabilityComplete], [Stress], [StressComplete], [DwgRevision], [RefID], [DrafterPlannedCompleteDate], [EngineerPlannedCompleteDate], [SrEngineerPlannedCompleteDate], [FlammabilityPlannedCompleteDate], [StressPlannedCompleteDate], [ReleaserPlannedCompleteDate], [Avionics], [AvionicsComplete], [AvionicsPlannedComplete], [Mechanical], [MechanicalComplete], [MechanicalPlannedComplete], [WONumber]) VALUES (@DocumentType, @Priority, @Location, @Type, @DwgRequestBy, @DrawingNumber, @DwgRequestDate, @DrawingTitle, @Program, @DrawingType, @SystemDescription, @Status, @LastActionDate, @ActualFinishDate, @ForecastFinishDate, @PlannedFinishDate, @PercentComplete, @DrawingFolderAssignDate, @DesignWIPDate, @Notes, @ModelTemplateDate, @Drafter, @DrafterComplete, @Engineer, @EngineerComplete, @SrEngineer, @SrEngineerComplete, @Releaser, @ReleaserCompelte, @Flammability, @FlammabilityComplete, @Stress, @StressComplete, @DwgRevision, @RefID, @DrafterPlannedCompleteDate, @EngineerPlannedCompleteDate, @SrEngineerPlannedCompleteDate, @FlammabilityPlannedCompleteDate, @StressPlannedCompleteDate, @ReleaserPlannedCompleteDate, @Avionics, @AvionicsComplete, @AvionicsPlannedComplete, @Mechanical, @MechanicalComplete, @MechanicalPlannedComplete, @WONumber);
+SELECT RecordID, DocumentType, Priority, Location, Type, DwgRequestBy, DrawingNumber, DwgRequestDate, DrawingTitle, Program, DrawingType, SystemDescription, Status, LastActionDate, ActualFinishDate, ForecastFinishDate, PlannedFinishDate, PercentComplete, DrawingFolderAssignDate, DesignWIPDate, Notes, ModelTemplateDate, Drafter, DrafterComplete, Engineer, EngineerComplete, SrEngineer, SrEngineerComplete, Releaser, ReleaserCompelte, Flammability, FlammabilityComplete, Stress, StressComplete, DwgRevision, RefID, DrafterPlannedCompleteDate, EngineerPlannedCompleteDate, SrEngineerPlannedCompleteDate, FlammabilityPlannedCompleteDate, StressPlannedCompleteDate, ReleaserPlannedCompleteDate, Avionics, AvionicsComplete, AvionicsPlannedComplete, Mechanical, MechanicalComplete, MechanicalPlannedComplete, WONumber FROM tblDrawings WHERE (RecordID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [tblDrawings] SET [DocumentType] = @DocumentType, [Priority] = @Priority, [Location] = @Location, [Type] = @Type, [DwgRequestBy] = @DwgRequestBy, [DrawingNumber] = @DrawingNumber, [DwgRequestDate] = @DwgRequestDate, [DrawingTitle] = @DrawingTitle, [Program] = @Program, [DrawingType] = @DrawingType, [SystemDescription] = @SystemDescription, [Status] = @Status, [LastActionDate] = @LastActionDate, [ActualFinishDate] = @ActualFinishDate, [ForecastFinishDate] = @ForecastFinishDate, [PlannedFinishDate] = @PlannedFinishDate, [PercentComplete] = @PercentComplete, [DrawingFolderAssignDate] = @DrawingFolderAssignDate, [DesignWIPDate] = @DesignWIPDate, [Notes] = @Notes, [ModelTemplateDate] = @ModelTemplateDate, [Drafter] = @Drafter, [DrafterComplete] = @DrafterComplete, [Engineer] = @Engineer, [EngineerComplete] = @EngineerComplete, [SrEngineer] = @SrEngineer, [SrEngineerComplete] = @SrEngineerComplete, [Releaser] = @Releaser, [ReleaserCompelte] = @ReleaserCompelte, [Flammability] = @Flammability, [FlammabilityComplete] = @FlammabilityComplete, [Stress] = @Stress, [StressComplete] = @StressComplete, [DwgRevision] = @DwgRevision, [RefID] = @RefID, [DrafterPlannedCompleteDate] = @DrafterPlannedCompleteDate, [EngineerPlannedCompleteDate] = @EngineerPlannedCompleteDate, [SrEngineerPlannedCompleteDate] = @SrEngineerPlannedCompleteDate, [FlammabilityPlannedCompleteDate] = @FlammabilityPlannedCompleteDate, [StressPlannedCompleteDate] = @StressPlannedCompleteDate, [ReleaserPlannedCompleteDate] = @ReleaserPlannedCompleteDate, [Avionics] = @Avionics, [AvionicsComplete] = @AvionicsComplete, [AvionicsPlannedComplete] = @AvionicsPlannedComplete, [Mechanical] = @Mechanical, [MechanicalComplete] = @MechanicalComplete, [MechanicalPlannedComplete] = @MechanicalPlannedComplete, [WONumber] = @WONumber WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_DocumentType = 1 AND [DocumentType] IS NULL) OR ([DocumentType] = @Original_DocumentType)) AND ((@IsNull_Priority = 1 AND [Priority] IS NULL) OR ([Priority] = @Original_Priority)) AND ((@IsNull_Location = 1 AND [Location] IS NULL) OR ([Location] = @Original_Location)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_DwgRequestBy = 1 AND [DwgRequestBy] IS NULL) OR ([DwgRequestBy] = @Original_DwgRequestBy)) AND ((@IsNull_DrawingNumber = 1 AND [DrawingNumber] IS NULL) OR ([DrawingNumber] = @Original_DrawingNumber)) AND ((@IsNull_DwgRequestDate = 1 AND [DwgRequestDate] IS NULL) OR ([DwgRequestDate] = @Original_DwgRequestDate)) AND ((@IsNull_DrawingTitle = 1 AND [DrawingTitle] IS NULL) OR ([DrawingTitle] = @Original_DrawingTitle)) AND ((@IsNull_Program = 1 AND [Program] IS NULL) OR ([Program] = @Original_Program)) AND ((@IsNull_DrawingType = 1 AND [DrawingType] IS NULL) OR ([DrawingType] = @Original_DrawingType)) AND ((@IsNull_SystemDescription = 1 AND [SystemDescription] IS NULL) OR ([SystemDescription] = @Original_SystemDescription)) AND ((@IsNull_Status = 1 AND [Status] IS NULL) OR ([Status] = @Original_Status)) AND ((@IsNull_LastActionDate = 1 AND [LastActionDate] IS NULL) OR ([LastActionDate] = @Original_LastActionDate)) AND ((@IsNull_ActualFinishDate = 1 AND [ActualFinishDate] IS NULL) OR ([ActualFinishDate] = @Original_ActualFinishDate)) AND ((@IsNull_ForecastFinishDate = 1 AND [ForecastFinishDate] IS NULL) OR ([ForecastFinishDate] = @Original_ForecastFinishDate)) AND ((@IsNull_PlannedFinishDate = 1 AND [PlannedFinishDate] IS NULL) OR ([PlannedFinishDate] = @Original_PlannedFinishDate)) AND ((@IsNull_PercentComplete = 1 AND [PercentComplete] IS NULL) OR ([PercentComplete] = @Original_PercentComplete)) AND ((@IsNull_DrawingFolderAssignDate = 1 AND [DrawingFolderAssignDate] IS NULL) OR ([DrawingFolderAssignDate] = @Original_DrawingFolderAssignDate)) AND ((@IsNull_DesignWIPDate = 1 AND [DesignWIPDate] IS NULL) OR ([DesignWIPDate] = @Original_DesignWIPDate)) AND ((@IsNull_Notes = 1 AND [Notes] IS NULL) OR ([Notes] = @Original_Notes)) AND ((@IsNull_ModelTemplateDate = 1 AND [ModelTemplateDate] IS NULL) OR ([ModelTemplateDate] = @Original_ModelTemplateDate)) AND ((@IsNull_Drafter = 1 AND [Drafter] IS NULL) OR ([Drafter] = @Original_Drafter)) AND ((@IsNull_DrafterComplete = 1 AND [DrafterComplete] IS NULL) OR ([DrafterComplete] = @Original_DrafterComplete)) AND ((@IsNull_Engineer = 1 AND [Engineer] IS NULL) OR ([Engineer] = @Original_Engineer)) AND ((@IsNull_EngineerComplete = 1 AND [EngineerComplete] IS NULL) OR ([EngineerComplete] = @Original_EngineerComplete)) AND ((@IsNull_SrEngineer = 1 AND [SrEngineer] IS NULL) OR ([SrEngineer] = @Original_SrEngineer)) AND ((@IsNull_SrEngineerComplete = 1 AND [SrEngineerComplete] IS NULL) OR ([SrEngineerComplete] = @Original_SrEngineerComplete)) AND ((@IsNull_Releaser = 1 AND [Releaser] IS NULL) OR ([Releaser] = @Original_Releaser)) AND ((@IsNull_ReleaserCompelte = 1 AND [ReleaserCompelte] IS NULL) OR ([ReleaserCompelte] = @Original_ReleaserCompelte)) AND ((@IsNull_Flammability = 1 AND [Flammability] IS NULL) OR ([Flammability] = @Original_Flammability)) AND ((@IsNull_FlammabilityComplete = 1 AND [FlammabilityComplete] IS NULL) OR ([FlammabilityComplete] = @Original_FlammabilityComplete)) AND ((@IsNull_Stress = 1 AND [Stress] IS NULL) OR ([Stress] = @Original_Stress)) AND ((@IsNull_StressComplete = 1 AND [StressComplete] IS NULL) OR ([StressComplete] = @Original_StressComplete)) AND ((@IsNull_DwgRevision = 1 AND [DwgRevision] IS NULL) OR ([DwgRevision] = @Original_DwgRevision)) AND ((@IsNull_RefID = 1 AND [RefID] IS NULL) OR ([RefID] = @Original_RefID)) AND ((@IsNull_DrafterPlannedCompleteDate = 1 AND [DrafterPlannedCompleteDate] IS NULL) OR ([DrafterPlannedCompleteDate] = @Original_DrafterPlannedCompleteDate)) AND ((@IsNull_EngineerPlannedCompleteDate = 1 AND [EngineerPlannedCompleteDate] IS NULL) OR ([EngineerPlannedCompleteDate] = @Original_EngineerPlannedCompleteDate)) AND ((@IsNull_SrEngineerPlannedCompleteDate = 1 AND [SrEngineerPlannedCompleteDate] IS NULL) OR ([SrEngineerPlannedCompleteDate] = @Original_SrEngineerPlannedCompleteDate)) AND ((@IsNull_FlammabilityPlannedCompleteDate = 1 AND [FlammabilityPlannedCompleteDate] IS NULL) OR ([FlammabilityPlannedCompleteDate] = @Original_FlammabilityPlannedCompleteDate)) AND ((@IsNull_StressPlannedCompleteDate = 1 AND [StressPlannedCompleteDate] IS NULL) OR ([StressPlannedCompleteDate] = @Original_StressPlannedCompleteDate)) AND ((@IsNull_ReleaserPlannedCompleteDate = 1 AND [ReleaserPlannedCompleteDate] IS NULL) OR ([ReleaserPlannedCompleteDate] = @Original_ReleaserPlannedCompleteDate)) AND ((@IsNull_Avionics = 1 AND [Avionics] IS NULL) OR ([Avionics] = @Original_Avionics)) AND ((@IsNull_AvionicsComplete = 1 AND [AvionicsComplete] IS NULL) OR ([AvionicsComplete] = @Original_AvionicsComplete)) AND ((@IsNull_AvionicsPlannedComplete = 1 AND [AvionicsPlannedComplete] IS NULL) OR ([AvionicsPlannedComplete] = @Original_AvionicsPlannedComplete)) AND ((@IsNull_Mechanical = 1 AND [Mechanical] IS NULL) OR ([Mechanical] = @Original_Mechanical)) AND ((@IsNull_MechanicalComplete = 1 AND [MechanicalComplete] IS NULL) OR ([MechanicalComplete] = @Original_MechanicalComplete)) AND ((@IsNull_MechanicalPlannedComplete = 1 AND [MechanicalPlannedComplete] IS NULL) OR ([MechanicalPlannedComplete] = @Original_MechanicalPlannedComplete)) AND ((@IsNull_WONumber = 1 AND [WONumber] IS NULL) OR ([WONumber] = @Original_WONumber)));
+SELECT RecordID, DocumentType, Priority, Location, Type, DwgRequestBy, DrawingNumber, DwgRequestDate, DrawingTitle, Program, DrawingType, SystemDescription, Status, LastActionDate, ActualFinishDate, ForecastFinishDate, PlannedFinishDate, PercentComplete, DrawingFolderAssignDate, DesignWIPDate, Notes, ModelTemplateDate, Drafter, DrafterComplete, Engineer, EngineerComplete, SrEngineer, SrEngineerComplete, Releaser, ReleaserCompelte, Flammability, FlammabilityComplete, Stress, StressComplete, DwgRevision, RefID, DrafterPlannedCompleteDate, EngineerPlannedCompleteDate, SrEngineerPlannedCompleteDate, FlammabilityPlannedCompleteDate, StressPlannedCompleteDate, ReleaserPlannedCompleteDate, Avionics, AvionicsComplete, AvionicsPlannedComplete, Mechanical, MechanicalComplete, MechanicalPlannedComplete, WONumber FROM tblDrawings WHERE (RecordID = @RecordID)</value>
+  </data>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [tblDrawings] WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_DocumentType = 1 AND [DocumentType] IS NULL) OR ([DocumentType] = @Original_DocumentType)) AND ((@IsNull_Priority = 1 AND [Priority] IS NULL) OR ([Priority] = @Original_Priority)) AND ((@IsNull_Location = 1 AND [Location] IS NULL) OR ([Location] = @Original_Location)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_DwgRequestBy = 1 AND [DwgRequestBy] IS NULL) OR ([DwgRequestBy] = @Original_DwgRequestBy)) AND ((@IsNull_DrawingNumber = 1 AND [DrawingNumber] IS NULL) OR ([DrawingNumber] = @Original_DrawingNumber)) AND ((@IsNull_DwgRequestDate = 1 AND [DwgRequestDate] IS NULL) OR ([DwgRequestDate] = @Original_DwgRequestDate)) AND ((@IsNull_DrawingTitle = 1 AND [DrawingTitle] IS NULL) OR ([DrawingTitle] = @Original_DrawingTitle)) AND ((@IsNull_Program = 1 AND [Program] IS NULL) OR ([Program] = @Original_Program)) AND ((@IsNull_DrawingType = 1 AND [DrawingType] IS NULL) OR ([DrawingType] = @Original_DrawingType)) AND ((@IsNull_SystemDescription = 1 AND [SystemDescription] IS NULL) OR ([SystemDescription] = @Original_SystemDescription)) AND ((@IsNull_Status = 1 AND [Status] IS NULL) OR ([Status] = @Original_Status)) AND ((@IsNull_LastActionDate = 1 AND [LastActionDate] IS NULL) OR ([LastActionDate] = @Original_LastActionDate)) AND ((@IsNull_ActualFinishDate = 1 AND [ActualFinishDate] IS NULL) OR ([ActualFinishDate] = @Original_ActualFinishDate)) AND ((@IsNull_ForecastFinishDate = 1 AND [ForecastFinishDate] IS NULL) OR ([ForecastFinishDate] = @Original_ForecastFinishDate)) AND ((@IsNull_PlannedFinishDate = 1 AND [PlannedFinishDate] IS NULL) OR ([PlannedFinishDate] = @Original_PlannedFinishDate)) AND ((@IsNull_PercentComplete = 1 AND [PercentComplete] IS NULL) OR ([PercentComplete] = @Original_PercentComplete)) AND ((@IsNull_DrawingFolderAssignDate = 1 AND [DrawingFolderAssignDate] IS NULL) OR ([DrawingFolderAssignDate] = @Original_DrawingFolderAssignDate)) AND ((@IsNull_DesignWIPDate = 1 AND [DesignWIPDate] IS NULL) OR ([DesignWIPDate] = @Original_DesignWIPDate)) AND ((@IsNull_Notes = 1 AND [Notes] IS NULL) OR ([Notes] = @Original_Notes)) AND ((@IsNull_ModelTemplateDate = 1 AND [ModelTemplateDate] IS NULL) OR ([ModelTemplateDate] = @Original_ModelTemplateDate)) AND ((@IsNull_Drafter = 1 AND [Drafter] IS NULL) OR ([Drafter] = @Original_Drafter)) AND ((@IsNull_DrafterComplete = 1 AND [DrafterComplete] IS NULL) OR ([DrafterComplete] = @Original_DrafterComplete)) AND ((@IsNull_Engineer = 1 AND [Engineer] IS NULL) OR ([Engineer] = @Original_Engineer)) AND ((@IsNull_EngineerComplete = 1 AND [EngineerComplete] IS NULL) OR ([EngineerComplete] = @Original_EngineerComplete)) AND ((@IsNull_SrEngineer = 1 AND [SrEngineer] IS NULL) OR ([SrEngineer] = @Original_SrEngineer)) AND ((@IsNull_SrEngineerComplete = 1 AND [SrEngineerComplete] IS NULL) OR ([SrEngineerComplete] = @Original_SrEngineerComplete)) AND ((@IsNull_Releaser = 1 AND [Releaser] IS NULL) OR ([Releaser] = @Original_Releaser)) AND ((@IsNull_ReleaserCompelte = 1 AND [ReleaserCompelte] IS NULL) OR ([ReleaserCompelte] = @Original_ReleaserCompelte)) AND ((@IsNull_Flammability = 1 AND [Flammability] IS NULL) OR ([Flammability] = @Original_Flammability)) AND ((@IsNull_FlammabilityComplete = 1 AND [FlammabilityComplete] IS NULL) OR ([FlammabilityComplete] = @Original_FlammabilityComplete)) AND ((@IsNull_Stress = 1 AND [Stress] IS NULL) OR ([Stress] = @Original_Stress)) AND ((@IsNull_StressComplete = 1 AND [StressComplete] IS NULL) OR ([StressComplete] = @Original_StressComplete)) AND ((@IsNull_DwgRevision = 1 AND [DwgRevision] IS NULL) OR ([DwgRevision] = @Original_DwgRevision)) AND ((@IsNull_RefID = 1 AND [RefID] IS NULL) OR ([RefID] = @Original_RefID)) AND ((@IsNull_DrafterPlannedCompleteDate = 1 AND [DrafterPlannedCompleteDate] IS NULL) OR ([DrafterPlannedCompleteDate] = @Original_DrafterPlannedCompleteDate)) AND ((@IsNull_EngineerPlannedCompleteDate = 1 AND [EngineerPlannedCompleteDate] IS NULL) OR ([EngineerPlannedCompleteDate] = @Original_EngineerPlannedCompleteDate)) AND ((@IsNull_SrEngineerPlannedCompleteDate = 1 AND [SrEngineerPlannedCompleteDate] IS NULL) OR ([SrEngineerPlannedCompleteDate] = @Original_SrEngineerPlannedCompleteDate)) AND ((@IsNull_FlammabilityPlannedCompleteDate = 1 AND [FlammabilityPlannedCompleteDate] IS NULL) OR ([FlammabilityPlannedCompleteDate] = @Original_FlammabilityPlannedCompleteDate)) AND ((@IsNull_StressPlannedCompleteDate = 1 AND [StressPlannedCompleteDate] IS NULL) OR ([StressPlannedCompleteDate] = @Original_StressPlannedCompleteDate)) AND ((@IsNull_ReleaserPlannedCompleteDate = 1 AND [ReleaserPlannedCompleteDate] IS NULL) OR ([ReleaserPlannedCompleteDate] = @Original_ReleaserPlannedCompleteDate)) AND ((@IsNull_Avionics = 1 AND [Avionics] IS NULL) OR ([Avionics] = @Original_Avionics)) AND ((@IsNull_AvionicsComplete = 1 AND [AvionicsComplete] IS NULL) OR ([AvionicsComplete] = @Original_AvionicsComplete)) AND ((@IsNull_AvionicsPlannedComplete = 1 AND [AvionicsPlannedComplete] IS NULL) OR ([AvionicsPlannedComplete] = @Original_AvionicsPlannedComplete)) AND ((@IsNull_Mechanical = 1 AND [Mechanical] IS NULL) OR ([Mechanical] = @Original_Mechanical)) AND ((@IsNull_MechanicalComplete = 1 AND [MechanicalComplete] IS NULL) OR ([MechanicalComplete] = @Original_MechanicalComplete)) AND ((@IsNull_MechanicalPlannedComplete = 1 AND [MechanicalPlannedComplete] IS NULL) OR ([MechanicalPlannedComplete] = @Original_MechanicalPlannedComplete)) AND ((@IsNull_WONumber = 1 AND [WONumber] IS NULL) OR ([WONumber] = @Original_WONumber)))</value>
+  </data>
+  <metadata name="SqlDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>158, 16</value>
+  </metadata>
+  <metadata name="SqlConnection2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1091, 17</value>
+  </metadata>
+  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1281, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="ProgramsDataAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="dtsPrograms.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>190, 56</value>
+  </metadata>
+  <metadata name="ProgramsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>310, 56</value>
+  </metadata>
+  <metadata name="DsPrograms.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 56</value>
+  </metadata>
+  <metadata name="LayoutConverter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>611, 56</value>
+  </metadata>
+</root>
