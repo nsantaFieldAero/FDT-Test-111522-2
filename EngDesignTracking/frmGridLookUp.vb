@@ -21,7 +21,27 @@ Public Class frmGridLookUp
         ' Restore the previously saved layout 
         GridControl1.MainView.RestoreLayoutFromXml(fileName)
 
+
+
         SqlConnection1.ConnectionString = sqlString
+
+        'Fill program drop down, that you get by selecting a cell under the program column, with values from database
+        da = New SqlClient.SqlDataAdapter("Select * from tblProgram Order By ProgramName", SqlConnection1)
+        da.Fill(ds, "Programs")
+
+        Dim i As Integer = 0
+        While i <= ds.Tables("Programs").Rows.Count - 1
+            RepositoryItemComboBox1.Items.Add(ds.Tables("Programs").Rows(i).Item("ProgramName"))
+            i = i + 1
+        End While
+
+        ds.Tables("Programs").Clear()
+        ds.Tables("Programs").Dispose()
+
+
+
+
+        'SqlConnection1.ConnectionString = sqlString
 
         'CHECK USER TABLE to see if user exists.  If user exists, allow application to launch.
 

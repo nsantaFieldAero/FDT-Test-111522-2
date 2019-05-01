@@ -403,7 +403,7 @@ Partial Class frmNewDWGRequest
         Me.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Name = "frmNewDWGRequest"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Field Engineering Drawing Status System - New Record"
+        Me.Text = "3"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
