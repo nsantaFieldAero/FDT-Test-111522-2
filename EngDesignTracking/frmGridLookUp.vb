@@ -3,12 +3,16 @@ Imports DevExpress.XtraGrid.Views.Base
 Imports DevExpress.XtraGrid
 Imports System.ComponentModel
 
+Imports System
+Imports System.IO
+Imports System.Text
+
 Public Class frmGridLookUp
     Dim da As SqlClient.SqlDataAdapter
     Dim ds As New DataSet
     Dim da2 As SqlClient.SqlDataAdapter
     Dim ds2 As New DataSet
-    Dim fileName As String = "c:\XtraGrid_SaveLayoutToXML.xml"
+    Dim Path As String = System.IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.MyDocuments, "XtraGrid_SaveLayoutToXML.xml")
 
     Private Sub btnSearch_Click(sender As Object, e As EventArgs)
 
@@ -16,10 +20,23 @@ Public Class frmGridLookUp
 
     Private Sub frmGridLookUp_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        'The next two lines of code gets the layout of the grid as it was when the page was closed.  This layout is saved in a xml file
-        GridControl1.ForceInitialize()
-        ' Restore the previously saved layout 
-        GridControl1.MainView.RestoreLayoutFromXml(fileName)
+        'Check if the xml file that will contain the settings saved exists
+        If System.IO.File.Exists(Path) Then
+            'The next two lines of code gets the layout of the grid as it was when the page was closed.  This layout is saved in a xml file
+            GridControl1.ForceInitialize()
+            ' Restore the previously saved layout 
+            GridControl1.MainView.RestoreLayoutFromXml(Path)
+        Else
+            ' Create or overwrite the file.
+            Dim fs As FileStream = File.Create(Path)
+
+            ' Add text to the file.
+            Dim sBody As String
+            sBody = "<?xml version=""1.0"" ?>" & vbCrLf & vbCrLf & vbCrLf & "<XMLFileForMyProject>" & vbCrLf & vbCrLf & "</XMLFileForMyProject>"
+            Dim info As Byte() = New UTF8Encoding(True).GetBytes(sBody)
+            fs.Write(info, 0, info.Length)
+            fs.Close()
+        End If
 
 
 
@@ -81,7 +98,7 @@ Public Class frmGridLookUp
     Private Sub frmGridLookUp_Closing(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles MyBase.Closing
 
         ' Save the layout/formatting of the grid to an XML file when the form gets closed
-        GridControl1.MainView.SaveLayoutToXml(fileName)
+        GridControl1.MainView.SaveLayoutToXml(Path)
 
     End Sub
 
