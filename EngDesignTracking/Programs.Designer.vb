@@ -37,14 +37,10 @@ Partial Class Programs
         Me.colRecordID = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colProgramName = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colActive = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.LayoutConverter1 = New DevExpress.XtraLayout.Converter.LayoutConverter(Me.components)
         Me.ProgramsLayoutControl1ConvertedLayout = New DevExpress.XtraLayout.LayoutControl()
         Me.LayoutControlGroup1 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.GroupControl1item = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.Button2item = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.Button1item = New DevExpress.XtraLayout.LayoutControlItem()
         Me.GridControl1item = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.DsPrograms, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsPrograms, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,8 +50,6 @@ Partial Class Programs
         Me.ProgramsLayoutControl1ConvertedLayout.SuspendLayout()
         CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1item, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Button2item, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Button1item, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1item, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -111,10 +105,10 @@ Partial Class Programs
         'GridControl1
         '
         Me.GridControl1.DataSource = Me.bsPrograms
-        Me.GridControl1.Location = New System.Drawing.Point(12, 36)
+        Me.GridControl1.Location = New System.Drawing.Point(12, 12)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1510, 510)
+        Me.GridControl1.Size = New System.Drawing.Size(1510, 562)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.UseEmbeddedNavigator = True
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
@@ -146,28 +140,8 @@ Partial Class Programs
         Me.colActive.Visible = True
         Me.colActive.VisibleIndex = 2
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(12, 550)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(1510, 24)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(12, 12)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(1510, 20)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'ProgramsLayoutControl1ConvertedLayout
         '
-        Me.ProgramsLayoutControl1ConvertedLayout.Controls.Add(Me.Button2)
-        Me.ProgramsLayoutControl1ConvertedLayout.Controls.Add(Me.Button1)
         Me.ProgramsLayoutControl1ConvertedLayout.Controls.Add(Me.GridControl1)
         Me.ProgramsLayoutControl1ConvertedLayout.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ProgramsLayoutControl1ConvertedLayout.Location = New System.Drawing.Point(0, 0)
@@ -188,36 +162,18 @@ Partial Class Programs
         'GroupControl1item
         '
         Me.GroupControl1item.GroupBordersVisible = False
-        Me.GroupControl1item.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.Button2item, Me.Button1item, Me.GridControl1item})
+        Me.GroupControl1item.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.GridControl1item})
         Me.GroupControl1item.Location = New System.Drawing.Point(0, 0)
         Me.GroupControl1item.Name = "GroupControl1item"
         Me.GroupControl1item.Size = New System.Drawing.Size(1514, 566)
         Me.GroupControl1item.Text = "LayoutControlGroup1"
         '
-        'Button2item
-        '
-        Me.Button2item.Control = Me.Button2
-        Me.Button2item.Location = New System.Drawing.Point(0, 0)
-        Me.Button2item.Name = "Button2item"
-        Me.Button2item.Size = New System.Drawing.Size(1514, 24)
-        Me.Button2item.TextSize = New System.Drawing.Size(0, 0)
-        Me.Button2item.TextVisible = False
-        '
-        'Button1item
-        '
-        Me.Button1item.Control = Me.Button1
-        Me.Button1item.Location = New System.Drawing.Point(0, 538)
-        Me.Button1item.Name = "Button1item"
-        Me.Button1item.Size = New System.Drawing.Size(1514, 28)
-        Me.Button1item.TextSize = New System.Drawing.Size(0, 0)
-        Me.Button1item.TextVisible = False
-        '
         'GridControl1item
         '
         Me.GridControl1item.Control = Me.GridControl1
-        Me.GridControl1item.Location = New System.Drawing.Point(0, 24)
+        Me.GridControl1item.Location = New System.Drawing.Point(0, 0)
         Me.GridControl1item.Name = "GridControl1item"
-        Me.GridControl1item.Size = New System.Drawing.Size(1514, 514)
+        Me.GridControl1item.Size = New System.Drawing.Size(1514, 566)
         Me.GridControl1item.TextSize = New System.Drawing.Size(0, 0)
         Me.GridControl1item.TextVisible = False
         '
@@ -237,8 +193,6 @@ Partial Class Programs
         Me.ProgramsLayoutControl1ConvertedLayout.ResumeLayout(False)
         CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl1item, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Button2item, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Button1item, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridControl1item, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -257,13 +211,9 @@ Partial Class Programs
     Friend WithEvents colRecordID As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colProgramName As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colActive As DevExpress.XtraGrid.Columns.GridColumn
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents LayoutConverter1 As DevExpress.XtraLayout.Converter.LayoutConverter
     Friend WithEvents ProgramsLayoutControl1ConvertedLayout As DevExpress.XtraLayout.LayoutControl
     Friend WithEvents LayoutControlGroup1 As DevExpress.XtraLayout.LayoutControlGroup
     Friend WithEvents GroupControl1item As DevExpress.XtraLayout.LayoutControlGroup
-    Friend WithEvents Button2item As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents Button1item As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents GridControl1item As DevExpress.XtraLayout.LayoutControlItem
 End Class
