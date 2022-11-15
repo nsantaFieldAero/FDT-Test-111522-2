@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPrograms" targetNamespace="http://tempuri.org/dsPrograms.xsd" xmlns:mstns="http://tempuri.org/dsPrograms.xsd" xmlns="http://tempuri.org/dsPrograms.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPrograms" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsPrograms" msprop:Generator_UserDSName="dsPrograms">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblProgram" msprop:Generator_TableClassName="tblProgramDataTable" msprop:Generator_TableVarName="tabletblProgram" msprop:Generator_TablePropName="tblProgram" msprop:Generator_RowDeletingName="tblProgramRowDeleting" msprop:Generator_RowChangingName="tblProgramRowChanging" msprop:Generator_RowEvHandlerName="tblProgramRowChangeEventHandler" msprop:Generator_RowDeletedName="tblProgramRowDeleted" msprop:Generator_UserTableName="tblProgram" msprop:Generator_RowChangedName="tblProgramRowChanged" msprop:Generator_RowEvArgName="tblProgramRowChangeEvent" msprop:Generator_RowClassName="tblProgramRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="ProgramName" msprop:Generator_ColumnVarNameInTable="columnProgramName" msprop:Generator_ColumnPropNameInRow="ProgramName" msprop:Generator_ColumnPropNameInTable="ProgramNameColumn" msprop:Generator_UserColumnName="ProgramName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" msprop:Generator_UserColumnName="Active" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Standard" msprop:Generator_ColumnVarNameInTable="columnStandard" msprop:Generator_ColumnPropNameInRow="Standard" msprop:Generator_ColumnPropNameInTable="StandardColumn" msprop:Generator_UserColumnName="Standard" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Legacy" msprop:Generator_ColumnVarNameInTable="columnLegacy" msprop:Generator_ColumnPropNameInRow="Legacy" msprop:Generator_ColumnPropNameInTable="LegacyColumn" msprop:Generator_UserColumnName="Legacy" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ProjectNumber" msprop:Generator_ColumnVarNameInTable="columnProjectNumber" msprop:Generator_ColumnPropNameInRow="ProjectNumber" msprop:Generator_ColumnPropNameInTable="ProjectNumberColumn" msprop:Generator_UserColumnName="ProjectNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="ACTNo" msprop:Generator_ColumnVarNameInTable="columnACTNo" msprop:Generator_ColumnPropNameInRow="ACTNo" msprop:Generator_ColumnPropNameInTable="ACTNoColumn" msprop:Generator_UserColumnName="ACTNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PDFFolder" msprop:Generator_ColumnVarNameInTable="columnPDFFolder" msprop:Generator_ColumnPropNameInRow="PDFFolder" msprop:Generator_ColumnPropNameInTable="PDFFolderColumn" msprop:Generator_UserColumnName="PDFFolder" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShortForm" msprop:Generator_ColumnVarNameInTable="columnShortForm" msprop:Generator_ColumnPropNameInRow="ShortForm" msprop:Generator_ColumnPropNameInTable="ShortFormColumn" msprop:Generator_UserColumnName="ShortForm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocNumbering" msprop:Generator_ColumnVarNameInTable="columnDocNumbering" msprop:Generator_ColumnPropNameInRow="DocNumbering" msprop:Generator_ColumnPropNameInTable="DocNumberingColumn" msprop:Generator_UserColumnName="DocNumbering" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductGroup" msprop:Generator_ColumnVarNameInTable="columnProductGroup" msprop:Generator_ColumnPropNameInRow="ProductGroup" msprop:Generator_ColumnPropNameInTable="ProductGroupColumn" msprop:Generator_UserColumnName="ProductGroup" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentPath" msprop:Generator_ColumnVarNameInTable="columnDocumentPath" msprop:Generator_ColumnPropNameInRow="DocumentPath" msprop:Generator_ColumnPropNameInTable="DocumentPathColumn" msprop:Generator_UserColumnName="DocumentPath" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblProgram" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

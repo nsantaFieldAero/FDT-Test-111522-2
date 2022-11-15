@@ -9,7 +9,7 @@
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="UsersDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="UsersDataset" msprop:Generator_DataSetName="UsersDataset">
+  <xs:element name="UsersDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="UsersDataset" msprop:Generator_UserDSName="UsersDataset">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="tblUsers" msprop:Generator_TableClassName="tblUsersDataTable" msprop:Generator_TableVarName="tabletblUsers" msprop:Generator_TablePropName="tblUsers" msprop:Generator_RowDeletingName="tblUsersRowDeleting" msprop:Generator_RowChangingName="tblUsersRowChanging" msprop:Generator_RowEvHandlerName="tblUsersRowChangeEventHandler" msprop:Generator_RowDeletedName="tblUsersRowDeleted" msprop:Generator_UserTableName="tblUsers" msprop:Generator_RowChangedName="tblUsersRowChanged" msprop:Generator_RowEvArgName="tblUsersRowChangeEvent" msprop:Generator_RowClassName="tblUsersRow">
@@ -44,6 +44,8 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="LiaisonEngineer" msprop:Generator_ColumnVarNameInTable="columnLiaisonEngineer" msprop:Generator_ColumnPropNameInRow="LiaisonEngineer" msprop:Generator_ColumnPropNameInTable="LiaisonEngineerColumn" msprop:Generator_UserColumnName="LiaisonEngineer" type="xs:string" minOccurs="0" />
+              <xs:element name="Operations" msprop:Generator_ColumnVarNameInTable="columnOperations" msprop:Generator_ColumnPropNameInRow="Operations" msprop:Generator_ColumnPropNameInTable="OperationsColumn" msprop:Generator_UserColumnName="Operations" type="xs:string" minOccurs="0" />
               <xs:element name="SrEngineer" msprop:Generator_ColumnVarNameInTable="columnSrEngineer" msprop:Generator_ColumnPropNameInRow="SrEngineer" msprop:Generator_ColumnPropNameInTable="SrEngineerColumn" msprop:Generator_UserColumnName="SrEngineer" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
@@ -93,6 +95,20 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="CM" msprop:Generator_ColumnVarNameInTable="columnCM" msprop:Generator_ColumnPropNameInRow="CM" msprop:Generator_ColumnPropNameInTable="CMColumn" msprop:Generator_UserColumnName="CM" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ProjectSync" msprop:Generator_ColumnVarNameInTable="columnProjectSync" msprop:Generator_ColumnPropNameInRow="ProjectSync" msprop:Generator_ColumnPropNameInTable="ProjectSyncColumn" msprop:Generator_UserColumnName="ProjectSync" type="xs:boolean" minOccurs="0" />
+              <xs:element name="JaguarOnly" msprop:Generator_ColumnVarNameInTable="columnJaguarOnly" msprop:Generator_ColumnPropNameInRow="JaguarOnly" msprop:Generator_ColumnPropNameInTable="JaguarOnlyColumn" msprop:Generator_UserColumnName="JaguarOnly" type="xs:boolean" minOccurs="0" />
+              <xs:element name="LegacyForm" msprop:Generator_ColumnVarNameInTable="columnLegacyForm" msprop:Generator_ColumnPropNameInRow="LegacyForm" msprop:Generator_ColumnPropNameInTable="LegacyFormColumn" msprop:Generator_UserColumnName="LegacyForm" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NewForm" msprop:Generator_ColumnVarNameInTable="columnNewForm" msprop:Generator_ColumnPropNameInRow="NewForm" msprop:Generator_ColumnPropNameInTable="NewFormColumn" msprop:Generator_UserColumnName="NewForm" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ChangeRedline" msprop:Generator_ColumnVarNameInTable="columnChangeRedline" msprop:Generator_ColumnPropNameInRow="ChangeRedline" msprop:Generator_ColumnPropNameInTable="ChangeRedlineColumn" msprop:Generator_UserColumnName="ChangeRedline" type="xs:string" minOccurs="0" />
+              <xs:element name="MoveGates" msprop:Generator_ColumnVarNameInTable="columnMoveGates" msprop:Generator_ColumnPropNameInRow="MoveGates" msprop:Generator_ColumnPropNameInTable="MoveGatesColumn" msprop:Generator_UserColumnName="MoveGates" type="xs:string" minOccurs="0" />
+              <xs:element name="MDL" msprop:Generator_ColumnVarNameInTable="columnMDL" msprop:Generator_ColumnPropNameInRow="MDL" msprop:Generator_ColumnPropNameInTable="MDLColumn" msprop:Generator_UserColumnName="MDL" type="xs:boolean" minOccurs="0" />
+              <xs:element name="MDLUnlock" msprop:Generator_ColumnVarNameInTable="columnMDLUnlock" msprop:Generator_ColumnPropNameInRow="MDLUnlock" msprop:Generator_ColumnPropNameInTable="MDLUnlockColumn" msprop:Generator_UserColumnName="MDLUnlock" type="xs:boolean" minOccurs="0" />
+              <xs:element name="LeadEngineer" msprop:Generator_ColumnVarNameInTable="columnLeadEngineer" msprop:Generator_ColumnPropNameInRow="LeadEngineer" msprop:Generator_ColumnPropNameInTable="LeadEngineerColumn" msprop:Generator_UserColumnName="LeadEngineer" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NewRecord" msprop:Generator_ColumnVarNameInTable="columnNewRecord" msprop:Generator_ColumnPropNameInRow="NewRecord" msprop:Generator_ColumnPropNameInTable="NewRecordColumn" msprop:Generator_UserColumnName="NewRecord" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Airworthiness" msprop:Generator_ColumnVarNameInTable="columnAirworthiness" msprop:Generator_ColumnPropNameInRow="Airworthiness" msprop:Generator_ColumnPropNameInTable="AirworthinessColumn" msprop:Generator_UserColumnName="Airworthiness" type="xs:string" minOccurs="0" />
+              <xs:element name="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" msprop:Generator_UserColumnName="Active" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsNCRManufacturers" targetNamespace="http://tempuri.org/dsNCRManufacturers.xsd" xmlns:mstns="http://tempuri.org/dsNCRManufacturers.xsd" xmlns="http://tempuri.org/dsNCRManufacturers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsNCRManufacturers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsNCRManufacturers" msprop:Generator_DataSetName="dsNCRManufacturers">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblNCRManufacturers" msprop:Generator_TableClassName="tblNCRManufacturersDataTable" msprop:Generator_TableVarName="tabletblNCRManufacturers" msprop:Generator_TablePropName="tblNCRManufacturers" msprop:Generator_RowDeletingName="tblNCRManufacturersRowDeleting" msprop:Generator_RowChangingName="tblNCRManufacturersRowChanging" msprop:Generator_RowEvHandlerName="tblNCRManufacturersRowChangeEventHandler" msprop:Generator_RowDeletedName="tblNCRManufacturersRowDeleted" msprop:Generator_UserTableName="tblNCRManufacturers" msprop:Generator_RowChangedName="tblNCRManufacturersRowChanged" msprop:Generator_RowEvArgName="tblNCRManufacturersRowChangeEvent" msprop:Generator_RowClassName="tblNCRManufacturersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="Manufacturer" msprop:Generator_ColumnVarNameInTable="columnManufacturer" msprop:Generator_ColumnPropNameInRow="Manufacturer" msprop:Generator_ColumnPropNameInTable="ManufacturerColumn" msprop:Generator_UserColumnName="Manufacturer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Other" msprop:Generator_ColumnVarNameInTable="columnOther" msprop:Generator_ColumnPropNameInRow="Other" msprop:Generator_ColumnPropNameInTable="OtherColumn" msprop:Generator_UserColumnName="Other" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblNCRManufacturers" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRedlines" targetNamespace="http://tempuri.org/dsRedlines.xsd" xmlns:mstns="http://tempuri.org/dsRedlines.xsd" xmlns="http://tempuri.org/dsRedlines.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRedlines" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRedlines" msprop:Generator_DataSetName="dsRedlines">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblRedlines" msprop:Generator_TableClassName="tblRedlinesDataTable" msprop:Generator_TableVarName="tabletblRedlines" msprop:Generator_TablePropName="tblRedlines" msprop:Generator_RowDeletingName="tblRedlinesRowDeleting" msprop:Generator_RowChangingName="tblRedlinesRowChanging" msprop:Generator_RowEvHandlerName="tblRedlinesRowChangeEventHandler" msprop:Generator_RowDeletedName="tblRedlinesRowDeleted" msprop:Generator_UserTableName="tblRedlines" msprop:Generator_RowChangedName="tblRedlinesRowChanged" msprop:Generator_RowEvArgName="tblRedlinesRowChangeEvent" msprop:Generator_RowClassName="tblRedlinesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="DrawingNum" msprop:Generator_ColumnVarNameInTable="columnDrawingNum" msprop:Generator_ColumnPropNameInRow="DrawingNum" msprop:Generator_ColumnPropNameInTable="DrawingNumColumn" msprop:Generator_UserColumnName="DrawingNum" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rev" msprop:Generator_ColumnVarNameInTable="columnRev" msprop:Generator_ColumnPropNameInRow="Rev" msprop:Generator_ColumnPropNameInTable="RevColumn" msprop:Generator_UserColumnName="Rev" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RequestBy" msprop:Generator_ColumnVarNameInTable="columnRequestBy" msprop:Generator_ColumnPropNameInRow="RequestBy" msprop:Generator_ColumnPropNameInTable="RequestByColumn" msprop:Generator_UserColumnName="RequestBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RedlineDate" msprop:Generator_ColumnVarNameInTable="columnRedlineDate" msprop:Generator_ColumnPropNameInRow="RedlineDate" msprop:Generator_ColumnPropNameInTable="RedlineDateColumn" msprop:Generator_UserColumnName="RedlineDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IndexNum" msprop:Generator_ColumnVarNameInTable="columnIndexNum" msprop:Generator_ColumnPropNameInRow="IndexNum" msprop:Generator_ColumnPropNameInTable="IndexNumColumn" msprop:Generator_UserColumnName="IndexNum" type="xs:int" minOccurs="0" />
+              <xs:element name="IncorporatedRev" msprop:Generator_ColumnVarNameInTable="columnIncorporatedRev" msprop:Generator_ColumnPropNameInRow="IncorporatedRev" msprop:Generator_ColumnPropNameInTable="IncorporatedRevColumn" msprop:Generator_UserColumnName="IncorporatedRev" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RedlineNumber" msprop:Generator_ColumnVarNameInTable="columnRedlineNumber" msprop:Generator_ColumnPropNameInRow="RedlineNumber" msprop:Generator_ColumnPropNameInTable="RedlineNumberColumn" msprop:Generator_UserColumnName="RedlineNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RedlineCount" msprop:Generator_ColumnVarNameInTable="columnRedlineCount" msprop:Generator_ColumnPropNameInRow="RedlineCount" msprop:Generator_ColumnPropNameInTable="RedlineCountColumn" msprop:Generator_UserColumnName="RedlineCount" type="xs:int" minOccurs="0" />
+              <xs:element name="LiaisonSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnLiaisonSignedOffBy" msprop:Generator_ColumnPropNameInRow="LiaisonSignedOffBy" msprop:Generator_ColumnPropNameInTable="LiaisonSignedOffByColumn" msprop:Generator_UserColumnName="LiaisonSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LiaisonSignedOffDate" msprop:Generator_ColumnVarNameInTable="columnLiaisonSignedOffDate" msprop:Generator_ColumnPropNameInRow="LiaisonSignedOffDate" msprop:Generator_ColumnPropNameInTable="LiaisonSignedOffDateColumn" msprop:Generator_UserColumnName="LiaisonSignedOffDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OperationsSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnOperationsSignedOffBy" msprop:Generator_ColumnPropNameInRow="OperationsSignedOffBy" msprop:Generator_ColumnPropNameInTable="OperationsSignedOffByColumn" msprop:Generator_UserColumnName="OperationsSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OperationsSignedOffDate" msprop:Generator_ColumnVarNameInTable="columnOperationsSignedOffDate" msprop:Generator_ColumnPropNameInRow="OperationsSignedOffDate" msprop:Generator_ColumnPropNameInTable="OperationsSignedOffDateColumn" msprop:Generator_UserColumnName="OperationsSignedOffDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DesignEngSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnDesignEngSignedOffBy" msprop:Generator_ColumnPropNameInRow="DesignEngSignedOffBy" msprop:Generator_ColumnPropNameInTable="DesignEngSignedOffByColumn" msprop:Generator_UserColumnName="DesignEngSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DesignEngSignedOffDate" msprop:Generator_ColumnVarNameInTable="columnDesignEngSignedOffDate" msprop:Generator_ColumnPropNameInRow="DesignEngSignedOffDate" msprop:Generator_ColumnPropNameInTable="DesignEngSignedOffDateColumn" msprop:Generator_UserColumnName="DesignEngSignedOffDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblRedlines" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

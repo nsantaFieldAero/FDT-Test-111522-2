@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlConnection2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>154, 17</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>291, 17</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.HintConnId" xml:space="preserve">
+    <value>{2.0}{Oracle.Management.Omo.DbProviders.OracleManagedDataAccessDbProvider}JDE9DB...JDE</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.HintSelCmdType" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.HintInsCmdType" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.HintUpdCmdType" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.HintDelCmdType" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.AssocComNames" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAARAQAAAAQAAAAGAgAAABRkZWxldGVPcmFjbGVDb21tYW5kMQYDAAAAFGlu
+        c2VydE9yYWNsZUNvbW1hbmQxBgQAAAAUc2VsZWN0T3JhY2xlQ29tbWFuZDEGBQAAABR1cGRhdGVPcmFj
+        bGVDb21tYW5kMQs=
+</value>
+  </metadata>
+  <metadata name="OracleDataAdapter1.IsNewCom" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="deleteOracleCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="deleteOracleCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="deleteOracleCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM "PRODDTA"."F4801" WHERE ((:ori_WADCTO_p0 IS NULL AND "WADCTO" IS NULL) OR "WADCTO"=:ori_WADCTO_p1) AND "WADOCO"=:ori_WADOCO_p2 AND ((:ori_WASFXO_p3 IS NULL AND "WASFXO" IS NULL) OR "WASFXO"=:ori_WASFXO_p4) AND ((:ori_WARCTO_p5 IS NULL AND "WARCTO" IS NULL) OR "WARCTO"=:ori_WARCTO_p6) AND ((:ori_WARORN_p7 IS NULL AND "WARORN" IS NULL) OR "WARORN"=:ori_WARORN_p8) AND ((:ori_WALNID_p9 IS NULL AND "WALNID" IS NULL) OR "WALNID"=:ori_WALNID_p10) AND ((:ori_WAPTWO_p11 IS NULL AND "WAPTWO" IS NULL) OR "WAPTWO"=:ori_WAPTWO_p12) AND ((:ori_WAPARS_p13 IS NULL AND "WAPARS" IS NULL) OR "WAPARS"=:ori_WAPARS_p14) AND ((:ori_WATYPS_p15 IS NULL AND "WATYPS" IS NULL) OR "WATYPS"=:ori_WATYPS_p16) AND ((:ori_WAPRTS_p17 IS NULL AND "WAPRTS" IS NULL) OR "WAPRTS"=:ori_WAPRTS_p18) AND ((:ori_WADL01_p19 IS NULL AND "WADL01" IS NULL) OR "WADL01"=:ori_WADL01_p20) AND ((:ori_WASTCM_p21 IS NULL AND "WASTCM" IS NULL) OR "WASTCM"=:ori_WASTCM_p22) AND ((:ori_WACO_p23 IS NULL AND "WACO" IS NULL) OR "WACO"=:ori_WACO_p24) AND ((:ori_WAMCU_p25 IS NULL AND "WAMCU" IS NULL) OR "WAMCU"=:ori_WAMCU_p26) AND ((:ori_WAMMCU_p27 IS NULL AND "WAMMCU" IS NULL) OR "WAMMCU"=:ori_WAMMCU_p28) AND ((:ori_WALOCN_p29 IS NULL AND "WALOCN" IS NULL) OR "WALOCN"=:ori_WALOCN_p30) AND ((:ori_WAAISL_p31 IS NULL AND "WAAISL" IS NULL) OR "WAAISL"=:ori_WAAISL_p32) AND ((:ori_WABIN_p33 IS NULL AND "WABIN" IS NULL) OR "WABIN"=:ori_WABIN_p34) AND ((:ori_WASRST_p35 IS NULL AND "WASRST" IS NULL) OR "WASRST"=:ori_WASRST_p36) AND ((:ori_WADCG_p37 IS NULL AND "WADCG" IS NULL) OR "WADCG"=:ori_WADCG_p38) AND ((:ori_WASUB_p39 IS NULL AND "WASUB" IS NULL) OR "WASUB"=:ori_WASUB_p40) AND ((:ori_WAAN8_p41 IS NULL AND "WAAN8" IS NULL) OR "WAAN8"=:ori_WAAN8_p42) AND ((:ori_WAANO_p43 IS NULL AND "WAANO" IS NULL) OR "WAANO"=:ori_WAANO_p44) AND ((:ori_WAANSA_p45 IS NULL AND "WAANSA" IS NULL) OR "WAANSA"=:ori_WAANSA_p46) AND ((:ori_WAANPA_p47 IS NULL AND "WAANPA" IS NULL) OR "WAANPA"=:ori_WAANPA_p48) AND ((:ori_WAANP_p49 IS NULL AND "WAANP" IS NULL) OR "WAANP"=:ori_WAANP_p50) AND ((:ori_WADPL_p51 IS NULL AND "WADPL" IS NULL) OR "WADPL"=:ori_WADPL_p52) AND ((:ori_WAANT_p53 IS NULL AND "WAANT" IS NULL) OR "WAANT"=:ori_WAANT_p54) AND ((:ori_WANAN8_p55 IS NULL AND "WANAN8" IS NULL) OR "WANAN8"=:ori_WANAN8_p56) AND ((:ori_WATRDJ_p57 IS NULL AND "WATRDJ" IS NULL) OR "WATRDJ"=:ori_WATRDJ_p58) AND ((:ori_WASTRT_p59 IS NULL AND "WASTRT" IS NULL) OR "WASTRT"=:ori_WASTRT_p60) AND ((:ori_WADRQJ_p61 IS NULL AND "WADRQJ" IS NULL) OR "WADRQJ"=:ori_WADRQJ_p62) AND ((:ori_WASTRX_p63 IS NULL AND "WASTRX" IS NULL) OR "WASTRX"=:ori_WASTRX_p64) AND ((:ori_WADAP_p65 IS NULL AND "WADAP" IS NULL) OR "WADAP"=:ori_WADAP_p66) AND ((:ori_WADAT_p67 IS NULL AND "WADAT" IS NULL) OR "WADAT"=:ori_WADAT_p68) AND ((:ori_WAPPDT_p69 IS NULL AND "WAPPDT" IS NULL) OR "WAPPDT"=:ori_WAPPDT_p70) AND ((:ori_WAWR01_p71 IS NULL AND "WAWR01" IS NULL) OR "WAWR01"=:ori_WAWR01_p72) AND ((:ori_WAWR02_p73 IS NULL AND "WAWR02" IS NULL) OR "WAWR02"=:ori_WAWR02_p74) AND ((:ori_WAWR03_p75 IS NULL AND "WAWR03" IS NULL) OR "WAWR03"=:ori_WAWR03_p76) AND ((:ori_WAWR04_p77 IS NULL AND "WAWR04" IS NULL) OR "WAWR04"=:ori_WAWR04_p78) AND ((:ori_WAWR05_p79 IS NULL AND "WAWR05" IS NULL) OR "WAWR05"=:ori_WAWR05_p80) AND ((:ori_WAWR06_p81 IS NULL AND "WAWR06" IS NULL) OR "WAWR06"=:ori_WAWR06_p82) AND ((:ori_WAWR07_p83 IS NULL AND "WAWR07" IS NULL) OR "WAWR07"=:ori_WAWR07_p84) AND ((:ori_WAWR08_p85 IS NULL AND "WAWR08" IS NULL) OR "WAWR08"=:ori_WAWR08_p86) AND ((:ori_WAWR09_p87 IS NULL AND "WAWR09" IS NULL) OR "WAWR09"=:ori_WAWR09_p88) AND ((:ori_WAWR10_p89 IS NULL AND "WAWR10" IS NULL) OR "WAWR10"=:ori_WAWR10_p90) AND ((:ori_WAVR01_p91 IS NULL AND "WAVR01" IS NULL) OR "WAVR01"=:ori_WAVR01_p92) AND ((:ori_WAVR02_p93 IS NULL AND "WAVR02" IS NULL) OR "WAVR02"=:ori_WAVR02_p94) AND ((:ori_WAAMTO_p95 IS NULL AND "WAAMTO" IS NULL) OR "WAAMTO"=:ori_WAAMTO_p96) AND ((:ori_WASETC_p97 IS NULL AND "WASETC" IS NULL) OR "WASETC"=:ori_WASETC_p98) AND ((:ori_WABRT_p99 IS NULL AND "WABRT" IS NULL) OR "WABRT"=:ori_WABRT_p100) AND ((:ori_WAPAYT_p101 IS NULL AND "WAPAYT" IS NULL) OR "WAPAYT"=:ori_WAPAYT_p102) AND ((:ori_WAAMTC_p103 IS NULL AND "WAAMTC" IS NULL) OR "WAAMTC"=:ori_WAAMTC_p104) AND ((:ori_WAHRSO_p105 IS NULL AND "WAHRSO" IS NULL) OR "WAHRSO"=:ori_WAHRSO_p106) AND ((:ori_WAHRSC_p107 IS NULL AND "WAHRSC" IS NULL) OR "WAHRSC"=:ori_WAHRSC_p108) AND ((:ori_WAAMTA_p109 IS NULL AND "WAAMTA" IS NULL) OR "WAAMTA"=:ori_WAAMTA_p110) AND ((:ori_WAHRSA_p111 IS NULL AND "WAHRSA" IS NULL) OR "WAHRSA"=:ori_WAHRSA_p112) AND ((:ori_WAITM_p113 IS NULL AND "WAITM" IS NULL) OR "WAITM"=:ori_WAITM_p114) AND ((:ori_WAAITM_p115 IS NULL AND "WAAITM" IS NULL) OR "WAAITM"=:ori_WAAITM_p116) AND ((:ori_WALITM_p117 IS NULL AND "WALITM" IS NULL) OR "WALITM"=:ori_WALITM_p118) AND ((:ori_WANUMB_p119 IS NULL AND "WANUMB" IS NULL) OR "WANUMB"=:ori_WANUMB_p120) AND ((:ori_WAAPID_p121 IS NULL AND "WAAPID" IS NULL) OR "WAAPID"=:ori_WAAPID_p122) AND ((:ori_WAUORG_p123 IS NULL AND "WAUORG" IS NULL) OR "WAUORG"=:ori_WAUORG_p124) AND ((:ori_WASOBK_p125 IS NULL AND "WASOBK" IS NULL) OR "WASOBK"=:ori_WASOBK_p126) AND ((:ori_WASOCN_p127 IS NULL AND "WASOCN" IS NULL) OR "WASOCN"=:ori_WASOCN_p128) AND ((:ori_WASOQS_p129 IS NULL AND "WASOQS" IS NULL) OR "WASOQS"=:ori_WASOQS_p130) AND ((:ori_WAQTYT_p131 IS NULL AND "WAQTYT" IS NULL) OR "WAQTYT"=:ori_WAQTYT_p132) AND ((:ori_WAUOM_p133 IS NULL AND "WAUOM" IS NULL) OR "WAUOM"=:ori_WAUOM_p134) AND ((:ori_WASHNO_p135 IS NULL AND "WASHNO" IS NULL) OR "WASHNO"=:ori_WASHNO_p136) AND ((:ori_WAPBTM_p137 IS NULL AND "WAPBTM" IS NULL) OR "WAPBTM"=:ori_WAPBTM_p138) AND ((:ori_WATBM_p139 IS NULL AND "WATBM" IS NULL) OR "WATBM"=:ori_WATBM_p140) AND ((:ori_WATRT_p141 IS NULL AND "WATRT" IS NULL) OR "WATRT"=:ori_WATRT_p142) AND ((:ori_WASHTY_p143 IS NULL AND "WASHTY" IS NULL) OR "WASHTY"=:ori_WASHTY_p144) AND ((:ori_WAPEC_p145 IS NULL AND "WAPEC" IS NULL) OR "WAPEC"=:ori_WAPEC_p146) AND ((:ori_WAPPFG_p147 IS NULL AND "WAPPFG" IS NULL) OR "WAPPFG"=:ori_WAPPFG_p148) AND ((:ori_WABM_p149 IS NULL AND "WABM" IS NULL) OR "WABM"=:ori_WABM_p150) AND ((:ori_WARTG_p151 IS NULL AND "WARTG" IS NULL) OR "WARTG"=:ori_WARTG_p152) AND ((:ori_WASPRT_p153 IS NULL AND "WASPRT" IS NULL) OR "WASPRT"=:ori_WASPRT_p154) AND ((:ori_WAUNCD_p155 IS NULL AND "WAUNCD" IS NULL) OR "WAUNCD"=:ori_WAUNCD_p156) AND ((:ori_WAINDC_p157 IS NULL AND "WAINDC" IS NULL) OR "WAINDC"=:ori_WAINDC_p158) AND ((:ori_WARESC_p159 IS NULL AND "WARESC" IS NULL) OR "WARESC"=:ori_WARESC_p160) AND ((:ori_WAMOH_p161 IS NULL AND "WAMOH" IS NULL) OR "WAMOH"=:ori_WAMOH_p162) AND ((:ori_WATDT_p163 IS NULL AND "WATDT" IS NULL) OR "WATDT"=:ori_WATDT_p164) AND ((:ori_WAPOU_p165 IS NULL AND "WAPOU" IS NULL) OR "WAPOU"=:ori_WAPOU_p166) AND ((:ori_WAPC_p167 IS NULL AND "WAPC" IS NULL) OR "WAPC"=:ori_WAPC_p168) AND ((:ori_WALTLV_p169 IS NULL AND "WALTLV" IS NULL) OR "WALTLV"=:ori_WALTLV_p170) AND ((:ori_WALTCM_p171 IS NULL AND "WALTCM" IS NULL) OR "WALTCM"=:ori_WALTCM_p172) AND ((:ori_WACTS1_p173 IS NULL AND "WACTS1" IS NULL) OR "WACTS1"=:ori_WACTS1_p174) AND ((:ori_WALOTN_p175 IS NULL AND "WALOTN" IS NULL) OR "WALOTN"=:ori_WALOTN_p176) AND ((:ori_WALOTP_p177 IS NULL AND "WALOTP" IS NULL) OR "WALOTP"=:ori_WALOTP_p178) AND ((:ori_WALOTG_p179 IS NULL AND "WALOTG" IS NULL) OR "WALOTG"=:ori_WALOTG_p180) AND ((:ori_WARAT1_p181 IS NULL AND "WARAT1" IS NULL) OR "WARAT1"=:ori_WARAT1_p182) AND ((:ori_WARAT2_p183 IS NULL AND "WARAT2" IS NULL) OR "WARAT2"=:ori_WARAT2_p184) AND ((:ori_WADCT_p185 IS NULL AND "WADCT" IS NULL) OR "WADCT"=:ori_WADCT_p186) AND ((:ori_WASBLI_p187 IS NULL AND "WASBLI" IS NULL) OR "WASBLI"=:ori_WASBLI_p188) AND ((:ori_WARKCO_p189 IS NULL AND "WARKCO" IS NULL) OR "WARKCO"=:ori_WARKCO_p190) AND ((:ori_WABREV_p191 IS NULL AND "WABREV" IS NULL) OR "WABREV"=:ori_WABREV_p192) AND ((:ori_WARREV_p193 IS NULL AND "WARREV" IS NULL) OR "WARREV"=:ori_WARREV_p194) AND ((:ori_WADRWC_p195 IS NULL AND "WADRWC" IS NULL) OR "WADRWC"=:ori_WADRWC_p196) AND ((:ori_WARTCH_p197 IS NULL AND "WARTCH" IS NULL) OR "WARTCH"=:ori_WARTCH_p198) AND ((:ori_WAPNRQ_p199 IS NULL AND "WAPNRQ" IS NULL) OR "WAPNRQ"=:ori_WAPNRQ_p200) AND ((:ori_WAREAS_p201 IS NULL AND "WAREAS" IS NULL) OR "WAREAS"=:ori_WAREAS_p202) AND ((:ori_WAPHSE_p203 IS NULL AND "WAPHSE" IS NULL) OR "WAPHSE"=:ori_WAPHSE_p204) AND ((:ori_WAXDSP_p205 IS NULL AND "WAXDSP" IS NULL) OR "WAXDSP"=:ori_WAXDSP_p206) AND ((:ori_WABOMC_p207 IS NULL AND "WABOMC" IS NULL) OR "WABOMC"=:ori_WABOMC_p208) AND ((:ori_WAURCD_p209 IS NULL AND "WAURCD" IS NULL) OR "WAURCD"=:ori_WAURCD_p210) AND ((:ori_WAURDT_p211 IS NULL AND "WAURDT" IS NULL) OR "WAURDT"=:ori_WAURDT_p212) AND ((:ori_WAURAT_p213 IS NULL AND "WAURAT" IS NULL) OR "WAURAT"=:ori_WAURAT_p214) AND ((:ori_WAURAB_p215 IS NULL AND "WAURAB" IS NULL) OR "WAURAB"=:ori_WAURAB_p216) AND ((:ori_WAURRF_p217 IS NULL AND "WAURRF" IS NULL) OR "WAURRF"=:ori_WAURRF_p218) AND ((:ori_WAUSER_p219 IS NULL AND "WAUSER" IS NULL) OR "WAUSER"=:ori_WAUSER_p220) AND ((:ori_WAPID_p221 IS NULL AND "WAPID" IS NULL) OR "WAPID"=:ori_WAPID_p222) AND ((:ori_WAJOBN_p223 IS NULL AND "WAJOBN" IS NULL) OR "WAJOBN"=:ori_WAJOBN_p224) AND ((:ori_WAUPMJ_p225 IS NULL AND "WAUPMJ" IS NULL) OR "WAUPMJ"=:ori_WAUPMJ_p226) AND ((:ori_WATDAY_p227 IS NULL AND "WATDAY" IS NULL) OR "WATDAY"=:ori_WATDAY_p228) AND ((:ori_WAAAID_p229 IS NULL AND "WAAAID" IS NULL) OR "WAAAID"=:ori_WAAAID_p230) AND ((:ori_WANTST_p231 IS NULL AND "WANTST" IS NULL) OR "WANTST"=:ori_WANTST_p232) AND ((:ori_WAXRTO_p233 IS NULL AND "WAXRTO" IS NULL) OR "WAXRTO"=:ori_WAXRTO_p234) AND ((:ori_WAESDN_p235 IS NULL AND "WAESDN" IS NULL) OR "WAESDN"=:ori_WAESDN_p236) AND ((:ori_WAACDN_p237 IS NULL AND "WAACDN" IS NULL) OR "WAACDN"=:ori_WAACDN_p238) AND ((:ori_WASAID_p239 IS NULL AND "WASAID" IS NULL) OR "WASAID"=:ori_WASAID_p240) AND ((:ori_WAMPOS_p241 IS NULL AND "WAMPOS" IS NULL) OR "WAMPOS"=:ori_WAMPOS_p242) AND ((:ori_WAAPRT_p243 IS NULL AND "WAAPRT" IS NULL) OR "WAAPRT"=:ori_WAAPRT_p244) AND ((:ori_WAAMLC_p245 IS NULL AND "WAAMLC" IS NULL) OR "WAAMLC"=:ori_WAAMLC_p246) AND ((:ori_WAAMMC_p247 IS NULL AND "WAAMMC" IS NULL) OR "WAAMMC"=:ori_WAAMMC_p248) AND ((:ori_WAAMOT_p249 IS NULL AND "WAAMOT" IS NULL) OR "WAAMOT"=:ori_WAAMOT_p250) AND ((:ori_WALBAM_p251 IS NULL AND "WALBAM" IS NULL) OR "WALBAM"=:ori_WALBAM_p252) AND ((:ori_WAMTAM_p253 IS NULL AND "WAMTAM" IS NULL) OR "WAMTAM"=:ori_WAMTAM_p254)</value>
+  </data>
+  <metadata name="oracleConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>453, 17</value>
+  </metadata>
+  <metadata name="insertOracleCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="insertOracleCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="insertOracleCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO "PRODDTA"."F4801"( "WADCTO", "WADOCO", "WASFXO", "WARCTO", "WARORN", "WALNID", "WAPTWO", "WAPARS", "WATYPS", "WAPRTS", "WADL01", "WASTCM", "WACO", "WAMCU", "WAMMCU", "WALOCN", "WAAISL", "WABIN", "WASRST", "WADCG", "WASUB", "WAAN8", "WAANO", "WAANSA", "WAANPA", "WAANP", "WADPL", "WAANT", "WANAN8", "WATRDJ", "WASTRT", "WADRQJ", "WASTRX", "WADAP", "WADAT", "WAPPDT", "WAWR01", "WAWR02", "WAWR03", "WAWR04", "WAWR05", "WAWR06", "WAWR07", "WAWR08", "WAWR09", "WAWR10", "WAVR01", "WAVR02", "WAAMTO", "WASETC", "WABRT", "WAPAYT", "WAAMTC", "WAHRSO", "WAHRSC", "WAAMTA", "WAHRSA", "WAITM", "WAAITM", "WALITM", "WANUMB", "WAAPID", "WAUORG", "WASOBK", "WASOCN", "WASOQS", "WAQTYT", "WAUOM", "WASHNO", "WAPBTM", "WATBM", "WATRT", "WASHTY", "WAPEC", "WAPPFG", "WABM", "WARTG", "WASPRT", "WAUNCD", "WAINDC", "WARESC", "WAMOH", "WATDT", "WAPOU", "WAPC", "WALTLV", "WALTCM", "WACTS1", "WALOTN", "WALOTP", "WALOTG", "WARAT1", "WARAT2", "WADCT", "WASBLI", "WARKCO", "WABREV", "WARREV", "WADRWC", "WARTCH", "WAPNRQ", "WAREAS", "WAPHSE", "WAXDSP", "WABOMC", "WAURCD", "WAURDT", "WAURAT", "WAURAB", "WAURRF", "WAUSER", "WAPID", "WAJOBN", "WAUPMJ", "WATDAY", "WAAAID", "WANTST", "WAXRTO", "WAESDN", "WAACDN", "WASAID", "WAMPOS", "WAAPRT", "WAAMLC", "WAAMMC", "WAAMOT", "WALBAM", "WAMTAM") VALUES ( :cur_WADCTO_p0, :cur_WADOCO_p1, :cur_WASFXO_p2, :cur_WARCTO_p3, :cur_WARORN_p4, :cur_WALNID_p5, :cur_WAPTWO_p6, :cur_WAPARS_p7, :cur_WATYPS_p8, :cur_WAPRTS_p9, :cur_WADL01_p10, :cur_WASTCM_p11, :cur_WACO_p12, :cur_WAMCU_p13, :cur_WAMMCU_p14, :cur_WALOCN_p15, :cur_WAAISL_p16, :cur_WABIN_p17, :cur_WASRST_p18, :cur_WADCG_p19, :cur_WASUB_p20, :cur_WAAN8_p21, :cur_WAANO_p22, :cur_WAANSA_p23, :cur_WAANPA_p24, :cur_WAANP_p25, :cur_WADPL_p26, :cur_WAANT_p27, :cur_WANAN8_p28, :cur_WATRDJ_p29, :cur_WASTRT_p30, :cur_WADRQJ_p31, :cur_WASTRX_p32, :cur_WADAP_p33, :cur_WADAT_p34, :cur_WAPPDT_p35, :cur_WAWR01_p36, :cur_WAWR02_p37, :cur_WAWR03_p38, :cur_WAWR04_p39, :cur_WAWR05_p40, :cur_WAWR06_p41, :cur_WAWR07_p42, :cur_WAWR08_p43, :cur_WAWR09_p44, :cur_WAWR10_p45, :cur_WAVR01_p46, :cur_WAVR02_p47, :cur_WAAMTO_p48, :cur_WASETC_p49, :cur_WABRT_p50, :cur_WAPAYT_p51, :cur_WAAMTC_p52, :cur_WAHRSO_p53, :cur_WAHRSC_p54, :cur_WAAMTA_p55, :cur_WAHRSA_p56, :cur_WAITM_p57, :cur_WAAITM_p58, :cur_WALITM_p59, :cur_WANUMB_p60, :cur_WAAPID_p61, :cur_WAUORG_p62, :cur_WASOBK_p63, :cur_WASOCN_p64, :cur_WASOQS_p65, :cur_WAQTYT_p66, :cur_WAUOM_p67, :cur_WASHNO_p68, :cur_WAPBTM_p69, :cur_WATBM_p70, :cur_WATRT_p71, :cur_WASHTY_p72, :cur_WAPEC_p73, :cur_WAPPFG_p74, :cur_WABM_p75, :cur_WARTG_p76, :cur_WASPRT_p77, :cur_WAUNCD_p78, :cur_WAINDC_p79, :cur_WARESC_p80, :cur_WAMOH_p81, :cur_WATDT_p82, :cur_WAPOU_p83, :cur_WAPC_p84, :cur_WALTLV_p85, :cur_WALTCM_p86, :cur_WACTS1_p87, :cur_WALOTN_p88, :cur_WALOTP_p89, :cur_WALOTG_p90, :cur_WARAT1_p91, :cur_WARAT2_p92, :cur_WADCT_p93, :cur_WASBLI_p94, :cur_WARKCO_p95, :cur_WABREV_p96, :cur_WARREV_p97, :cur_WADRWC_p98, :cur_WARTCH_p99, :cur_WAPNRQ_p100, :cur_WAREAS_p101, :cur_WAPHSE_p102, :cur_WAXDSP_p103, :cur_WABOMC_p104, :cur_WAURCD_p105, :cur_WAURDT_p106, :cur_WAURAT_p107, :cur_WAURAB_p108, :cur_WAURRF_p109, :cur_WAUSER_p110, :cur_WAPID_p111, :cur_WAJOBN_p112, :cur_WAUPMJ_p113, :cur_WATDAY_p114, :cur_WAAAID_p115, :cur_WANTST_p116, :cur_WAXRTO_p117, :cur_WAESDN_p118, :cur_WAACDN_p119, :cur_WASAID_p120, :cur_WAMPOS_p121, :cur_WAAPRT_p122, :cur_WAAMLC_p123, :cur_WAAMMC_p124, :cur_WAAMOT_p125, :cur_WALBAM_p126, :cur_WAMTAM_p127)</value>
+  </data>
+  <metadata name="selectOracleCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="selectOracleCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="updateOracleCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="updateOracleCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="updateOracleCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE "PRODDTA"."F4801" SET "WADCTO"=:cur_WADCTO_p0, "WADOCO"=:cur_WADOCO_p1, "WASFXO"=:cur_WASFXO_p2, "WARCTO"=:cur_WARCTO_p3, "WARORN"=:cur_WARORN_p4, "WALNID"=:cur_WALNID_p5, "WAPTWO"=:cur_WAPTWO_p6, "WAPARS"=:cur_WAPARS_p7, "WATYPS"=:cur_WATYPS_p8, "WAPRTS"=:cur_WAPRTS_p9, "WADL01"=:cur_WADL01_p10, "WASTCM"=:cur_WASTCM_p11, "WACO"=:cur_WACO_p12, "WAMCU"=:cur_WAMCU_p13, "WAMMCU"=:cur_WAMMCU_p14, "WALOCN"=:cur_WALOCN_p15, "WAAISL"=:cur_WAAISL_p16, "WABIN"=:cur_WABIN_p17, "WASRST"=:cur_WASRST_p18, "WADCG"=:cur_WADCG_p19, "WASUB"=:cur_WASUB_p20, "WAAN8"=:cur_WAAN8_p21, "WAANO"=:cur_WAANO_p22, "WAANSA"=:cur_WAANSA_p23, "WAANPA"=:cur_WAANPA_p24, "WAANP"=:cur_WAANP_p25, "WADPL"=:cur_WADPL_p26, "WAANT"=:cur_WAANT_p27, "WANAN8"=:cur_WANAN8_p28, "WATRDJ"=:cur_WATRDJ_p29, "WASTRT"=:cur_WASTRT_p30, "WADRQJ"=:cur_WADRQJ_p31, "WASTRX"=:cur_WASTRX_p32, "WADAP"=:cur_WADAP_p33, "WADAT"=:cur_WADAT_p34, "WAPPDT"=:cur_WAPPDT_p35, "WAWR01"=:cur_WAWR01_p36, "WAWR02"=:cur_WAWR02_p37, "WAWR03"=:cur_WAWR03_p38, "WAWR04"=:cur_WAWR04_p39, "WAWR05"=:cur_WAWR05_p40, "WAWR06"=:cur_WAWR06_p41, "WAWR07"=:cur_WAWR07_p42, "WAWR08"=:cur_WAWR08_p43, "WAWR09"=:cur_WAWR09_p44, "WAWR10"=:cur_WAWR10_p45, "WAVR01"=:cur_WAVR01_p46, "WAVR02"=:cur_WAVR02_p47, "WAAMTO"=:cur_WAAMTO_p48, "WASETC"=:cur_WASETC_p49, "WABRT"=:cur_WABRT_p50, "WAPAYT"=:cur_WAPAYT_p51, "WAAMTC"=:cur_WAAMTC_p52, "WAHRSO"=:cur_WAHRSO_p53, "WAHRSC"=:cur_WAHRSC_p54, "WAAMTA"=:cur_WAAMTA_p55, "WAHRSA"=:cur_WAHRSA_p56, "WAITM"=:cur_WAITM_p57, "WAAITM"=:cur_WAAITM_p58, "WALITM"=:cur_WALITM_p59, "WANUMB"=:cur_WANUMB_p60, "WAAPID"=:cur_WAAPID_p61, "WAUORG"=:cur_WAUORG_p62, "WASOBK"=:cur_WASOBK_p63, "WASOCN"=:cur_WASOCN_p64, "WASOQS"=:cur_WASOQS_p65, "WAQTYT"=:cur_WAQTYT_p66, "WAUOM"=:cur_WAUOM_p67, "WASHNO"=:cur_WASHNO_p68, "WAPBTM"=:cur_WAPBTM_p69, "WATBM"=:cur_WATBM_p70, "WATRT"=:cur_WATRT_p71, "WASHTY"=:cur_WASHTY_p72, "WAPEC"=:cur_WAPEC_p73, "WAPPFG"=:cur_WAPPFG_p74, "WABM"=:cur_WABM_p75, "WARTG"=:cur_WARTG_p76, "WASPRT"=:cur_WASPRT_p77, "WAUNCD"=:cur_WAUNCD_p78, "WAINDC"=:cur_WAINDC_p79, "WARESC"=:cur_WARESC_p80, "WAMOH"=:cur_WAMOH_p81, "WATDT"=:cur_WATDT_p82, "WAPOU"=:cur_WAPOU_p83, "WAPC"=:cur_WAPC_p84, "WALTLV"=:cur_WALTLV_p85, "WALTCM"=:cur_WALTCM_p86, "WACTS1"=:cur_WACTS1_p87, "WALOTN"=:cur_WALOTN_p88, "WALOTP"=:cur_WALOTP_p89, "WALOTG"=:cur_WALOTG_p90, "WARAT1"=:cur_WARAT1_p91, "WARAT2"=:cur_WARAT2_p92, "WADCT"=:cur_WADCT_p93, "WASBLI"=:cur_WASBLI_p94, "WARKCO"=:cur_WARKCO_p95, "WABREV"=:cur_WABREV_p96, "WARREV"=:cur_WARREV_p97, "WADRWC"=:cur_WADRWC_p98, "WARTCH"=:cur_WARTCH_p99, "WAPNRQ"=:cur_WAPNRQ_p100, "WAREAS"=:cur_WAREAS_p101, "WAPHSE"=:cur_WAPHSE_p102, "WAXDSP"=:cur_WAXDSP_p103, "WABOMC"=:cur_WABOMC_p104, "WAURCD"=:cur_WAURCD_p105, "WAURDT"=:cur_WAURDT_p106, "WAURAT"=:cur_WAURAT_p107, "WAURAB"=:cur_WAURAB_p108, "WAURRF"=:cur_WAURRF_p109, "WAUSER"=:cur_WAUSER_p110, "WAPID"=:cur_WAPID_p111, "WAJOBN"=:cur_WAJOBN_p112, "WAUPMJ"=:cur_WAUPMJ_p113, "WATDAY"=:cur_WATDAY_p114, "WAAAID"=:cur_WAAAID_p115, "WANTST"=:cur_WANTST_p116, "WAXRTO"=:cur_WAXRTO_p117, "WAESDN"=:cur_WAESDN_p118, "WAACDN"=:cur_WAACDN_p119, "WASAID"=:cur_WASAID_p120, "WAMPOS"=:cur_WAMPOS_p121, "WAAPRT"=:cur_WAAPRT_p122, "WAAMLC"=:cur_WAAMLC_p123, "WAAMMC"=:cur_WAAMMC_p124, "WAAMOT"=:cur_WAAMOT_p125, "WALBAM"=:cur_WALBAM_p126, "WAMTAM"=:cur_WAMTAM_p127 WHERE ((:ori_WADCTO_p128 IS NULL AND "WADCTO" IS NULL) OR "WADCTO"=:ori_WADCTO_p129) AND "WADOCO"=:ori_WADOCO_p130 AND ((:ori_WASFXO_p131 IS NULL AND "WASFXO" IS NULL) OR "WASFXO"=:ori_WASFXO_p132) AND ((:ori_WARCTO_p133 IS NULL AND "WARCTO" IS NULL) OR "WARCTO"=:ori_WARCTO_p134) AND ((:ori_WARORN_p135 IS NULL AND "WARORN" IS NULL) OR "WARORN"=:ori_WARORN_p136) AND ((:ori_WALNID_p137 IS NULL AND "WALNID" IS NULL) OR "WALNID"=:ori_WALNID_p138) AND ((:ori_WAPTWO_p139 IS NULL AND "WAPTWO" IS NULL) OR "WAPTWO"=:ori_WAPTWO_p140) AND ((:ori_WAPARS_p141 IS NULL AND "WAPARS" IS NULL) OR "WAPARS"=:ori_WAPARS_p142) AND ((:ori_WATYPS_p143 IS NULL AND "WATYPS" IS NULL) OR "WATYPS"=:ori_WATYPS_p144) AND ((:ori_WAPRTS_p145 IS NULL AND "WAPRTS" IS NULL) OR "WAPRTS"=:ori_WAPRTS_p146) AND ((:ori_WADL01_p147 IS NULL AND "WADL01" IS NULL) OR "WADL01"=:ori_WADL01_p148) AND ((:ori_WASTCM_p149 IS NULL AND "WASTCM" IS NULL) OR "WASTCM"=:ori_WASTCM_p150) AND ((:ori_WACO_p151 IS NULL AND "WACO" IS NULL) OR "WACO"=:ori_WACO_p152) AND ((:ori_WAMCU_p153 IS NULL AND "WAMCU" IS NULL) OR "WAMCU"=:ori_WAMCU_p154) AND ((:ori_WAMMCU_p155 IS NULL AND "WAMMCU" IS NULL) OR "WAMMCU"=:ori_WAMMCU_p156) AND ((:ori_WALOCN_p157 IS NULL AND "WALOCN" IS NULL) OR "WALOCN"=:ori_WALOCN_p158) AND ((:ori_WAAISL_p159 IS NULL AND "WAAISL" IS NULL) OR "WAAISL"=:ori_WAAISL_p160) AND ((:ori_WABIN_p161 IS NULL AND "WABIN" IS NULL) OR "WABIN"=:ori_WABIN_p162) AND ((:ori_WASRST_p163 IS NULL AND "WASRST" IS NULL) OR "WASRST"=:ori_WASRST_p164) AND ((:ori_WADCG_p165 IS NULL AND "WADCG" IS NULL) OR "WADCG"=:ori_WADCG_p166) AND ((:ori_WASUB_p167 IS NULL AND "WASUB" IS NULL) OR "WASUB"=:ori_WASUB_p168) AND ((:ori_WAAN8_p169 IS NULL AND "WAAN8" IS NULL) OR "WAAN8"=:ori_WAAN8_p170) AND ((:ori_WAANO_p171 IS NULL AND "WAANO" IS NULL) OR "WAANO"=:ori_WAANO_p172) AND ((:ori_WAANSA_p173 IS NULL AND "WAANSA" IS NULL) OR "WAANSA"=:ori_WAANSA_p174) AND ((:ori_WAANPA_p175 IS NULL AND "WAANPA" IS NULL) OR "WAANPA"=:ori_WAANPA_p176) AND ((:ori_WAANP_p177 IS NULL AND "WAANP" IS NULL) OR "WAANP"=:ori_WAANP_p178) AND ((:ori_WADPL_p179 IS NULL AND "WADPL" IS NULL) OR "WADPL"=:ori_WADPL_p180) AND ((:ori_WAANT_p181 IS NULL AND "WAANT" IS NULL) OR "WAANT"=:ori_WAANT_p182) AND ((:ori_WANAN8_p183 IS NULL AND "WANAN8" IS NULL) OR "WANAN8"=:ori_WANAN8_p184) AND ((:ori_WATRDJ_p185 IS NULL AND "WATRDJ" IS NULL) OR "WATRDJ"=:ori_WATRDJ_p186) AND ((:ori_WASTRT_p187 IS NULL AND "WASTRT" IS NULL) OR "WASTRT"=:ori_WASTRT_p188) AND ((:ori_WADRQJ_p189 IS NULL AND "WADRQJ" IS NULL) OR "WADRQJ"=:ori_WADRQJ_p190) AND ((:ori_WASTRX_p191 IS NULL AND "WASTRX" IS NULL) OR "WASTRX"=:ori_WASTRX_p192) AND ((:ori_WADAP_p193 IS NULL AND "WADAP" IS NULL) OR "WADAP"=:ori_WADAP_p194) AND ((:ori_WADAT_p195 IS NULL AND "WADAT" IS NULL) OR "WADAT"=:ori_WADAT_p196) AND ((:ori_WAPPDT_p197 IS NULL AND "WAPPDT" IS NULL) OR "WAPPDT"=:ori_WAPPDT_p198) AND ((:ori_WAWR01_p199 IS NULL AND "WAWR01" IS NULL) OR "WAWR01"=:ori_WAWR01_p200) AND ((:ori_WAWR02_p201 IS NULL AND "WAWR02" IS NULL) OR "WAWR02"=:ori_WAWR02_p202) AND ((:ori_WAWR03_p203 IS NULL AND "WAWR03" IS NULL) OR "WAWR03"=:ori_WAWR03_p204) AND ((:ori_WAWR04_p205 IS NULL AND "WAWR04" IS NULL) OR "WAWR04"=:ori_WAWR04_p206) AND ((:ori_WAWR05_p207 IS NULL AND "WAWR05" IS NULL) OR "WAWR05"=:ori_WAWR05_p208) AND ((:ori_WAWR06_p209 IS NULL AND "WAWR06" IS NULL) OR "WAWR06"=:ori_WAWR06_p210) AND ((:ori_WAWR07_p211 IS NULL AND "WAWR07" IS NULL) OR "WAWR07"=:ori_WAWR07_p212) AND ((:ori_WAWR08_p213 IS NULL AND "WAWR08" IS NULL) OR "WAWR08"=:ori_WAWR08_p214) AND ((:ori_WAWR09_p215 IS NULL AND "WAWR09" IS NULL) OR "WAWR09"=:ori_WAWR09_p216) AND ((:ori_WAWR10_p217 IS NULL AND "WAWR10" IS NULL) OR "WAWR10"=:ori_WAWR10_p218) AND ((:ori_WAVR01_p219 IS NULL AND "WAVR01" IS NULL) OR "WAVR01"=:ori_WAVR01_p220) AND ((:ori_WAVR02_p221 IS NULL AND "WAVR02" IS NULL) OR "WAVR02"=:ori_WAVR02_p222) AND ((:ori_WAAMTO_p223 IS NULL AND "WAAMTO" IS NULL) OR "WAAMTO"=:ori_WAAMTO_p224) AND ((:ori_WASETC_p225 IS NULL AND "WASETC" IS NULL) OR "WASETC"=:ori_WASETC_p226) AND ((:ori_WABRT_p227 IS NULL AND "WABRT" IS NULL) OR "WABRT"=:ori_WABRT_p228) AND ((:ori_WAPAYT_p229 IS NULL AND "WAPAYT" IS NULL) OR "WAPAYT"=:ori_WAPAYT_p230) AND ((:ori_WAAMTC_p231 IS NULL AND "WAAMTC" IS NULL) OR "WAAMTC"=:ori_WAAMTC_p232) AND ((:ori_WAHRSO_p233 IS NULL AND "WAHRSO" IS NULL) OR "WAHRSO"=:ori_WAHRSO_p234) AND ((:ori_WAHRSC_p235 IS NULL AND "WAHRSC" IS NULL) OR "WAHRSC"=:ori_WAHRSC_p236) AND ((:ori_WAAMTA_p237 IS NULL AND "WAAMTA" IS NULL) OR "WAAMTA"=:ori_WAAMTA_p238) AND ((:ori_WAHRSA_p239 IS NULL AND "WAHRSA" IS NULL) OR "WAHRSA"=:ori_WAHRSA_p240) AND ((:ori_WAITM_p241 IS NULL AND "WAITM" IS NULL) OR "WAITM"=:ori_WAITM_p242) AND ((:ori_WAAITM_p243 IS NULL AND "WAAITM" IS NULL) OR "WAAITM"=:ori_WAAITM_p244) AND ((:ori_WALITM_p245 IS NULL AND "WALITM" IS NULL) OR "WALITM"=:ori_WALITM_p246) AND ((:ori_WANUMB_p247 IS NULL AND "WANUMB" IS NULL) OR "WANUMB"=:ori_WANUMB_p248) AND ((:ori_WAAPID_p249 IS NULL AND "WAAPID" IS NULL) OR "WAAPID"=:ori_WAAPID_p250) AND ((:ori_WAUORG_p251 IS NULL AND "WAUORG" IS NULL) OR "WAUORG"=:ori_WAUORG_p252) AND ((:ori_WASOBK_p253 IS NULL AND "WASOBK" IS NULL) OR "WASOBK"=:ori_WASOBK_p254) AND ((:ori_WASOCN_p255 IS NULL AND "WASOCN" IS NULL) OR "WASOCN"=:ori_WASOCN_p256) AND ((:ori_WASOQS_p257 IS NULL AND "WASOQS" IS NULL) OR "WASOQS"=:ori_WASOQS_p258) AND ((:ori_WAQTYT_p259 IS NULL AND "WAQTYT" IS NULL) OR "WAQTYT"=:ori_WAQTYT_p260) AND ((:ori_WAUOM_p261 IS NULL AND "WAUOM" IS NULL) OR "WAUOM"=:ori_WAUOM_p262) AND ((:ori_WASHNO_p263 IS NULL AND "WASHNO" IS NULL) OR "WASHNO"=:ori_WASHNO_p264) AND ((:ori_WAPBTM_p265 IS NULL AND "WAPBTM" IS NULL) OR "WAPBTM"=:ori_WAPBTM_p266) AND ((:ori_WATBM_p267 IS NULL AND "WATBM" IS NULL) OR "WATBM"=:ori_WATBM_p268) AND ((:ori_WATRT_p269 IS NULL AND "WATRT" IS NULL) OR "WATRT"=:ori_WATRT_p270) AND ((:ori_WASHTY_p271 IS NULL AND "WASHTY" IS NULL) OR "WASHTY"=:ori_WASHTY_p272) AND ((:ori_WAPEC_p273 IS NULL AND "WAPEC" IS NULL) OR "WAPEC"=:ori_WAPEC_p274) AND ((:ori_WAPPFG_p275 IS NULL AND "WAPPFG" IS NULL) OR "WAPPFG"=:ori_WAPPFG_p276) AND ((:ori_WABM_p277 IS NULL AND "WABM" IS NULL) OR "WABM"=:ori_WABM_p278) AND ((:ori_WARTG_p279 IS NULL AND "WARTG" IS NULL) OR "WARTG"=:ori_WARTG_p280) AND ((:ori_WASPRT_p281 IS NULL AND "WASPRT" IS NULL) OR "WASPRT"=:ori_WASPRT_p282) AND ((:ori_WAUNCD_p283 IS NULL AND "WAUNCD" IS NULL) OR "WAUNCD"=:ori_WAUNCD_p284) AND ((:ori_WAINDC_p285 IS NULL AND "WAINDC" IS NULL) OR "WAINDC"=:ori_WAINDC_p286) AND ((:ori_WARESC_p287 IS NULL AND "WARESC" IS NULL) OR "WARESC"=:ori_WARESC_p288) AND ((:ori_WAMOH_p289 IS NULL AND "WAMOH" IS NULL) OR "WAMOH"=:ori_WAMOH_p290) AND ((:ori_WATDT_p291 IS NULL AND "WATDT" IS NULL) OR "WATDT"=:ori_WATDT_p292) AND ((:ori_WAPOU_p293 IS NULL AND "WAPOU" IS NULL) OR "WAPOU"=:ori_WAPOU_p294) AND ((:ori_WAPC_p295 IS NULL AND "WAPC" IS NULL) OR "WAPC"=:ori_WAPC_p296) AND ((:ori_WALTLV_p297 IS NULL AND "WALTLV" IS NULL) OR "WALTLV"=:ori_WALTLV_p298) AND ((:ori_WALTCM_p299 IS NULL AND "WALTCM" IS NULL) OR "WALTCM"=:ori_WALTCM_p300) AND ((:ori_WACTS1_p301 IS NULL AND "WACTS1" IS NULL) OR "WACTS1"=:ori_WACTS1_p302) AND ((:ori_WALOTN_p303 IS NULL AND "WALOTN" IS NULL) OR "WALOTN"=:ori_WALOTN_p304) AND ((:ori_WALOTP_p305 IS NULL AND "WALOTP" IS NULL) OR "WALOTP"=:ori_WALOTP_p306) AND ((:ori_WALOTG_p307 IS NULL AND "WALOTG" IS NULL) OR "WALOTG"=:ori_WALOTG_p308) AND ((:ori_WARAT1_p309 IS NULL AND "WARAT1" IS NULL) OR "WARAT1"=:ori_WARAT1_p310) AND ((:ori_WARAT2_p311 IS NULL AND "WARAT2" IS NULL) OR "WARAT2"=:ori_WARAT2_p312) AND ((:ori_WADCT_p313 IS NULL AND "WADCT" IS NULL) OR "WADCT"=:ori_WADCT_p314) AND ((:ori_WASBLI_p315 IS NULL AND "WASBLI" IS NULL) OR "WASBLI"=:ori_WASBLI_p316) AND ((:ori_WARKCO_p317 IS NULL AND "WARKCO" IS NULL) OR "WARKCO"=:ori_WARKCO_p318) AND ((:ori_WABREV_p319 IS NULL AND "WABREV" IS NULL) OR "WABREV"=:ori_WABREV_p320) AND ((:ori_WARREV_p321 IS NULL AND "WARREV" IS NULL) OR "WARREV"=:ori_WARREV_p322) AND ((:ori_WADRWC_p323 IS NULL AND "WADRWC" IS NULL) OR "WADRWC"=:ori_WADRWC_p324) AND ((:ori_WARTCH_p325 IS NULL AND "WARTCH" IS NULL) OR "WARTCH"=:ori_WARTCH_p326) AND ((:ori_WAPNRQ_p327 IS NULL AND "WAPNRQ" IS NULL) OR "WAPNRQ"=:ori_WAPNRQ_p328) AND ((:ori_WAREAS_p329 IS NULL AND "WAREAS" IS NULL) OR "WAREAS"=:ori_WAREAS_p330) AND ((:ori_WAPHSE_p331 IS NULL AND "WAPHSE" IS NULL) OR "WAPHSE"=:ori_WAPHSE_p332) AND ((:ori_WAXDSP_p333 IS NULL AND "WAXDSP" IS NULL) OR "WAXDSP"=:ori_WAXDSP_p334) AND ((:ori_WABOMC_p335 IS NULL AND "WABOMC" IS NULL) OR "WABOMC"=:ori_WABOMC_p336) AND ((:ori_WAURCD_p337 IS NULL AND "WAURCD" IS NULL) OR "WAURCD"=:ori_WAURCD_p338) AND ((:ori_WAURDT_p339 IS NULL AND "WAURDT" IS NULL) OR "WAURDT"=:ori_WAURDT_p340) AND ((:ori_WAURAT_p341 IS NULL AND "WAURAT" IS NULL) OR "WAURAT"=:ori_WAURAT_p342) AND ((:ori_WAURAB_p343 IS NULL AND "WAURAB" IS NULL) OR "WAURAB"=:ori_WAURAB_p344) AND ((:ori_WAURRF_p345 IS NULL AND "WAURRF" IS NULL) OR "WAURRF"=:ori_WAURRF_p346) AND ((:ori_WAUSER_p347 IS NULL AND "WAUSER" IS NULL) OR "WAUSER"=:ori_WAUSER_p348) AND ((:ori_WAPID_p349 IS NULL AND "WAPID" IS NULL) OR "WAPID"=:ori_WAPID_p350) AND ((:ori_WAJOBN_p351 IS NULL AND "WAJOBN" IS NULL) OR "WAJOBN"=:ori_WAJOBN_p352) AND ((:ori_WAUPMJ_p353 IS NULL AND "WAUPMJ" IS NULL) OR "WAUPMJ"=:ori_WAUPMJ_p354) AND ((:ori_WATDAY_p355 IS NULL AND "WATDAY" IS NULL) OR "WATDAY"=:ori_WATDAY_p356) AND ((:ori_WAAAID_p357 IS NULL AND "WAAAID" IS NULL) OR "WAAAID"=:ori_WAAAID_p358) AND ((:ori_WANTST_p359 IS NULL AND "WANTST" IS NULL) OR "WANTST"=:ori_WANTST_p360) AND ((:ori_WAXRTO_p361 IS NULL AND "WAXRTO" IS NULL) OR "WAXRTO"=:ori_WAXRTO_p362) AND ((:ori_WAESDN_p363 IS NULL AND "WAESDN" IS NULL) OR "WAESDN"=:ori_WAESDN_p364) AND ((:ori_WAACDN_p365 IS NULL AND "WAACDN" IS NULL) OR "WAACDN"=:ori_WAACDN_p366) AND ((:ori_WASAID_p367 IS NULL AND "WASAID" IS NULL) OR "WASAID"=:ori_WASAID_p368) AND ((:ori_WAMPOS_p369 IS NULL AND "WAMPOS" IS NULL) OR "WAMPOS"=:ori_WAMPOS_p370) AND ((:ori_WAAPRT_p371 IS NULL AND "WAAPRT" IS NULL) OR "WAAPRT"=:ori_WAAPRT_p372) AND ((:ori_WAAMLC_p373 IS NULL AND "WAAMLC" IS NULL) OR "WAAMLC"=:ori_WAAMLC_p374) AND ((:ori_WAAMMC_p375 IS NULL AND "WAAMMC" IS NULL) OR "WAAMMC"=:ori_WAAMMC_p376) AND ((:ori_WAAMOT_p377 IS NULL AND "WAAMOT" IS NULL) OR "WAAMOT"=:ori_WAAMOT_p378) AND ((:ori_WALBAM_p379 IS NULL AND "WALBAM" IS NULL) OR "WALBAM"=:ori_WALBAM_p380) AND ((:ori_WAMTAM_p381 IS NULL AND "WAMTAM" IS NULL) OR "WAMTAM"=:ori_WAMTAM_p382)</value>
+  </data>
+</root>

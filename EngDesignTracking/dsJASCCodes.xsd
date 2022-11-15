@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsJASCCodes" targetNamespace="http://tempuri.org/dsJASCCodes.xsd" xmlns:mstns="http://tempuri.org/dsJASCCodes.xsd" xmlns="http://tempuri.org/dsJASCCodes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsJASCCodes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsJASCCodes" msprop:Generator_UserDSName="dsJASCCodes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDocTypeJASC_Series" msprop:Generator_TableClassName="tblDocTypeJASC_SeriesDataTable" msprop:Generator_TableVarName="tabletblDocTypeJASC_Series" msprop:Generator_TablePropName="tblDocTypeJASC_Series" msprop:Generator_RowDeletingName="tblDocTypeJASC_SeriesRowDeleting" msprop:Generator_RowChangingName="tblDocTypeJASC_SeriesRowChanging" msprop:Generator_RowEvHandlerName="tblDocTypeJASC_SeriesRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDocTypeJASC_SeriesRowDeleted" msprop:Generator_UserTableName="tblDocTypeJASC_Series" msprop:Generator_RowChangedName="tblDocTypeJASC_SeriesRowChanged" msprop:Generator_RowEvArgName="tblDocTypeJASC_SeriesRowChangeEvent" msprop:Generator_RowClassName="tblDocTypeJASC_SeriesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SectionNumAndDesc" msprop:Generator_ColumnVarNameInTable="columnSectionNumAndDesc" msprop:Generator_ColumnPropNameInRow="SectionNumAndDesc" msprop:Generator_ColumnPropNameInTable="SectionNumAndDescColumn" msprop:Generator_UserColumnName="SectionNumAndDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JASCAndDesc" msprop:Generator_ColumnVarNameInTable="columnJASCAndDesc" msprop:Generator_ColumnPropNameInRow="JASCAndDesc" msprop:Generator_ColumnPropNameInTable="JASCAndDescColumn" msprop:Generator_UserColumnName="JASCAndDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="JASCPrefix" msprop:Generator_ColumnVarNameInTable="columnJASCPrefix" msprop:Generator_ColumnPropNameInRow="JASCPrefix" msprop:Generator_ColumnPropNameInTable="JASCPrefixColumn" msprop:Generator_UserColumnName="JASCPrefix" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDocTypeJASC_Series" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

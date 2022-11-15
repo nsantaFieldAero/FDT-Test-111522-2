@@ -379,6 +379,16 @@ Partial Public Class DataSet4
         
         Private columnProductionError As Global.System.Data.DataColumn
         
+        Private columnEstCompletionDate As Global.System.Data.DataColumn
+        
+        Private columnComments As Global.System.Data.DataColumn
+        
+        Private columnEndItemType As Global.System.Data.DataColumn
+        
+        Private columnPlannerNotes As Global.System.Data.DataColumn
+        
+        Private columnPlannerSignOffDate As Global.System.Data.DataColumn
+        
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub New()
@@ -799,6 +809,46 @@ Partial Public Class DataSet4
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property EstCompletionDateColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnEstCompletionDate
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property CommentsColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnComments
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property EndItemTypeColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnEndItemType
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property PlannerNotesColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPlannerNotes
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property PlannerSignOffDateColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPlannerSignOffDate
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -882,9 +932,14 @@ Partial Public Class DataSet4
                     ByVal QCNameBackup As String,  _
                     ByVal FabShop As Boolean,  _
                     ByVal QCNotes As String,  _
-                    ByVal ProductionError As Boolean) As tblEARRRow
+                    ByVal ProductionError As Boolean,  _
+                    ByVal EstCompletionDate As Date,  _
+                    ByVal Comments As String,  _
+                    ByVal EndItemType As String,  _
+                    ByVal PlannerNotes As String,  _
+                    ByVal PlannerSignOffDate As Date) As tblEARRRow
             Dim rowtblEARRRow As tblEARRRow = CType(Me.NewRow,tblEARRRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, EARRNumber, EARRStatus, EARRType, SerialNumber, WorkOrder, ProgramName, DrawingNumber, DrawingRevision, Request, IncorpRedLineYes, IncorpRedLineNo, DrawingReqForConformityYes, DrawingReqForConformityNo, EARRResponseDate, OriginatorName, OriginatorDate, OriginatorSignedOff, ReplyInstructions, EffectivtyAll, EffectivtyOther, EffectivityOtherText, DeviationMinor, DeviatoinMajor, AdditionalEngReqNoAction, AdditionalEngReqUpdate, ACFTInterface, Manufacturability, ProductImprovement, DWGError, DesignError, LiaisonManagerName, LiaisonManagerSignOffDate, EngineeringManagerName, EngineeringManagerSignOffDate, EffectivityAll, EffectivityOther, DeviationMajor, LiaisonManagerNameBackup, EngineeringManagerNameBackup, Planner1, Planner2, QCName, QCSignOff, QCNameBackup, FabShop, QCNotes, ProductionError}
+            Dim columnValuesArray() As Object = New Object() {Nothing, EARRNumber, EARRStatus, EARRType, SerialNumber, WorkOrder, ProgramName, DrawingNumber, DrawingRevision, Request, IncorpRedLineYes, IncorpRedLineNo, DrawingReqForConformityYes, DrawingReqForConformityNo, EARRResponseDate, OriginatorName, OriginatorDate, OriginatorSignedOff, ReplyInstructions, EffectivtyAll, EffectivtyOther, EffectivityOtherText, DeviationMinor, DeviatoinMajor, AdditionalEngReqNoAction, AdditionalEngReqUpdate, ACFTInterface, Manufacturability, ProductImprovement, DWGError, DesignError, LiaisonManagerName, LiaisonManagerSignOffDate, EngineeringManagerName, EngineeringManagerSignOffDate, EffectivityAll, EffectivityOther, DeviationMajor, LiaisonManagerNameBackup, EngineeringManagerNameBackup, Planner1, Planner2, QCName, QCSignOff, QCNameBackup, FabShop, QCNotes, ProductionError, EstCompletionDate, Comments, EndItemType, PlannerNotes, PlannerSignOffDate}
             rowtblEARRRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowtblEARRRow)
             Return rowtblEARRRow
@@ -961,6 +1016,11 @@ Partial Public Class DataSet4
             Me.columnFabShop = MyBase.Columns("FabShop")
             Me.columnQCNotes = MyBase.Columns("QCNotes")
             Me.columnProductionError = MyBase.Columns("ProductionError")
+            Me.columnEstCompletionDate = MyBase.Columns("EstCompletionDate")
+            Me.columnComments = MyBase.Columns("Comments")
+            Me.columnEndItemType = MyBase.Columns("EndItemType")
+            Me.columnPlannerNotes = MyBase.Columns("PlannerNotes")
+            Me.columnPlannerSignOffDate = MyBase.Columns("PlannerSignOffDate")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1062,6 +1122,16 @@ Partial Public Class DataSet4
             MyBase.Columns.Add(Me.columnQCNotes)
             Me.columnProductionError = New Global.System.Data.DataColumn("ProductionError", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnProductionError)
+            Me.columnEstCompletionDate = New Global.System.Data.DataColumn("EstCompletionDate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnEstCompletionDate)
+            Me.columnComments = New Global.System.Data.DataColumn("Comments", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnComments)
+            Me.columnEndItemType = New Global.System.Data.DataColumn("EndItemType", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnEndItemType)
+            Me.columnPlannerNotes = New Global.System.Data.DataColumn("PlannerNotes", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPlannerNotes)
+            Me.columnPlannerSignOffDate = New Global.System.Data.DataColumn("PlannerSignOffDate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPlannerSignOffDate)
             Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnRecordID}, true))
             Me.columnRecordID.AutoIncrement = true
             Me.columnRecordID.AllowDBNull = false
@@ -1073,7 +1143,7 @@ Partial Public Class DataSet4
             Me.columnSerialNumber.MaxLength = 50
             Me.columnWorkOrder.MaxLength = 50
             Me.columnProgramName.MaxLength = 50
-            Me.columnDrawingNumber.MaxLength = 50
+            Me.columnDrawingNumber.MaxLength = 4000
             Me.columnDrawingRevision.MaxLength = 50
             Me.columnRequest.MaxLength = 2000
             Me.columnOriginatorName.MaxLength = 50
@@ -1088,6 +1158,9 @@ Partial Public Class DataSet4
             Me.columnQCName.MaxLength = 50
             Me.columnQCNameBackup.MaxLength = 50
             Me.columnQCNotes.MaxLength = 2000
+            Me.columnComments.MaxLength = 2000
+            Me.columnEndItemType.MaxLength = 200
+            Me.columnPlannerNotes.MaxLength = 2000
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1952,6 +2025,81 @@ Partial Public Class DataSet4
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property EstCompletionDate() As Date
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblEARR.EstCompletionDateColumn),Date)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'EstCompletionDate' in table 'tblEARR' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblEARR.EstCompletionDateColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property Comments() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblEARR.CommentsColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Comments' in table 'tblEARR' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblEARR.CommentsColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property EndItemType() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblEARR.EndItemTypeColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'EndItemType' in table 'tblEARR' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblEARR.EndItemTypeColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property PlannerNotes() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblEARR.PlannerNotesColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'PlannerNotes' in table 'tblEARR' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblEARR.PlannerNotesColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property PlannerSignOffDate() As Date
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblEARR.PlannerSignOffDateColumn),Date)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'PlannerSignOffDate' in table 'tblEARR' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblEARR.PlannerSignOffDateColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Function IsEARRNumberNull() As Boolean
             Return Me.IsNull(Me.tabletblEARR.EARRNumberColumn)
         End Function
@@ -2512,6 +2660,66 @@ Partial Public Class DataSet4
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetProductionErrorNull()
             Me(Me.tabletblEARR.ProductionErrorColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsEstCompletionDateNull() As Boolean
+            Return Me.IsNull(Me.tabletblEARR.EstCompletionDateColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetEstCompletionDateNull()
+            Me(Me.tabletblEARR.EstCompletionDateColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsCommentsNull() As Boolean
+            Return Me.IsNull(Me.tabletblEARR.CommentsColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetCommentsNull()
+            Me(Me.tabletblEARR.CommentsColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsEndItemTypeNull() As Boolean
+            Return Me.IsNull(Me.tabletblEARR.EndItemTypeColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetEndItemTypeNull()
+            Me(Me.tabletblEARR.EndItemTypeColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsPlannerNotesNull() As Boolean
+            Return Me.IsNull(Me.tabletblEARR.PlannerNotesColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetPlannerNotesNull()
+            Me(Me.tabletblEARR.PlannerNotesColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsPlannerSignOffDateNull() As Boolean
+            Return Me.IsNull(Me.tabletblEARR.PlannerSignOffDateColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetPlannerSignOffDateNull()
+            Me(Me.tabletblEARR.PlannerSignOffDateColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     

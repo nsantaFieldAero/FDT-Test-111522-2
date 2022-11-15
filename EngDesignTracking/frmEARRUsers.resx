@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bsEARRUsers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>429, 17</value>
+  </metadata>
+  <metadata name="DsEARRUsers1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>298, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        RecordID, Username, Email, JaguarProgram, E6Program, Sherpa, EnterEARR, Jaguar16082, SignedName, ReadOnly, CBP16033, JaguarOnly, RepetitiveSale, MIT192181, SCG1903, CAE16190, Jaguar2635, MMSAC2640, 
+                         SuperUser, MITN108EW, BAS16142, DRAKEN4610
+FROM            tblUsers</value>
+  </data>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [tblUsers] ([Username], [Email], [JaguarProgram], [E6Program], [Sherpa], [EnterEARR], [Jaguar16082], [SignedName], [ReadOnly], [CBP16033], [JaguarOnly], [RepetitiveSale], [MIT192181], [SCG1903], [CAE16190], [Jaguar2635], [MMSAC2640], [SuperUser], [MITN108EW], [BAS16142], [DRAKEN4610]) VALUES (@Username, @Email, @JaguarProgram, @E6Program, @Sherpa, @EnterEARR, @Jaguar16082, @SignedName, @ReadOnly, @CBP16033, @JaguarOnly, @RepetitiveSale, @MIT192181, @SCG1903, @CAE16190, @Jaguar2635, @MMSAC2640, @SuperUser, @MITN108EW, @BAS16142, @DRAKEN4610);
+SELECT RecordID, Username, Email, JaguarProgram, E6Program, Sherpa, EnterEARR, Jaguar16082, SignedName, ReadOnly, CBP16033, JaguarOnly, RepetitiveSale, MIT192181, SCG1903, CAE16190, Jaguar2635, MMSAC2640, SuperUser, MITN108EW, BAS16142, DRAKEN4610 FROM tblUsers WHERE (RecordID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [tblUsers] SET [Username] = @Username, [Email] = @Email, [JaguarProgram] = @JaguarProgram, [E6Program] = @E6Program, [Sherpa] = @Sherpa, [EnterEARR] = @EnterEARR, [Jaguar16082] = @Jaguar16082, [SignedName] = @SignedName, [ReadOnly] = @ReadOnly, [CBP16033] = @CBP16033, [JaguarOnly] = @JaguarOnly, [RepetitiveSale] = @RepetitiveSale, [MIT192181] = @MIT192181, [SCG1903] = @SCG1903, [CAE16190] = @CAE16190, [Jaguar2635] = @Jaguar2635, [MMSAC2640] = @MMSAC2640, [SuperUser] = @SuperUser, [MITN108EW] = @MITN108EW, [BAS16142] = @BAS16142, [DRAKEN4610] = @DRAKEN4610 WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_Username = 1 AND [Username] IS NULL) OR ([Username] = @Original_Username)) AND ((@IsNull_Email = 1 AND [Email] IS NULL) OR ([Email] = @Original_Email)) AND ((@IsNull_JaguarProgram = 1 AND [JaguarProgram] IS NULL) OR ([JaguarProgram] = @Original_JaguarProgram)) AND ((@IsNull_E6Program = 1 AND [E6Program] IS NULL) OR ([E6Program] = @Original_E6Program)) AND ((@IsNull_Sherpa = 1 AND [Sherpa] IS NULL) OR ([Sherpa] = @Original_Sherpa)) AND ((@IsNull_EnterEARR = 1 AND [EnterEARR] IS NULL) OR ([EnterEARR] = @Original_EnterEARR)) AND ((@IsNull_Jaguar16082 = 1 AND [Jaguar16082] IS NULL) OR ([Jaguar16082] = @Original_Jaguar16082)) AND ((@IsNull_SignedName = 1 AND [SignedName] IS NULL) OR ([SignedName] = @Original_SignedName)) AND ((@IsNull_ReadOnly = 1 AND [ReadOnly] IS NULL) OR ([ReadOnly] = @Original_ReadOnly)) AND ((@IsNull_CBP16033 = 1 AND [CBP16033] IS NULL) OR ([CBP16033] = @Original_CBP16033)) AND ((@IsNull_JaguarOnly = 1 AND [JaguarOnly] IS NULL) OR ([JaguarOnly] = @Original_JaguarOnly)) AND ((@IsNull_RepetitiveSale = 1 AND [RepetitiveSale] IS NULL) OR ([RepetitiveSale] = @Original_RepetitiveSale)) AND ((@IsNull_MIT192181 = 1 AND [MIT192181] IS NULL) OR ([MIT192181] = @Original_MIT192181)) AND ((@IsNull_SCG1903 = 1 AND [SCG1903] IS NULL) OR ([SCG1903] = @Original_SCG1903)) AND ((@IsNull_CAE16190 = 1 AND [CAE16190] IS NULL) OR ([CAE16190] = @Original_CAE16190)) AND ((@IsNull_Jaguar2635 = 1 AND [Jaguar2635] IS NULL) OR ([Jaguar2635] = @Original_Jaguar2635)) AND ((@IsNull_MMSAC2640 = 1 AND [MMSAC2640] IS NULL) OR ([MMSAC2640] = @Original_MMSAC2640)) AND ((@IsNull_SuperUser = 1 AND [SuperUser] IS NULL) OR ([SuperUser] = @Original_SuperUser)) AND ((@IsNull_MITN108EW = 1 AND [MITN108EW] IS NULL) OR ([MITN108EW] = @Original_MITN108EW)) AND ((@IsNull_BAS16142 = 1 AND [BAS16142] IS NULL) OR ([BAS16142] = @Original_BAS16142)) AND ((@IsNull_DRAKEN4610 = 1 AND [DRAKEN4610] IS NULL) OR ([DRAKEN4610] = @Original_DRAKEN4610)));
+SELECT RecordID, Username, Email, JaguarProgram, E6Program, Sherpa, EnterEARR, Jaguar16082, SignedName, ReadOnly, CBP16033, JaguarOnly, RepetitiveSale, MIT192181, SCG1903, CAE16190, Jaguar2635, MMSAC2640, SuperUser, MITN108EW, BAS16142, DRAKEN4610 FROM tblUsers WHERE (RecordID = @RecordID)</value>
+  </data>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [tblUsers] WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_Username = 1 AND [Username] IS NULL) OR ([Username] = @Original_Username)) AND ((@IsNull_Email = 1 AND [Email] IS NULL) OR ([Email] = @Original_Email)) AND ((@IsNull_JaguarProgram = 1 AND [JaguarProgram] IS NULL) OR ([JaguarProgram] = @Original_JaguarProgram)) AND ((@IsNull_E6Program = 1 AND [E6Program] IS NULL) OR ([E6Program] = @Original_E6Program)) AND ((@IsNull_Sherpa = 1 AND [Sherpa] IS NULL) OR ([Sherpa] = @Original_Sherpa)) AND ((@IsNull_EnterEARR = 1 AND [EnterEARR] IS NULL) OR ([EnterEARR] = @Original_EnterEARR)) AND ((@IsNull_Jaguar16082 = 1 AND [Jaguar16082] IS NULL) OR ([Jaguar16082] = @Original_Jaguar16082)) AND ((@IsNull_SignedName = 1 AND [SignedName] IS NULL) OR ([SignedName] = @Original_SignedName)) AND ((@IsNull_ReadOnly = 1 AND [ReadOnly] IS NULL) OR ([ReadOnly] = @Original_ReadOnly)) AND ((@IsNull_CBP16033 = 1 AND [CBP16033] IS NULL) OR ([CBP16033] = @Original_CBP16033)) AND ((@IsNull_JaguarOnly = 1 AND [JaguarOnly] IS NULL) OR ([JaguarOnly] = @Original_JaguarOnly)) AND ((@IsNull_RepetitiveSale = 1 AND [RepetitiveSale] IS NULL) OR ([RepetitiveSale] = @Original_RepetitiveSale)) AND ((@IsNull_MIT192181 = 1 AND [MIT192181] IS NULL) OR ([MIT192181] = @Original_MIT192181)) AND ((@IsNull_SCG1903 = 1 AND [SCG1903] IS NULL) OR ([SCG1903] = @Original_SCG1903)) AND ((@IsNull_CAE16190 = 1 AND [CAE16190] IS NULL) OR ([CAE16190] = @Original_CAE16190)) AND ((@IsNull_Jaguar2635 = 1 AND [Jaguar2635] IS NULL) OR ([Jaguar2635] = @Original_Jaguar2635)) AND ((@IsNull_MMSAC2640 = 1 AND [MMSAC2640] IS NULL) OR ([MMSAC2640] = @Original_MMSAC2640)) AND ((@IsNull_SuperUser = 1 AND [SuperUser] IS NULL) OR ([SuperUser] = @Original_SuperUser)) AND ((@IsNull_MITN108EW = 1 AND [MITN108EW] IS NULL) OR ([MITN108EW] = @Original_MITN108EW)) AND ((@IsNull_BAS16142 = 1 AND [BAS16142] IS NULL) OR ([BAS16142] = @Original_BAS16142)) AND ((@IsNull_DRAKEN4610 = 1 AND [DRAKEN4610] IS NULL) OR ([DRAKEN4610] = @Original_DRAKEN4610)))</value>
+  </data>
+  <metadata name="daEARRUsers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

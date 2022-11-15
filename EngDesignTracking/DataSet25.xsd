@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet25" targetNamespace="http://tempuri.org/DataSet25.xsd" xmlns:mstns="http://tempuri.org/DataSet25.xsd" xmlns="http://tempuri.org/DataSet25.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet25" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet25" msprop:Generator_UserDSName="DataSet25">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDrawingCertUMApproval" msprop:Generator_TableClassName="tblDrawingCertUMApprovalDataTable" msprop:Generator_TableVarName="tabletblDrawingCertUMApproval" msprop:Generator_RowChangedName="tblDrawingCertUMApprovalRowChanged" msprop:Generator_TablePropName="tblDrawingCertUMApproval" msprop:Generator_RowDeletingName="tblDrawingCertUMApprovalRowDeleting" msprop:Generator_RowChangingName="tblDrawingCertUMApprovalRowChanging" msprop:Generator_RowEvHandlerName="tblDrawingCertUMApprovalRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDrawingCertUMApprovalRowDeleted" msprop:Generator_RowClassName="tblDrawingCertUMApprovalRow" msprop:Generator_UserTableName="tblDrawingCertUMApproval" msprop:Generator_RowEvArgName="tblDrawingCertUMApprovalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="DwgRecordID" msprop:Generator_ColumnVarNameInTable="columnDwgRecordID" msprop:Generator_ColumnPropNameInRow="DwgRecordID" msprop:Generator_ColumnPropNameInTable="DwgRecordIDColumn" msprop:Generator_UserColumnName="DwgRecordID" type="xs:int" minOccurs="0" />
+              <xs:element name="UMName" msprop:Generator_ColumnVarNameInTable="columnUMName" msprop:Generator_ColumnPropNameInRow="UMName" msprop:Generator_ColumnPropNameInTable="UMNameColumn" msprop:Generator_UserColumnName="UMName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UMSpecialty" msprop:Generator_ColumnVarNameInTable="columnUMSpecialty" msprop:Generator_ColumnPropNameInRow="UMSpecialty" msprop:Generator_ColumnPropNameInTable="UMSpecialtyColumn" msprop:Generator_UserColumnName="UMSpecialty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UMRecommendApproval" msprop:Generator_ColumnVarNameInTable="columnUMRecommendApproval" msprop:Generator_ColumnPropNameInRow="UMRecommendApproval" msprop:Generator_ColumnPropNameInTable="UMRecommendApprovalColumn" msprop:Generator_UserColumnName="UMRecommendApproval" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UMApproval" msprop:Generator_ColumnVarNameInTable="columnUMApproval" msprop:Generator_ColumnPropNameInRow="UMApproval" msprop:Generator_ColumnPropNameInTable="UMApprovalColumn" msprop:Generator_UserColumnName="UMApproval" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RequiredToApprove" msprop:Generator_ColumnVarNameInTable="columnRequiredToApprove" msprop:Generator_ColumnPropNameInRow="RequiredToApprove" msprop:Generator_ColumnPropNameInTable="RequiredToApproveColumn" msprop:Generator_UserColumnName="RequiredToApprove" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" msprop:Generator_UserColumnName="Comments" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateSubmitted" msprop:Generator_ColumnVarNameInTable="columnDateSubmitted" msprop:Generator_ColumnPropNameInRow="DateSubmitted" msprop:Generator_ColumnPropNameInTable="DateSubmittedColumn" msprop:Generator_UserColumnName="DateSubmitted" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateNeeded" msprop:Generator_ColumnVarNameInTable="columnDateNeeded" msprop:Generator_ColumnPropNameInRow="DateNeeded" msprop:Generator_ColumnPropNameInTable="DateNeededColumn" msprop:Generator_UserColumnName="DateNeeded" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateCommentsReturned" msprop:Generator_ColumnVarNameInTable="columnDateCommentsReturned" msprop:Generator_ColumnPropNameInRow="DateCommentsReturned" msprop:Generator_ColumnPropNameInTable="DateCommentsReturnedColumn" msprop:Generator_UserColumnName="DateCommentsReturned" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDrawingCertUMApproval" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

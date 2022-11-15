@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bsNCRMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>400, 17</value>
+  </metadata>
+  <metadata name="DsNCRMain1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>298, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        RecordID, NCRNumber, Title, Status, Step, LatestStep, AcceptedStep, ActualStep, Location, AbortedReason, AbortedBy, ResubmittedReason, ResubmittedBy, ResubmittedDt, UsernameWhoAborted, AbortedDt, 
+                         UsernameWhoResubmitted, Program, SerialNum, SerialNumType, DrawingNumber, DwgRevision, PartNumber, PartDescription, WorkOrderStep, PurchaseOrderNum, OriginatorName, SubmissionDt, Discrepancy, Comments, 
+                         Type, GraphicName, Graphics, WhereDiscovered, Manufacturer, Quantity, ReportedBy, TypeOfError, DispositionType, StatusNotes, DateClosed, AdditionalActions, Notes, CostIsSignificant, MRB, Engineer, None, NotifyCustomer, 
+                         WriteCAR, WriteSCAR, WriteCPAR, Other, ERAS, DateERASUpdated, ERASUpdatedBy, WorkOrder, StepWorkOrder
+FROM            tblNCR</value>
+  </data>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [tblNCR] ([NCRNumber], [Title], [Status], [Step], [LatestStep], [AcceptedStep], [ActualStep], [Location], [AbortedReason], [AbortedBy], [ResubmittedReason], [ResubmittedBy], [ResubmittedDt], [UsernameWhoAborted], [AbortedDt], [UsernameWhoResubmitted], [Program], [SerialNum], [SerialNumType], [DrawingNumber], [DwgRevision], [PartNumber], [PartDescription], [WorkOrderStep], [PurchaseOrderNum], [OriginatorName], [SubmissionDt], [Discrepancy], [Comments], [Type], [GraphicName], [Graphics], [WhereDiscovered], [Manufacturer], [Quantity], [ReportedBy], [TypeOfError], [DispositionType], [StatusNotes], [DateClosed], [AdditionalActions], [Notes], [CostIsSignificant], [MRB], [Engineer], [None], [NotifyCustomer], [WriteCAR], [WriteSCAR], [WriteCPAR], [Other], [ERAS], [DateERASUpdated], [ERASUpdatedBy], [WorkOrder], [StepWorkOrder]) VALUES (@NCRNumber, @Title, @Status, @Step, @LatestStep, @AcceptedStep, @ActualStep, @Location, @AbortedReason, @AbortedBy, @ResubmittedReason, @ResubmittedBy, @ResubmittedDt, @UsernameWhoAborted, @AbortedDt, @UsernameWhoResubmitted, @Program, @SerialNum, @SerialNumType, @DrawingNumber, @DwgRevision, @PartNumber, @PartDescription, @WorkOrderStep, @PurchaseOrderNum, @OriginatorName, @SubmissionDt, @Discrepancy, @Comments, @Type, @GraphicName, @Graphics, @WhereDiscovered, @Manufacturer, @Quantity, @ReportedBy, @TypeOfError, @DispositionType, @StatusNotes, @DateClosed, @AdditionalActions, @Notes, @CostIsSignificant, @MRB, @Engineer, @None, @NotifyCustomer, @WriteCAR, @WriteSCAR, @WriteCPAR, @Other, @ERAS, @DateERASUpdated, @ERASUpdatedBy, @WorkOrder, @StepWorkOrder);
+SELECT RecordID, NCRNumber, Title, Status, Step, LatestStep, AcceptedStep, ActualStep, Location, AbortedReason, AbortedBy, ResubmittedReason, ResubmittedBy, ResubmittedDt, UsernameWhoAborted, AbortedDt, UsernameWhoResubmitted, Program, SerialNum, SerialNumType, DrawingNumber, DwgRevision, PartNumber, PartDescription, WorkOrderStep, PurchaseOrderNum, OriginatorName, SubmissionDt, Discrepancy, Comments, Type, GraphicName, Graphics, WhereDiscovered, Manufacturer, Quantity, ReportedBy, TypeOfError, DispositionType, StatusNotes, DateClosed, AdditionalActions, Notes, CostIsSignificant, MRB, Engineer, None, NotifyCustomer, WriteCAR, WriteSCAR, WriteCPAR, Other, ERAS, DateERASUpdated, ERASUpdatedBy, WorkOrder, StepWorkOrder FROM tblNCR WHERE (RecordID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [tblNCR] SET [NCRNumber] = @NCRNumber, [Title] = @Title, [Status] = @Status, [Step] = @Step, [LatestStep] = @LatestStep, [AcceptedStep] = @AcceptedStep, [ActualStep] = @ActualStep, [Location] = @Location, [AbortedReason] = @AbortedReason, [AbortedBy] = @AbortedBy, [ResubmittedReason] = @ResubmittedReason, [ResubmittedBy] = @ResubmittedBy, [ResubmittedDt] = @ResubmittedDt, [UsernameWhoAborted] = @UsernameWhoAborted, [AbortedDt] = @AbortedDt, [UsernameWhoResubmitted] = @UsernameWhoResubmitted, [Program] = @Program, [SerialNum] = @SerialNum, [SerialNumType] = @SerialNumType, [DrawingNumber] = @DrawingNumber, [DwgRevision] = @DwgRevision, [PartNumber] = @PartNumber, [PartDescription] = @PartDescription, [WorkOrderStep] = @WorkOrderStep, [PurchaseOrderNum] = @PurchaseOrderNum, [OriginatorName] = @OriginatorName, [SubmissionDt] = @SubmissionDt, [Discrepancy] = @Discrepancy, [Comments] = @Comments, [Type] = @Type, [GraphicName] = @GraphicName, [Graphics] = @Graphics, [WhereDiscovered] = @WhereDiscovered, [Manufacturer] = @Manufacturer, [Quantity] = @Quantity, [ReportedBy] = @ReportedBy, [TypeOfError] = @TypeOfError, [DispositionType] = @DispositionType, [StatusNotes] = @StatusNotes, [DateClosed] = @DateClosed, [AdditionalActions] = @AdditionalActions, [Notes] = @Notes, [CostIsSignificant] = @CostIsSignificant, [MRB] = @MRB, [Engineer] = @Engineer, [None] = @None, [NotifyCustomer] = @NotifyCustomer, [WriteCAR] = @WriteCAR, [WriteSCAR] = @WriteSCAR, [WriteCPAR] = @WriteCPAR, [Other] = @Other, [ERAS] = @ERAS, [DateERASUpdated] = @DateERASUpdated, [ERASUpdatedBy] = @ERASUpdatedBy, [WorkOrder] = @WorkOrder, [StepWorkOrder] = @StepWorkOrder WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_NCRNumber = 1 AND [NCRNumber] IS NULL) OR ([NCRNumber] = @Original_NCRNumber)) AND ((@IsNull_Title = 1 AND [Title] IS NULL) OR ([Title] = @Original_Title)) AND ((@IsNull_Status = 1 AND [Status] IS NULL) OR ([Status] = @Original_Status)) AND ((@IsNull_Step = 1 AND [Step] IS NULL) OR ([Step] = @Original_Step)) AND ((@IsNull_LatestStep = 1 AND [LatestStep] IS NULL) OR ([LatestStep] = @Original_LatestStep)) AND ((@IsNull_AcceptedStep = 1 AND [AcceptedStep] IS NULL) OR ([AcceptedStep] = @Original_AcceptedStep)) AND ((@IsNull_ActualStep = 1 AND [ActualStep] IS NULL) OR ([ActualStep] = @Original_ActualStep)) AND ((@IsNull_Location = 1 AND [Location] IS NULL) OR ([Location] = @Original_Location)) AND ((@IsNull_AbortedReason = 1 AND [AbortedReason] IS NULL) OR ([AbortedReason] = @Original_AbortedReason)) AND ((@IsNull_AbortedBy = 1 AND [AbortedBy] IS NULL) OR ([AbortedBy] = @Original_AbortedBy)) AND ((@IsNull_ResubmittedReason = 1 AND [ResubmittedReason] IS NULL) OR ([ResubmittedReason] = @Original_ResubmittedReason)) AND ((@IsNull_ResubmittedBy = 1 AND [ResubmittedBy] IS NULL) OR ([ResubmittedBy] = @Original_ResubmittedBy)) AND ((@IsNull_ResubmittedDt = 1 AND [ResubmittedDt] IS NULL) OR ([ResubmittedDt] = @Original_ResubmittedDt)) AND ((@IsNull_UsernameWhoAborted = 1 AND [UsernameWhoAborted] IS NULL) OR ([UsernameWhoAborted] = @Original_UsernameWhoAborted)) AND ((@IsNull_AbortedDt = 1 AND [AbortedDt] IS NULL) OR ([AbortedDt] = @Original_AbortedDt)) AND ((@IsNull_UsernameWhoResubmitted = 1 AND [UsernameWhoResubmitted] IS NULL) OR ([UsernameWhoResubmitted] = @Original_UsernameWhoResubmitted)) AND ((@IsNull_Program = 1 AND [Program] IS NULL) OR ([Program] = @Original_Program)) AND ((@IsNull_SerialNum = 1 AND [SerialNum] IS NULL) OR ([SerialNum] = @Original_SerialNum)) AND ((@IsNull_SerialNumType = 1 AND [SerialNumType] IS NULL) OR ([SerialNumType] = @Original_SerialNumType)) AND ((@IsNull_DrawingNumber = 1 AND [DrawingNumber] IS NULL) OR ([DrawingNumber] = @Original_DrawingNumber)) AND ((@IsNull_DwgRevision = 1 AND [DwgRevision] IS NULL) OR ([DwgRevision] = @Original_DwgRevision)) AND ((@IsNull_PartNumber = 1 AND [PartNumber] IS NULL) OR ([PartNumber] = @Original_PartNumber)) AND ((@IsNull_PartDescription = 1 AND [PartDescription] IS NULL) OR ([PartDescription] = @Original_PartDescription)) AND ((@IsNull_WorkOrderStep = 1 AND [WorkOrderStep] IS NULL) OR ([WorkOrderStep] = @Original_WorkOrderStep)) AND ((@IsNull_PurchaseOrderNum = 1 AND [PurchaseOrderNum] IS NULL) OR ([PurchaseOrderNum] = @Original_PurchaseOrderNum)) AND ((@IsNull_OriginatorName = 1 AND [OriginatorName] IS NULL) OR ([OriginatorName] = @Original_OriginatorName)) AND ((@IsNull_SubmissionDt = 1 AND [SubmissionDt] IS NULL) OR ([SubmissionDt] = @Original_SubmissionDt)) AND ((@IsNull_Discrepancy = 1 AND [Discrepancy] IS NULL) OR ([Discrepancy] = @Original_Discrepancy)) AND ((@IsNull_Comments = 1 AND [Comments] IS NULL) OR ([Comments] = @Original_Comments)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_GraphicName = 1 AND [GraphicName] IS NULL) OR ([GraphicName] = @Original_GraphicName)) AND ((@IsNull_WhereDiscovered = 1 AND [WhereDiscovered] IS NULL) OR ([WhereDiscovered] = @Original_WhereDiscovered)) AND ((@IsNull_Manufacturer = 1 AND [Manufacturer] IS NULL) OR ([Manufacturer] = @Original_Manufacturer)) AND ((@IsNull_Quantity = 1 AND [Quantity] IS NULL) OR ([Quantity] = @Original_Quantity)) AND ((@IsNull_ReportedBy = 1 AND [ReportedBy] IS NULL) OR ([ReportedBy] = @Original_ReportedBy)) AND ((@IsNull_TypeOfError = 1 AND [TypeOfError] IS NULL) OR ([TypeOfError] = @Original_TypeOfError)) AND ((@IsNull_DispositionType = 1 AND [DispositionType] IS NULL) OR ([DispositionType] = @Original_DispositionType)) AND ((@IsNull_StatusNotes = 1 AND [StatusNotes] IS NULL) OR ([StatusNotes] = @Original_StatusNotes)) AND ((@IsNull_DateClosed = 1 AND [DateClosed] IS NULL) OR ([DateClosed] = @Original_DateClosed)) AND ((@IsNull_AdditionalActions = 1 AND [AdditionalActions] IS NULL) OR ([AdditionalActions] = @Original_AdditionalActions)) AND ((@IsNull_Notes = 1 AND [Notes] IS NULL) OR ([Notes] = @Original_Notes)) AND ((@IsNull_CostIsSignificant = 1 AND [CostIsSignificant] IS NULL) OR ([CostIsSignificant] = @Original_CostIsSignificant)) AND ((@IsNull_MRB = 1 AND [MRB] IS NULL) OR ([MRB] = @Original_MRB)) AND ((@IsNull_Engineer = 1 AND [Engineer] IS NULL) OR ([Engineer] = @Original_Engineer)) AND ((@IsNull_None = 1 AND [None] IS NULL) OR ([None] = @Original_None)) AND ((@IsNull_NotifyCustomer = 1 AND [NotifyCustomer] IS NULL) OR ([NotifyCustomer] = @Original_NotifyCustomer)) AND ((@IsNull_WriteCAR = 1 AND [WriteCAR] IS NULL) OR ([WriteCAR] = @Original_WriteCAR)) AND ((@IsNull_WriteSCAR = 1 AND [WriteSCAR] IS NULL) OR ([WriteSCAR] = @Original_WriteSCAR)) AND ((@IsNull_WriteCPAR = 1 AND [WriteCPAR] IS NULL) OR ([WriteCPAR] = @Original_WriteCPAR)) AND ((@IsNull_Other = 1 AND [Other] IS NULL) OR ([Other] = @Original_Other)) AND ((@IsNull_ERAS = 1 AND [ERAS] IS NULL) OR ([ERAS] = @Original_ERAS)) AND ((@IsNull_DateERASUpdated = 1 AND [DateERASUpdated] IS NULL) OR ([DateERASUpdated] = @Original_DateERASUpdated)) AND ((@IsNull_ERASUpdatedBy = 1 AND [ERASUpdatedBy] IS NULL) OR ([ERASUpdatedBy] = @Original_ERASUpdatedBy)) AND ((@IsNull_WorkOrder = 1 AND [WorkOrder] IS NULL) OR ([WorkOrder] = @Original_WorkOrder)) AND ((@IsNull_StepWorkOrder = 1 AND [StepWorkOrder] IS NULL) OR ([StepWorkOrder] = @Original_StepWorkOrder)));
+SELECT RecordID, NCRNumber, Title, Status, Step, LatestStep, AcceptedStep, ActualStep, Location, AbortedReason, AbortedBy, ResubmittedReason, ResubmittedBy, ResubmittedDt, UsernameWhoAborted, AbortedDt, UsernameWhoResubmitted, Program, SerialNum, SerialNumType, DrawingNumber, DwgRevision, PartNumber, PartDescription, WorkOrderStep, PurchaseOrderNum, OriginatorName, SubmissionDt, Discrepancy, Comments, Type, GraphicName, Graphics, WhereDiscovered, Manufacturer, Quantity, ReportedBy, TypeOfError, DispositionType, StatusNotes, DateClosed, AdditionalActions, Notes, CostIsSignificant, MRB, Engineer, None, NotifyCustomer, WriteCAR, WriteSCAR, WriteCPAR, Other, ERAS, DateERASUpdated, ERASUpdatedBy, WorkOrder, StepWorkOrder FROM tblNCR WHERE (RecordID = @RecordID)</value>
+  </data>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [tblNCR] WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_NCRNumber = 1 AND [NCRNumber] IS NULL) OR ([NCRNumber] = @Original_NCRNumber)) AND ((@IsNull_Title = 1 AND [Title] IS NULL) OR ([Title] = @Original_Title)) AND ((@IsNull_Status = 1 AND [Status] IS NULL) OR ([Status] = @Original_Status)) AND ((@IsNull_Step = 1 AND [Step] IS NULL) OR ([Step] = @Original_Step)) AND ((@IsNull_LatestStep = 1 AND [LatestStep] IS NULL) OR ([LatestStep] = @Original_LatestStep)) AND ((@IsNull_AcceptedStep = 1 AND [AcceptedStep] IS NULL) OR ([AcceptedStep] = @Original_AcceptedStep)) AND ((@IsNull_ActualStep = 1 AND [ActualStep] IS NULL) OR ([ActualStep] = @Original_ActualStep)) AND ((@IsNull_Location = 1 AND [Location] IS NULL) OR ([Location] = @Original_Location)) AND ((@IsNull_AbortedReason = 1 AND [AbortedReason] IS NULL) OR ([AbortedReason] = @Original_AbortedReason)) AND ((@IsNull_AbortedBy = 1 AND [AbortedBy] IS NULL) OR ([AbortedBy] = @Original_AbortedBy)) AND ((@IsNull_ResubmittedReason = 1 AND [ResubmittedReason] IS NULL) OR ([ResubmittedReason] = @Original_ResubmittedReason)) AND ((@IsNull_ResubmittedBy = 1 AND [ResubmittedBy] IS NULL) OR ([ResubmittedBy] = @Original_ResubmittedBy)) AND ((@IsNull_ResubmittedDt = 1 AND [ResubmittedDt] IS NULL) OR ([ResubmittedDt] = @Original_ResubmittedDt)) AND ((@IsNull_UsernameWhoAborted = 1 AND [UsernameWhoAborted] IS NULL) OR ([UsernameWhoAborted] = @Original_UsernameWhoAborted)) AND ((@IsNull_AbortedDt = 1 AND [AbortedDt] IS NULL) OR ([AbortedDt] = @Original_AbortedDt)) AND ((@IsNull_UsernameWhoResubmitted = 1 AND [UsernameWhoResubmitted] IS NULL) OR ([UsernameWhoResubmitted] = @Original_UsernameWhoResubmitted)) AND ((@IsNull_Program = 1 AND [Program] IS NULL) OR ([Program] = @Original_Program)) AND ((@IsNull_SerialNum = 1 AND [SerialNum] IS NULL) OR ([SerialNum] = @Original_SerialNum)) AND ((@IsNull_SerialNumType = 1 AND [SerialNumType] IS NULL) OR ([SerialNumType] = @Original_SerialNumType)) AND ((@IsNull_DrawingNumber = 1 AND [DrawingNumber] IS NULL) OR ([DrawingNumber] = @Original_DrawingNumber)) AND ((@IsNull_DwgRevision = 1 AND [DwgRevision] IS NULL) OR ([DwgRevision] = @Original_DwgRevision)) AND ((@IsNull_PartNumber = 1 AND [PartNumber] IS NULL) OR ([PartNumber] = @Original_PartNumber)) AND ((@IsNull_PartDescription = 1 AND [PartDescription] IS NULL) OR ([PartDescription] = @Original_PartDescription)) AND ((@IsNull_WorkOrderStep = 1 AND [WorkOrderStep] IS NULL) OR ([WorkOrderStep] = @Original_WorkOrderStep)) AND ((@IsNull_PurchaseOrderNum = 1 AND [PurchaseOrderNum] IS NULL) OR ([PurchaseOrderNum] = @Original_PurchaseOrderNum)) AND ((@IsNull_OriginatorName = 1 AND [OriginatorName] IS NULL) OR ([OriginatorName] = @Original_OriginatorName)) AND ((@IsNull_SubmissionDt = 1 AND [SubmissionDt] IS NULL) OR ([SubmissionDt] = @Original_SubmissionDt)) AND ((@IsNull_Discrepancy = 1 AND [Discrepancy] IS NULL) OR ([Discrepancy] = @Original_Discrepancy)) AND ((@IsNull_Comments = 1 AND [Comments] IS NULL) OR ([Comments] = @Original_Comments)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_GraphicName = 1 AND [GraphicName] IS NULL) OR ([GraphicName] = @Original_GraphicName)) AND ((@IsNull_WhereDiscovered = 1 AND [WhereDiscovered] IS NULL) OR ([WhereDiscovered] = @Original_WhereDiscovered)) AND ((@IsNull_Manufacturer = 1 AND [Manufacturer] IS NULL) OR ([Manufacturer] = @Original_Manufacturer)) AND ((@IsNull_Quantity = 1 AND [Quantity] IS NULL) OR ([Quantity] = @Original_Quantity)) AND ((@IsNull_ReportedBy = 1 AND [ReportedBy] IS NULL) OR ([ReportedBy] = @Original_ReportedBy)) AND ((@IsNull_TypeOfError = 1 AND [TypeOfError] IS NULL) OR ([TypeOfError] = @Original_TypeOfError)) AND ((@IsNull_DispositionType = 1 AND [DispositionType] IS NULL) OR ([DispositionType] = @Original_DispositionType)) AND ((@IsNull_StatusNotes = 1 AND [StatusNotes] IS NULL) OR ([StatusNotes] = @Original_StatusNotes)) AND ((@IsNull_DateClosed = 1 AND [DateClosed] IS NULL) OR ([DateClosed] = @Original_DateClosed)) AND ((@IsNull_AdditionalActions = 1 AND [AdditionalActions] IS NULL) OR ([AdditionalActions] = @Original_AdditionalActions)) AND ((@IsNull_Notes = 1 AND [Notes] IS NULL) OR ([Notes] = @Original_Notes)) AND ((@IsNull_CostIsSignificant = 1 AND [CostIsSignificant] IS NULL) OR ([CostIsSignificant] = @Original_CostIsSignificant)) AND ((@IsNull_MRB = 1 AND [MRB] IS NULL) OR ([MRB] = @Original_MRB)) AND ((@IsNull_Engineer = 1 AND [Engineer] IS NULL) OR ([Engineer] = @Original_Engineer)) AND ((@IsNull_None = 1 AND [None] IS NULL) OR ([None] = @Original_None)) AND ((@IsNull_NotifyCustomer = 1 AND [NotifyCustomer] IS NULL) OR ([NotifyCustomer] = @Original_NotifyCustomer)) AND ((@IsNull_WriteCAR = 1 AND [WriteCAR] IS NULL) OR ([WriteCAR] = @Original_WriteCAR)) AND ((@IsNull_WriteSCAR = 1 AND [WriteSCAR] IS NULL) OR ([WriteSCAR] = @Original_WriteSCAR)) AND ((@IsNull_WriteCPAR = 1 AND [WriteCPAR] IS NULL) OR ([WriteCPAR] = @Original_WriteCPAR)) AND ((@IsNull_Other = 1 AND [Other] IS NULL) OR ([Other] = @Original_Other)) AND ((@IsNull_ERAS = 1 AND [ERAS] IS NULL) OR ([ERAS] = @Original_ERAS)) AND ((@IsNull_DateERASUpdated = 1 AND [DateERASUpdated] IS NULL) OR ([DateERASUpdated] = @Original_DateERASUpdated)) AND ((@IsNull_ERASUpdatedBy = 1 AND [ERASUpdatedBy] IS NULL) OR ([ERASUpdatedBy] = @Original_ERASUpdatedBy)) AND ((@IsNull_WorkOrder = 1 AND [WorkOrder] IS NULL) OR ([WorkOrder] = @Original_WorkOrder)) AND ((@IsNull_StepWorkOrder = 1 AND [StepWorkOrder] IS NULL) OR ([StepWorkOrder] = @Original_StepWorkOrder)))</value>
+  </data>
+  <metadata name="SqlDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlConnection2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>516, 17</value>
+  </metadata>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>653, 17</value>
+  </metadata>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>768, 17</value>
+  </metadata>
+</root>

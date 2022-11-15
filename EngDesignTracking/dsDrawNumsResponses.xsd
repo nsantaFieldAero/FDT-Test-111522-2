@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDrawNumsResponses" targetNamespace="http://tempuri.org/dsDrawNumsResponses.xsd" xmlns:mstns="http://tempuri.org/dsDrawNumsResponses.xsd" xmlns="http://tempuri.org/dsDrawNumsResponses.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDrawNumsResponses" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsDrawNumsResponses" msprop:Generator_UserDSName="dsDrawNumsResponses">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDrawingsOfEARR" msprop:Generator_TableClassName="tblDrawingsOfEARRDataTable" msprop:Generator_TableVarName="tabletblDrawingsOfEARR" msprop:Generator_RowChangedName="tblDrawingsOfEARRRowChanged" msprop:Generator_TablePropName="tblDrawingsOfEARR" msprop:Generator_RowDeletingName="tblDrawingsOfEARRRowDeleting" msprop:Generator_RowChangingName="tblDrawingsOfEARRRowChanging" msprop:Generator_RowEvHandlerName="tblDrawingsOfEARRRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDrawingsOfEARRRowDeleted" msprop:Generator_RowClassName="tblDrawingsOfEARRRow" msprop:Generator_UserTableName="tblDrawingsOfEARR" msprop:Generator_RowEvArgName="tblDrawingsOfEARRRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="Earr" msprop:Generator_ColumnVarNameInTable="columnEarr" msprop:Generator_ColumnPropNameInRow="Earr" msprop:Generator_ColumnPropNameInTable="EarrColumn" msprop:Generator_UserColumnName="Earr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrawNum" msprop:Generator_ColumnVarNameInTable="columnDrawNum" msprop:Generator_ColumnPropNameInRow="DrawNum" msprop:Generator_ColumnPropNameInTable="DrawNumColumn" msprop:Generator_UserColumnName="DrawNum" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rev" msprop:Generator_ColumnVarNameInTable="columnRev" msprop:Generator_ColumnPropNameInRow="Rev" msprop:Generator_ColumnPropNameInTable="RevColumn" msprop:Generator_UserColumnName="Rev" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrawNumRev" msprop:Generator_ColumnVarNameInTable="columnDrawNumRev" msprop:Generator_ColumnPropNameInRow="DrawNumRev" msprop:Generator_ColumnPropNameInTable="DrawNumRevColumn" msprop:Generator_UserColumnName="DrawNumRev" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrawTitle" msprop:Generator_ColumnVarNameInTable="columnDrawTitle" msprop:Generator_ColumnPropNameInRow="DrawTitle" msprop:Generator_ColumnPropNameInTable="DrawTitleColumn" msprop:Generator_UserColumnName="DrawTitle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Response" msprop:Generator_ColumnVarNameInTable="columnResponse" msprop:Generator_ColumnPropNameInRow="Response" msprop:Generator_ColumnPropNameInTable="ResponseColumn" msprop:Generator_UserColumnName="Response" type="xs:string" minOccurs="0" />
+              <xs:element name="ResponseDocTitle" msprop:Generator_ColumnVarNameInTable="columnResponseDocTitle" msprop:Generator_ColumnPropNameInRow="ResponseDocTitle" msprop:Generator_ColumnPropNameInTable="ResponseDocTitleColumn" msprop:Generator_UserColumnName="ResponseDocTitle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDrawingsOfEARR" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

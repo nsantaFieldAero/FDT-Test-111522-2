@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAircraftSerial" targetNamespace="http://tempuri.org/dsAircraftSerial.xsd" xmlns:mstns="http://tempuri.org/dsAircraftSerial.xsd" xmlns="http://tempuri.org/dsAircraftSerial.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAircraftSerial" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAircraftSerial" msprop:Generator_DataSetName="dsAircraftSerial">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblAircraftSerialNums" msprop:Generator_TableClassName="tblAircraftSerialNumsDataTable" msprop:Generator_TableVarName="tabletblAircraftSerialNums" msprop:Generator_TablePropName="tblAircraftSerialNums" msprop:Generator_RowDeletingName="tblAircraftSerialNumsRowDeleting" msprop:Generator_RowChangingName="tblAircraftSerialNumsRowChanging" msprop:Generator_RowEvHandlerName="tblAircraftSerialNumsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblAircraftSerialNumsRowDeleted" msprop:Generator_UserTableName="tblAircraftSerialNums" msprop:Generator_RowChangedName="tblAircraftSerialNumsRowChanged" msprop:Generator_RowEvArgName="tblAircraftSerialNumsRowChangeEvent" msprop:Generator_RowClassName="tblAircraftSerialNumsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="SerialNum" msprop:Generator_ColumnVarNameInTable="columnSerialNum" msprop:Generator_ColumnPropNameInRow="SerialNum" msprop:Generator_ColumnPropNameInTable="SerialNumColumn" msprop:Generator_UserColumnName="SerialNum" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Aircraft" msprop:Generator_ColumnVarNameInTable="columnAircraft" msprop:Generator_ColumnPropNameInRow="Aircraft" msprop:Generator_ColumnPropNameInTable="AircraftColumn" msprop:Generator_UserColumnName="Aircraft" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Program" msprop:Generator_ColumnVarNameInTable="columnProgram" msprop:Generator_ColumnPropNameInRow="Program" msprop:Generator_ColumnPropNameInTable="ProgramColumn" msprop:Generator_UserColumnName="Program" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Project" msprop:Generator_ColumnVarNameInTable="columnProject" msprop:Generator_ColumnPropNameInRow="Project" msprop:Generator_ColumnPropNameInTable="ProjectColumn" msprop:Generator_UserColumnName="Project" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="System" msprop:Generator_ColumnVarNameInTable="columnSystem" msprop:Generator_ColumnPropNameInRow="System" msprop:Generator_ColumnPropNameInTable="SystemColumn" msprop:Generator_UserColumnName="System" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblAircraftSerialNums" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

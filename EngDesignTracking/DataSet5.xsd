@@ -12,7 +12,7 @@
   <xs:element name="DataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet5" msprop:Generator_UserDSName="DataSet5">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="tblEARR" msprop:Generator_TableClassName="tblEARRDataTable" msprop:Generator_TableVarName="tabletblEARR" msprop:Generator_TablePropName="tblEARR" msprop:Generator_RowDeletingName="tblEARRRowDeleting" msprop:Generator_RowChangingName="tblEARRRowChanging" msprop:Generator_RowEvHandlerName="tblEARRRowChangeEventHandler" msprop:Generator_RowDeletedName="tblEARRRowDeleted" msprop:Generator_UserTableName="tblEARR" msprop:Generator_RowChangedName="tblEARRRowChanged" msprop:Generator_RowEvArgName="tblEARRRowChangeEvent" msprop:Generator_RowClassName="tblEARRRow">
+        <xs:element name="tblEARR" msprop:Generator_TableClassName="tblEARRDataTable" msprop:Generator_TableVarName="tabletblEARR" msprop:Generator_RowChangedName="tblEARRRowChanged" msprop:Generator_TablePropName="tblEARR" msprop:Generator_RowDeletingName="tblEARRRowDeleting" msprop:Generator_RowChangingName="tblEARRRowChanging" msprop:Generator_RowEvHandlerName="tblEARRRowChangeEventHandler" msprop:Generator_RowDeletedName="tblEARRRowDeleted" msprop:Generator_RowClassName="tblEARRRow" msprop:Generator_UserTableName="tblEARR" msprop:Generator_RowEvArgName="tblEARRRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
@@ -61,7 +61,7 @@
               <xs:element name="DrawingNumber" msprop:Generator_ColumnVarNameInTable="columnDrawingNumber" msprop:Generator_ColumnPropNameInRow="DrawingNumber" msprop:Generator_ColumnPropNameInTable="DrawingNumberColumn" msprop:Generator_UserColumnName="DrawingNumber" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="50" />
+                    <xs:maxLength value="4000" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -202,6 +202,21 @@
                 </xs:simpleType>
               </xs:element>
               <xs:element name="DeviationNA" msprop:Generator_ColumnVarNameInTable="columnDeviationNA" msprop:Generator_ColumnPropNameInRow="DeviationNA" msprop:Generator_ColumnPropNameInTable="DeviationNAColumn" msprop:Generator_UserColumnName="DeviationNA" type="xs:boolean" minOccurs="0" />
+              <xs:element name="EstCompletionDate" msprop:Generator_ColumnVarNameInTable="columnEstCompletionDate" msprop:Generator_ColumnPropNameInRow="EstCompletionDate" msprop:Generator_ColumnPropNameInTable="EstCompletionDateColumn" msprop:Generator_UserColumnName="EstCompletionDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" msprop:Generator_UserColumnName="Comments" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Priority" msprop:Generator_ColumnVarNameInTable="columnPriority" msprop:Generator_ColumnPropNameInRow="Priority" msprop:Generator_ColumnPropNameInTable="PriorityColumn" msprop:Generator_UserColumnName="Priority" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

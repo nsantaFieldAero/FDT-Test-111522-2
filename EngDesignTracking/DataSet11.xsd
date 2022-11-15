@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet11" targetNamespace="http://tempuri.org/DataSet11.xsd" xmlns:mstns="http://tempuri.org/DataSet11.xsd" xmlns="http://tempuri.org/DataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet11" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet11" msprop:Generator_DataSetName="DataSet11">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDrawingCertAttachments" msprop:Generator_TableClassName="tblDrawingCertAttachmentsDataTable" msprop:Generator_TableVarName="tabletblDrawingCertAttachments" msprop:Generator_TablePropName="tblDrawingCertAttachments" msprop:Generator_RowDeletingName="tblDrawingCertAttachmentsRowDeleting" msprop:Generator_RowChangingName="tblDrawingCertAttachmentsRowChanging" msprop:Generator_RowEvHandlerName="tblDrawingCertAttachmentsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDrawingCertAttachmentsRowDeleted" msprop:Generator_UserTableName="tblDrawingCertAttachments" msprop:Generator_RowChangedName="tblDrawingCertAttachmentsRowChanged" msprop:Generator_RowEvArgName="tblDrawingCertAttachmentsRowChangeEvent" msprop:Generator_RowClassName="tblDrawingCertAttachmentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="DwgRecordID" msprop:Generator_ColumnVarNameInTable="columnDwgRecordID" msprop:Generator_ColumnPropNameInRow="DwgRecordID" msprop:Generator_ColumnPropNameInTable="DwgRecordIDColumn" msprop:Generator_UserColumnName="DwgRecordID" type="xs:int" minOccurs="0" />
+              <xs:element name="FilePath" msprop:Generator_ColumnVarNameInTable="columnFilePath" msprop:Generator_ColumnPropNameInRow="FilePath" msprop:Generator_ColumnPropNameInTable="FilePathColumn" msprop:Generator_UserColumnName="FilePath" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileDescription" msprop:Generator_ColumnVarNameInTable="columnFileDescription" msprop:Generator_ColumnPropNameInRow="FileDescription" msprop:Generator_ColumnPropNameInTable="FileDescriptionColumn" msprop:Generator_UserColumnName="FileDescription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ImgField" msprop:Generator_ColumnVarNameInTable="columnImgField" msprop:Generator_ColumnPropNameInRow="ImgField" msprop:Generator_ColumnPropNameInTable="ImgFieldColumn" msprop:Generator_UserColumnName="ImgField" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileExt" msprop:Generator_ColumnVarNameInTable="columnFileExt" msprop:Generator_ColumnPropNameInRow="FileExt" msprop:Generator_ColumnPropNameInTable="FileExtColumn" msprop:Generator_UserColumnName="FileExt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDrawingCertAttachments" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

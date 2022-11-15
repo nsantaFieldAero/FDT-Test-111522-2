@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDrawingsProjects" targetNamespace="http://tempuri.org/dsDrawingsProjects.xsd" xmlns:mstns="http://tempuri.org/dsDrawingsProjects.xsd" xmlns="http://tempuri.org/dsDrawingsProjects.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDrawingsProjects" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDrawingsProjects" msprop:Generator_DataSetName="dsDrawingsProjects">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDrawingsProjects" msprop:Generator_TableClassName="tblDrawingsProjectsDataTable" msprop:Generator_TableVarName="tabletblDrawingsProjects" msprop:Generator_TablePropName="tblDrawingsProjects" msprop:Generator_RowDeletingName="tblDrawingsProjectsRowDeleting" msprop:Generator_RowChangingName="tblDrawingsProjectsRowChanging" msprop:Generator_RowEvHandlerName="tblDrawingsProjectsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDrawingsProjectsRowDeleted" msprop:Generator_UserTableName="tblDrawingsProjects" msprop:Generator_RowChangedName="tblDrawingsProjectsRowChanged" msprop:Generator_RowEvArgName="tblDrawingsProjectsRowChangeEvent" msprop:Generator_RowClassName="tblDrawingsProjectsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="RecordIDParent" msprop:Generator_ColumnVarNameInTable="columnRecordIDParent" msprop:Generator_ColumnPropNameInRow="RecordIDParent" msprop:Generator_ColumnPropNameInTable="RecordIDParentColumn" msprop:Generator_UserColumnName="RecordIDParent" type="xs:int" minOccurs="0" />
+              <xs:element name="ProjectName" msprop:Generator_ColumnVarNameInTable="columnProjectName" msprop:Generator_ColumnPropNameInRow="ProjectName" msprop:Generator_ColumnPropNameInTable="ProjectNameColumn" msprop:Generator_UserColumnName="ProjectName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProjectNumber" msprop:Generator_ColumnVarNameInTable="columnProjectNumber" msprop:Generator_ColumnPropNameInRow="ProjectNumber" msprop:Generator_ColumnPropNameInTable="ProjectNumberColumn" msprop:Generator_UserColumnName="ProjectNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProgramName" msprop:Generator_ColumnVarNameInTable="columnProgramName" msprop:Generator_ColumnPropNameInRow="ProgramName" msprop:Generator_ColumnPropNameInTable="ProgramNameColumn" msprop:Generator_UserColumnName="ProgramName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProgramNumber" msprop:Generator_ColumnVarNameInTable="columnProgramNumber" msprop:Generator_ColumnPropNameInRow="ProgramNumber" msprop:Generator_ColumnPropNameInTable="ProgramNumberColumn" msprop:Generator_UserColumnName="ProgramNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="System" msprop:Generator_ColumnVarNameInTable="columnSystem" msprop:Generator_ColumnPropNameInRow="System" msprop:Generator_ColumnPropNameInTable="SystemColumn" msprop:Generator_UserColumnName="System" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrawingNumber" msprop:Generator_ColumnVarNameInTable="columnDrawingNumber" msprop:Generator_ColumnPropNameInRow="DrawingNumber" msprop:Generator_ColumnPropNameInTable="DrawingNumberColumn" msprop:Generator_UserColumnName="DrawingNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDrawingsProjects" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

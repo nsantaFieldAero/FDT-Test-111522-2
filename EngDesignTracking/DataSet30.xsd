@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet30" targetNamespace="http://tempuri.org/DataSet30.xsd" xmlns:mstns="http://tempuri.org/DataSet30.xsd" xmlns="http://tempuri.org/DataSet30.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet30" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet30" msprop:Generator_DataSetName="DataSet30">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblLiveMDL" msprop:Generator_TableClassName="tblLiveMDLDataTable" msprop:Generator_TableVarName="tabletblLiveMDL" msprop:Generator_TablePropName="tblLiveMDL" msprop:Generator_RowDeletingName="tblLiveMDLRowDeleting" msprop:Generator_RowChangingName="tblLiveMDLRowChanging" msprop:Generator_RowEvHandlerName="tblLiveMDLRowChangeEventHandler" msprop:Generator_RowDeletedName="tblLiveMDLRowDeleted" msprop:Generator_UserTableName="tblLiveMDL" msprop:Generator_RowChangedName="tblLiveMDLRowChanged" msprop:Generator_RowEvArgName="tblLiveMDLRowChangeEvent" msprop:Generator_RowClassName="tblLiveMDLRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="MDLNumber" msprop:Generator_ColumnVarNameInTable="columnMDLNumber" msprop:Generator_ColumnPropNameInRow="MDLNumber" msprop:Generator_ColumnPropNameInTable="MDLNumberColumn" msprop:Generator_UserColumnName="MDLNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Revision" msprop:Generator_ColumnVarNameInTable="columnRevision" msprop:Generator_ColumnPropNameInRow="Revision" msprop:Generator_ColumnPropNameInTable="RevisionColumn" msprop:Generator_UserColumnName="Revision" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

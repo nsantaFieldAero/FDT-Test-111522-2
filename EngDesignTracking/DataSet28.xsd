@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet28" targetNamespace="http://tempuri.org/DataSet28.xsd" xmlns:mstns="http://tempuri.org/DataSet28.xsd" xmlns="http://tempuri.org/DataSet28.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet28" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet28" msprop:Generator_DataSetName="DataSet28">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vwDrawingsCert" msprop:Generator_TableClassName="vwDrawingsCertDataTable" msprop:Generator_TableVarName="tablevwDrawingsCert" msprop:Generator_TablePropName="vwDrawingsCert" msprop:Generator_RowDeletingName="vwDrawingsCertRowDeleting" msprop:Generator_RowChangingName="vwDrawingsCertRowChanging" msprop:Generator_RowEvHandlerName="vwDrawingsCertRowChangeEventHandler" msprop:Generator_RowDeletedName="vwDrawingsCertRowDeleted" msprop:Generator_UserTableName="vwDrawingsCert" msprop:Generator_RowChangedName="vwDrawingsCertRowChanged" msprop:Generator_RowEvArgName="vwDrawingsCertRowChangeEvent" msprop:Generator_RowClassName="vwDrawingsCertRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DrawingNumber" msprop:Generator_ColumnVarNameInTable="columnDrawingNumber" msprop:Generator_ColumnPropNameInRow="DrawingNumber" msprop:Generator_ColumnPropNameInTable="DrawingNumberColumn" msprop:Generator_UserColumnName="DrawingNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Program" msprop:Generator_ColumnVarNameInTable="columnProgram" msprop:Generator_ColumnPropNameInRow="Program" msprop:Generator_ColumnPropNameInTable="ProgramColumn" msprop:Generator_UserColumnName="Program" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrawingTitle" msprop:Generator_ColumnVarNameInTable="columnDrawingTitle" msprop:Generator_ColumnPropNameInRow="DrawingTitle" msprop:Generator_ColumnPropNameInTable="DrawingTitleColumn" msprop:Generator_UserColumnName="DrawingTitle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SystemDescription" msprop:Generator_ColumnVarNameInTable="columnSystemDescription" msprop:Generator_ColumnPropNameInRow="SystemDescription" msprop:Generator_ColumnPropNameInTable="SystemDescriptionColumn" msprop:Generator_UserColumnName="SystemDescription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UMName" msprop:Generator_ColumnVarNameInTable="columnUMName" msprop:Generator_ColumnPropNameInRow="UMName" msprop:Generator_ColumnPropNameInTable="UMNameColumn" msprop:Generator_UserColumnName="UMName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UMSpecialty" msprop:Generator_ColumnVarNameInTable="columnUMSpecialty" msprop:Generator_ColumnPropNameInRow="UMSpecialty" msprop:Generator_ColumnPropNameInTable="UMSpecialtyColumn" msprop:Generator_UserColumnName="UMSpecialty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UMRecommendApproval" msprop:Generator_ColumnVarNameInTable="columnUMRecommendApproval" msprop:Generator_ColumnPropNameInRow="UMRecommendApproval" msprop:Generator_ColumnPropNameInTable="UMRecommendApprovalColumn" msprop:Generator_UserColumnName="UMRecommendApproval" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UMApproval" msprop:Generator_ColumnVarNameInTable="columnUMApproval" msprop:Generator_ColumnPropNameInRow="UMApproval" msprop:Generator_ColumnPropNameInTable="UMApprovalColumn" msprop:Generator_UserColumnName="UMApproval" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RequiredToApprove" msprop:Generator_ColumnVarNameInTable="columnRequiredToApprove" msprop:Generator_ColumnPropNameInRow="RequiredToApprove" msprop:Generator_ColumnPropNameInTable="RequiredToApproveColumn" msprop:Generator_UserColumnName="RequiredToApprove" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" msprop:Generator_UserColumnName="Comments" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Priority" msprop:Generator_ColumnVarNameInTable="columnPriority" msprop:Generator_ColumnPropNameInRow="Priority" msprop:Generator_ColumnPropNameInTable="PriorityColumn" msprop:Generator_UserColumnName="Priority" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DwgRevision" msprop:Generator_ColumnVarNameInTable="columnDwgRevision" msprop:Generator_ColumnPropNameInRow="DwgRevision" msprop:Generator_ColumnPropNameInTable="DwgRevisionColumn" msprop:Generator_UserColumnName="DwgRevision" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADCN" msprop:Generator_ColumnVarNameInTable="columnADCN" msprop:Generator_ColumnPropNameInRow="ADCN" msprop:Generator_ColumnPropNameInTable="ADCNColumn" msprop:Generator_UserColumnName="ADCN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DRNADCN" msprop:Generator_ColumnVarNameInTable="columnDRNADCN" msprop:Generator_ColumnPropNameInRow="DRNADCN" msprop:Generator_ColumnPropNameInTable="DRNADCNColumn" msprop:Generator_UserColumnName="DRNADCN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

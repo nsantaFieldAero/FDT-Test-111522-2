@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsExamplesRevPurpose" targetNamespace="http://tempuri.org/dsExamplesRevPurpose.xsd" xmlns:mstns="http://tempuri.org/dsExamplesRevPurpose.xsd" xmlns="http://tempuri.org/dsExamplesRevPurpose.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsExamplesRevPurpose" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsExamplesRevPurpose" msprop:Generator_DataSetName="dsExamplesRevPurpose">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblExamplesRevPurpose" msprop:Generator_TableClassName="tblExamplesRevPurposeDataTable" msprop:Generator_TableVarName="tabletblExamplesRevPurpose" msprop:Generator_TablePropName="tblExamplesRevPurpose" msprop:Generator_RowDeletingName="tblExamplesRevPurposeRowDeleting" msprop:Generator_RowChangingName="tblExamplesRevPurposeRowChanging" msprop:Generator_RowEvHandlerName="tblExamplesRevPurposeRowChangeEventHandler" msprop:Generator_RowDeletedName="tblExamplesRevPurposeRowDeleted" msprop:Generator_UserTableName="tblExamplesRevPurpose" msprop:Generator_RowChangedName="tblExamplesRevPurposeRowChanged" msprop:Generator_RowEvArgName="tblExamplesRevPurposeRowChangeEvent" msprop:Generator_RowClassName="tblExamplesRevPurposeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="InitiatedBy" msprop:Generator_ColumnVarNameInTable="columnInitiatedBy" msprop:Generator_ColumnPropNameInRow="InitiatedBy" msprop:Generator_ColumnPropNameInTable="InitiatedByColumn" msprop:Generator_UserColumnName="InitiatedBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Examples" msprop:Generator_ColumnVarNameInTable="columnExamples" msprop:Generator_ColumnPropNameInRow="Examples" msprop:Generator_ColumnPropNameInTable="ExamplesColumn" msprop:Generator_UserColumnName="Examples" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExtraCol" msprop:Generator_ColumnVarNameInTable="columnExtraCol" msprop:Generator_ColumnPropNameInRow="ExtraCol" msprop:Generator_ColumnPropNameInTable="ExtraColColumn" msprop:Generator_UserColumnName="ExtraCol" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblExamplesRevPurpose" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

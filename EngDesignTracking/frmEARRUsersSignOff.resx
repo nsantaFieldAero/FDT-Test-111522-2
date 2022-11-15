@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="SqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        RecordID, Username, SignedName, Email, Program, Program2, Program3, Program4, Type, Type2, FabShop, Liaison, LiaisonBackup, Engineer, EngineerBackup, QC, QCBackup, Planner1, Planner2, ReadOnly, EnterEARR
+FROM            tblUsersCreateEARR
+Order By Username</value>
+  </data>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [tblUsersCreateEARR] ([Username], [SignedName], [Email], [Program], [Program2], [Program3], [Program4], [Type], [Type2], [FabShop], [Liaison], [LiaisonBackup], [Engineer], [EngineerBackup], [QC], [QCBackup], [Planner1], [Planner2], [ReadOnly], [EnterEARR]) VALUES (@Username, @SignedName, @Email, @Program, @Program2, @Program3, @Program4, @Type, @Type2, @FabShop, @Liaison, @LiaisonBackup, @Engineer, @EngineerBackup, @QC, @QCBackup, @Planner1, @Planner2, @ReadOnly, @EnterEARR);
+SELECT RecordID, Username, SignedName, Email, Program, Program2, Program3, Program4, Type, Type2, FabShop, Liaison, LiaisonBackup, Engineer, EngineerBackup, QC, QCBackup, Planner1, Planner2, ReadOnly, EnterEARR FROM tblUsersCreateEARR WHERE (RecordID = SCOPE_IDENTITY()) ORDER BY Username</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [tblUsersCreateEARR] SET [Username] = @Username, [SignedName] = @SignedName, [Email] = @Email, [Program] = @Program, [Program2] = @Program2, [Program3] = @Program3, [Program4] = @Program4, [Type] = @Type, [Type2] = @Type2, [FabShop] = @FabShop, [Liaison] = @Liaison, [LiaisonBackup] = @LiaisonBackup, [Engineer] = @Engineer, [EngineerBackup] = @EngineerBackup, [QC] = @QC, [QCBackup] = @QCBackup, [Planner1] = @Planner1, [Planner2] = @Planner2, [ReadOnly] = @ReadOnly, [EnterEARR] = @EnterEARR WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_Username = 1 AND [Username] IS NULL) OR ([Username] = @Original_Username)) AND ((@IsNull_SignedName = 1 AND [SignedName] IS NULL) OR ([SignedName] = @Original_SignedName)) AND ((@IsNull_Email = 1 AND [Email] IS NULL) OR ([Email] = @Original_Email)) AND ((@IsNull_Program = 1 AND [Program] IS NULL) OR ([Program] = @Original_Program)) AND ((@IsNull_Program2 = 1 AND [Program2] IS NULL) OR ([Program2] = @Original_Program2)) AND ((@IsNull_Program3 = 1 AND [Program3] IS NULL) OR ([Program3] = @Original_Program3)) AND ((@IsNull_Program4 = 1 AND [Program4] IS NULL) OR ([Program4] = @Original_Program4)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Type2 = 1 AND [Type2] IS NULL) OR ([Type2] = @Original_Type2)) AND ((@IsNull_FabShop = 1 AND [FabShop] IS NULL) OR ([FabShop] = @Original_FabShop)) AND ((@IsNull_Liaison = 1 AND [Liaison] IS NULL) OR ([Liaison] = @Original_Liaison)) AND ((@IsNull_LiaisonBackup = 1 AND [LiaisonBackup] IS NULL) OR ([LiaisonBackup] = @Original_LiaisonBackup)) AND ((@IsNull_Engineer = 1 AND [Engineer] IS NULL) OR ([Engineer] = @Original_Engineer)) AND ((@IsNull_EngineerBackup = 1 AND [EngineerBackup] IS NULL) OR ([EngineerBackup] = @Original_EngineerBackup)) AND ((@IsNull_QC = 1 AND [QC] IS NULL) OR ([QC] = @Original_QC)) AND ((@IsNull_QCBackup = 1 AND [QCBackup] IS NULL) OR ([QCBackup] = @Original_QCBackup)) AND ((@IsNull_Planner1 = 1 AND [Planner1] IS NULL) OR ([Planner1] = @Original_Planner1)) AND ((@IsNull_Planner2 = 1 AND [Planner2] IS NULL) OR ([Planner2] = @Original_Planner2)) AND ((@IsNull_ReadOnly = 1 AND [ReadOnly] IS NULL) OR ([ReadOnly] = @Original_ReadOnly)) AND ((@IsNull_EnterEARR = 1 AND [EnterEARR] IS NULL) OR ([EnterEARR] = @Original_EnterEARR)));
+SELECT RecordID, Username, SignedName, Email, Program, Program2, Program3, Program4, Type, Type2, FabShop, Liaison, LiaisonBackup, Engineer, EngineerBackup, QC, QCBackup, Planner1, Planner2, ReadOnly, EnterEARR FROM tblUsersCreateEARR WHERE (RecordID = @RecordID) ORDER BY Username</value>
+  </data>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [tblUsersCreateEARR] WHERE (([RecordID] = @Original_RecordID) AND ((@IsNull_Username = 1 AND [Username] IS NULL) OR ([Username] = @Original_Username)) AND ((@IsNull_SignedName = 1 AND [SignedName] IS NULL) OR ([SignedName] = @Original_SignedName)) AND ((@IsNull_Email = 1 AND [Email] IS NULL) OR ([Email] = @Original_Email)) AND ((@IsNull_Program = 1 AND [Program] IS NULL) OR ([Program] = @Original_Program)) AND ((@IsNull_Program2 = 1 AND [Program2] IS NULL) OR ([Program2] = @Original_Program2)) AND ((@IsNull_Program3 = 1 AND [Program3] IS NULL) OR ([Program3] = @Original_Program3)) AND ((@IsNull_Program4 = 1 AND [Program4] IS NULL) OR ([Program4] = @Original_Program4)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Type2 = 1 AND [Type2] IS NULL) OR ([Type2] = @Original_Type2)) AND ((@IsNull_FabShop = 1 AND [FabShop] IS NULL) OR ([FabShop] = @Original_FabShop)) AND ((@IsNull_Liaison = 1 AND [Liaison] IS NULL) OR ([Liaison] = @Original_Liaison)) AND ((@IsNull_LiaisonBackup = 1 AND [LiaisonBackup] IS NULL) OR ([LiaisonBackup] = @Original_LiaisonBackup)) AND ((@IsNull_Engineer = 1 AND [Engineer] IS NULL) OR ([Engineer] = @Original_Engineer)) AND ((@IsNull_EngineerBackup = 1 AND [EngineerBackup] IS NULL) OR ([EngineerBackup] = @Original_EngineerBackup)) AND ((@IsNull_QC = 1 AND [QC] IS NULL) OR ([QC] = @Original_QC)) AND ((@IsNull_QCBackup = 1 AND [QCBackup] IS NULL) OR ([QCBackup] = @Original_QCBackup)) AND ((@IsNull_Planner1 = 1 AND [Planner1] IS NULL) OR ([Planner1] = @Original_Planner1)) AND ((@IsNull_Planner2 = 1 AND [Planner2] IS NULL) OR ([Planner2] = @Original_Planner2)) AND ((@IsNull_ReadOnly = 1 AND [ReadOnly] IS NULL) OR ([ReadOnly] = @Original_ReadOnly)) AND ((@IsNull_EnterEARR = 1 AND [EnterEARR] IS NULL) OR ([EnterEARR] = @Original_EnterEARR)))</value>
+  </data>
+  <metadata name="SqlDataAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DsEARRUsersSignOff1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>298, 17</value>
+  </metadata>
+  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>470, 17</value>
+  </metadata>
+</root>

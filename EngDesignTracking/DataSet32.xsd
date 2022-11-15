@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet32" targetNamespace="http://tempuri.org/DataSet32.xsd" xmlns:mstns="http://tempuri.org/DataSet32.xsd" xmlns="http://tempuri.org/DataSet32.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet32" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet32" msprop:Generator_UserDSName="DataSet32">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vwLiveMDLRevisions" msprop:Generator_TableClassName="vwLiveMDLRevisionsDataTable" msprop:Generator_TableVarName="tablevwLiveMDLRevisions" msprop:Generator_RowChangedName="vwLiveMDLRevisionsRowChanged" msprop:Generator_TablePropName="vwLiveMDLRevisions" msprop:Generator_RowDeletingName="vwLiveMDLRevisionsRowDeleting" msprop:Generator_RowChangingName="vwLiveMDLRevisionsRowChanging" msprop:Generator_RowEvHandlerName="vwLiveMDLRevisionsRowChangeEventHandler" msprop:Generator_RowDeletedName="vwLiveMDLRevisionsRowDeleted" msprop:Generator_RowClassName="vwLiveMDLRevisionsRow" msprop:Generator_UserTableName="vwLiveMDLRevisions" msprop:Generator_RowEvArgName="vwLiveMDLRevisionsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Seq" msprop:Generator_ColumnVarNameInTable="columnSeq" msprop:Generator_ColumnPropNameInRow="Seq" msprop:Generator_ColumnPropNameInTable="SeqColumn" msprop:Generator_UserColumnName="Seq" type="xs:int" minOccurs="0" />
+              <xs:element name="RecordID" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="MDLNumber" msprop:Generator_ColumnVarNameInTable="columnMDLNumber" msprop:Generator_ColumnPropNameInRow="MDLNumber" msprop:Generator_ColumnPropNameInTable="MDLNumberColumn" msprop:Generator_UserColumnName="MDLNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Revision" msprop:Generator_ColumnVarNameInTable="columnRevision" msprop:Generator_ColumnPropNameInRow="Revision" msprop:Generator_ColumnPropNameInTable="RevisionColumn" msprop:Generator_UserColumnName="Revision" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Priority" msprop:Generator_ColumnVarNameInTable="columnPriority" msprop:Generator_ColumnPropNameInRow="Priority" msprop:Generator_ColumnPropNameInTable="PriorityColumn" msprop:Generator_UserColumnName="Priority" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DocumentNumber" msprop:Generator_ColumnVarNameInTable="columnDocumentNumber" msprop:Generator_ColumnPropNameInRow="DocumentNumber" msprop:Generator_ColumnPropNameInTable="DocumentNumberColumn" msprop:Generator_UserColumnName="DocumentNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

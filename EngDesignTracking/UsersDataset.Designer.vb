@@ -293,6 +293,10 @@ Partial Public Class UsersDataset
         
         Private columnDrafter As Global.System.Data.DataColumn
         
+        Private columnLiaisonEngineer As Global.System.Data.DataColumn
+        
+        Private columnOperations As Global.System.Data.DataColumn
+        
         Private columnSrEngineer As Global.System.Data.DataColumn
         
         Private columnReleaser As Global.System.Data.DataColumn
@@ -306,6 +310,34 @@ Partial Public Class UsersDataset
         Private columnLocation As Global.System.Data.DataColumn
         
         Private columnAdmin As Global.System.Data.DataColumn
+        
+        Private columnCM As Global.System.Data.DataColumn
+        
+        Private columnProjectSync As Global.System.Data.DataColumn
+        
+        Private columnJaguarOnly As Global.System.Data.DataColumn
+        
+        Private columnLegacyForm As Global.System.Data.DataColumn
+        
+        Private columnNewForm As Global.System.Data.DataColumn
+        
+        Private columnChangeRedline As Global.System.Data.DataColumn
+        
+        Private columnMoveGates As Global.System.Data.DataColumn
+        
+        Private columnMDL As Global.System.Data.DataColumn
+        
+        Private columnMDLUnlock As Global.System.Data.DataColumn
+        
+        Private columnLeadEngineer As Global.System.Data.DataColumn
+        
+        Private columnNewRecord As Global.System.Data.DataColumn
+        
+        Private columnAirworthiness As Global.System.Data.DataColumn
+        
+        Private columnActive As Global.System.Data.DataColumn
+        
+        Private columnEmail As Global.System.Data.DataColumn
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
@@ -384,6 +416,22 @@ Partial Public Class UsersDataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property LiaisonEngineerColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnLiaisonEngineer
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property OperationsColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnOperations
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public ReadOnly Property SrEngineerColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columnSrEngineer
@@ -439,6 +487,118 @@ Partial Public Class UsersDataset
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property CMColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCM
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ProjectSyncColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnProjectSync
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property JaguarOnlyColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnJaguarOnly
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property LegacyFormColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnLegacyForm
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property NewFormColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnNewForm
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ChangeRedlineColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnChangeRedline
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property MoveGatesColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMoveGates
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property MDLColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMDL
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property MDLUnlockColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMDLUnlock
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property LeadEngineerColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnLeadEngineer
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property NewRecordColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnNewRecord
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property AirworthinessColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnAirworthiness
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ActiveColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnActive
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property EmailColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnEmail
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -475,9 +635,36 @@ Partial Public Class UsersDataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Overloads Function AddtblUsersRow(ByVal Username As String, ByVal GridEdit As String, ByVal Engineer As String, ByVal Drafter As String, ByVal SrEngineer As String, ByVal Releaser As String, ByVal Flammability As String, ByVal Stress As String, ByVal ID As String, ByVal Location As String, ByVal Admin As String) As tblUsersRow
+        Public Overloads Function AddtblUsersRow( _
+                    ByVal Username As String,  _
+                    ByVal GridEdit As String,  _
+                    ByVal Engineer As String,  _
+                    ByVal Drafter As String,  _
+                    ByVal LiaisonEngineer As String,  _
+                    ByVal Operations As String,  _
+                    ByVal SrEngineer As String,  _
+                    ByVal Releaser As String,  _
+                    ByVal Flammability As String,  _
+                    ByVal Stress As String,  _
+                    ByVal ID As String,  _
+                    ByVal Location As String,  _
+                    ByVal Admin As String,  _
+                    ByVal CM As Boolean,  _
+                    ByVal ProjectSync As Boolean,  _
+                    ByVal JaguarOnly As Boolean,  _
+                    ByVal LegacyForm As Boolean,  _
+                    ByVal NewForm As Boolean,  _
+                    ByVal ChangeRedline As String,  _
+                    ByVal MoveGates As String,  _
+                    ByVal MDL As Boolean,  _
+                    ByVal MDLUnlock As Boolean,  _
+                    ByVal LeadEngineer As Boolean,  _
+                    ByVal NewRecord As Boolean,  _
+                    ByVal Airworthiness As String,  _
+                    ByVal Active As Boolean,  _
+                    ByVal Email As String) As tblUsersRow
             Dim rowtblUsersRow As tblUsersRow = CType(Me.NewRow,tblUsersRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, Username, GridEdit, Engineer, Drafter, SrEngineer, Releaser, Flammability, Stress, ID, Location, Admin}
+            Dim columnValuesArray() As Object = New Object() {Nothing, Username, GridEdit, Engineer, Drafter, LiaisonEngineer, Operations, SrEngineer, Releaser, Flammability, Stress, ID, Location, Admin, CM, ProjectSync, JaguarOnly, LegacyForm, NewForm, ChangeRedline, MoveGates, MDL, MDLUnlock, LeadEngineer, NewRecord, Airworthiness, Active, Email}
             rowtblUsersRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowtblUsersRow)
             Return rowtblUsersRow
@@ -511,6 +698,8 @@ Partial Public Class UsersDataset
             Me.columnGridEdit = MyBase.Columns("GridEdit")
             Me.columnEngineer = MyBase.Columns("Engineer")
             Me.columnDrafter = MyBase.Columns("Drafter")
+            Me.columnLiaisonEngineer = MyBase.Columns("LiaisonEngineer")
+            Me.columnOperations = MyBase.Columns("Operations")
             Me.columnSrEngineer = MyBase.Columns("SrEngineer")
             Me.columnReleaser = MyBase.Columns("Releaser")
             Me.columnFlammability = MyBase.Columns("Flammability")
@@ -518,6 +707,20 @@ Partial Public Class UsersDataset
             Me.columnID = MyBase.Columns("ID")
             Me.columnLocation = MyBase.Columns("Location")
             Me.columnAdmin = MyBase.Columns("Admin")
+            Me.columnCM = MyBase.Columns("CM")
+            Me.columnProjectSync = MyBase.Columns("ProjectSync")
+            Me.columnJaguarOnly = MyBase.Columns("JaguarOnly")
+            Me.columnLegacyForm = MyBase.Columns("LegacyForm")
+            Me.columnNewForm = MyBase.Columns("NewForm")
+            Me.columnChangeRedline = MyBase.Columns("ChangeRedline")
+            Me.columnMoveGates = MyBase.Columns("MoveGates")
+            Me.columnMDL = MyBase.Columns("MDL")
+            Me.columnMDLUnlock = MyBase.Columns("MDLUnlock")
+            Me.columnLeadEngineer = MyBase.Columns("LeadEngineer")
+            Me.columnNewRecord = MyBase.Columns("NewRecord")
+            Me.columnAirworthiness = MyBase.Columns("Airworthiness")
+            Me.columnActive = MyBase.Columns("Active")
+            Me.columnEmail = MyBase.Columns("Email")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -533,6 +736,10 @@ Partial Public Class UsersDataset
             MyBase.Columns.Add(Me.columnEngineer)
             Me.columnDrafter = New Global.System.Data.DataColumn("Drafter", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDrafter)
+            Me.columnLiaisonEngineer = New Global.System.Data.DataColumn("LiaisonEngineer", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnLiaisonEngineer)
+            Me.columnOperations = New Global.System.Data.DataColumn("Operations", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnOperations)
             Me.columnSrEngineer = New Global.System.Data.DataColumn("SrEngineer", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnSrEngineer)
             Me.columnReleaser = New Global.System.Data.DataColumn("Releaser", GetType(String), Nothing, Global.System.Data.MappingType.Element)
@@ -547,6 +754,34 @@ Partial Public Class UsersDataset
             MyBase.Columns.Add(Me.columnLocation)
             Me.columnAdmin = New Global.System.Data.DataColumn("Admin", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnAdmin)
+            Me.columnCM = New Global.System.Data.DataColumn("CM", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCM)
+            Me.columnProjectSync = New Global.System.Data.DataColumn("ProjectSync", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnProjectSync)
+            Me.columnJaguarOnly = New Global.System.Data.DataColumn("JaguarOnly", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnJaguarOnly)
+            Me.columnLegacyForm = New Global.System.Data.DataColumn("LegacyForm", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnLegacyForm)
+            Me.columnNewForm = New Global.System.Data.DataColumn("NewForm", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnNewForm)
+            Me.columnChangeRedline = New Global.System.Data.DataColumn("ChangeRedline", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnChangeRedline)
+            Me.columnMoveGates = New Global.System.Data.DataColumn("MoveGates", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMoveGates)
+            Me.columnMDL = New Global.System.Data.DataColumn("MDL", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMDL)
+            Me.columnMDLUnlock = New Global.System.Data.DataColumn("MDLUnlock", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMDLUnlock)
+            Me.columnLeadEngineer = New Global.System.Data.DataColumn("LeadEngineer", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnLeadEngineer)
+            Me.columnNewRecord = New Global.System.Data.DataColumn("NewRecord", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnNewRecord)
+            Me.columnAirworthiness = New Global.System.Data.DataColumn("Airworthiness", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnAirworthiness)
+            Me.columnActive = New Global.System.Data.DataColumn("Active", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnActive)
+            Me.columnEmail = New Global.System.Data.DataColumn("Email", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnEmail)
             Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnRecordID}, true))
             Me.columnRecordID.AutoIncrement = true
             Me.columnRecordID.AllowDBNull = false
@@ -780,6 +1015,36 @@ Partial Public Class UsersDataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property LiaisonEngineer() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.LiaisonEngineerColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'LiaisonEngineer' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.LiaisonEngineerColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property Operations() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.OperationsColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Operations' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.OperationsColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Property SrEngineer() As String
             Get
                 Try 
@@ -885,6 +1150,216 @@ Partial Public Class UsersDataset
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property CM() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.CMColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CM' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.CMColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property ProjectSync() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.ProjectSyncColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ProjectSync' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.ProjectSyncColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property JaguarOnly() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.JaguarOnlyColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'JaguarOnly' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.JaguarOnlyColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property LegacyForm() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.LegacyFormColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'LegacyForm' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.LegacyFormColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property NewForm() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.NewFormColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'NewForm' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.NewFormColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property ChangeRedline() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.ChangeRedlineColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ChangeRedline' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.ChangeRedlineColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property MoveGates() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.MoveGatesColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MoveGates' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.MoveGatesColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property MDL() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.MDLColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MDL' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.MDLColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property MDLUnlock() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.MDLUnlockColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MDLUnlock' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.MDLUnlockColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property LeadEngineer() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.LeadEngineerColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'LeadEngineer' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.LeadEngineerColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property NewRecord() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.NewRecordColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'NewRecord' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.NewRecordColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property Airworthiness() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.AirworthinessColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Airworthiness' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.AirworthinessColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property Active() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.ActiveColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Active' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.ActiveColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property Email() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblUsers.EmailColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Email' in table 'tblUsers' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblUsers.EmailColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Function IsUsernameNull() As Boolean
             Return Me.IsNull(Me.tabletblUsers.UsernameColumn)
         End Function
@@ -929,6 +1404,30 @@ Partial Public Class UsersDataset
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetDrafterNull()
             Me(Me.tabletblUsers.DrafterColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsLiaisonEngineerNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.LiaisonEngineerColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetLiaisonEngineerNull()
+            Me(Me.tabletblUsers.LiaisonEngineerColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsOperationsNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.OperationsColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetOperationsNull()
+            Me(Me.tabletblUsers.OperationsColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1013,6 +1512,174 @@ Partial Public Class UsersDataset
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetAdminNull()
             Me(Me.tabletblUsers.AdminColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsCMNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.CMColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetCMNull()
+            Me(Me.tabletblUsers.CMColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsProjectSyncNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.ProjectSyncColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetProjectSyncNull()
+            Me(Me.tabletblUsers.ProjectSyncColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsJaguarOnlyNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.JaguarOnlyColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetJaguarOnlyNull()
+            Me(Me.tabletblUsers.JaguarOnlyColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsLegacyFormNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.LegacyFormColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetLegacyFormNull()
+            Me(Me.tabletblUsers.LegacyFormColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsNewFormNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.NewFormColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetNewFormNull()
+            Me(Me.tabletblUsers.NewFormColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsChangeRedlineNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.ChangeRedlineColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetChangeRedlineNull()
+            Me(Me.tabletblUsers.ChangeRedlineColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsMoveGatesNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.MoveGatesColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetMoveGatesNull()
+            Me(Me.tabletblUsers.MoveGatesColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsMDLNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.MDLColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetMDLNull()
+            Me(Me.tabletblUsers.MDLColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsMDLUnlockNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.MDLUnlockColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetMDLUnlockNull()
+            Me(Me.tabletblUsers.MDLUnlockColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsLeadEngineerNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.LeadEngineerColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetLeadEngineerNull()
+            Me(Me.tabletblUsers.LeadEngineerColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsNewRecordNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.NewRecordColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetNewRecordNull()
+            Me(Me.tabletblUsers.NewRecordColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsAirworthinessNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.AirworthinessColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetAirworthinessNull()
+            Me(Me.tabletblUsers.AirworthinessColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsActiveNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.ActiveColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetActiveNull()
+            Me(Me.tabletblUsers.ActiveColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsEmailNull() As Boolean
+            Return Me.IsNull(Me.tabletblUsers.EmailColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetEmailNull()
+            Me(Me.tabletblUsers.EmailColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     

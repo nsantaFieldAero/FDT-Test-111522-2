@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet33" targetNamespace="http://tempuri.org/DataSet33.xsd" xmlns:mstns="http://tempuri.org/DataSet33.xsd" xmlns="http://tempuri.org/DataSet33.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet33" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet33" msprop:Generator_DataSetName="DataSet33">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblLiveMDLDetail" msprop:Generator_TableClassName="tblLiveMDLDetailDataTable" msprop:Generator_TableVarName="tabletblLiveMDLDetail" msprop:Generator_TablePropName="tblLiveMDLDetail" msprop:Generator_RowDeletingName="tblLiveMDLDetailRowDeleting" msprop:Generator_RowChangingName="tblLiveMDLDetailRowChanging" msprop:Generator_RowEvHandlerName="tblLiveMDLDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="tblLiveMDLDetailRowDeleted" msprop:Generator_UserTableName="tblLiveMDLDetail" msprop:Generator_RowChangedName="tblLiveMDLDetailRowChanged" msprop:Generator_RowEvArgName="tblLiveMDLDetailRowChangeEvent" msprop:Generator_RowClassName="tblLiveMDLDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="MDLRecordID" msprop:Generator_ColumnVarNameInTable="columnMDLRecordID" msprop:Generator_ColumnPropNameInRow="MDLRecordID" msprop:Generator_ColumnPropNameInTable="MDLRecordIDColumn" msprop:Generator_UserColumnName="MDLRecordID" type="xs:int" minOccurs="0" />
+              <xs:element name="Revision" msprop:Generator_ColumnVarNameInTable="columnRevision" msprop:Generator_ColumnPropNameInRow="Revision" msprop:Generator_ColumnPropNameInTable="RevisionColumn" msprop:Generator_UserColumnName="Revision" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MDLNumber" msprop:Generator_ColumnVarNameInTable="columnMDLNumber" msprop:Generator_ColumnPropNameInRow="MDLNumber" msprop:Generator_ColumnPropNameInTable="MDLNumberColumn" msprop:Generator_UserColumnName="MDLNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="LVL" msprop:Generator_ColumnVarNameInTable="columnLVL" msprop:Generator_ColumnPropNameInRow="LVL" msprop:Generator_ColumnPropNameInTable="LVLColumn" msprop:Generator_UserColumnName="LVL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DrawingNumber" msprop:Generator_ColumnVarNameInTable="columnDrawingNumber" msprop:Generator_ColumnPropNameInRow="DrawingNumber" msprop:Generator_ColumnPropNameInTable="DrawingNumberColumn" msprop:Generator_UserColumnName="DrawingNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DwgRevision" msprop:Generator_ColumnVarNameInTable="columnDwgRevision" msprop:Generator_ColumnPropNameInRow="DwgRevision" msprop:Generator_ColumnPropNameInTable="DwgRevisionColumn" msprop:Generator_UserColumnName="DwgRevision" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ActualFinishDate" msprop:Generator_ColumnVarNameInTable="columnActualFinishDate" msprop:Generator_ColumnPropNameInRow="ActualFinishDate" msprop:Generator_ColumnPropNameInTable="ActualFinishDateColumn" msprop:Generator_UserColumnName="ActualFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DrawingTitle" msprop:Generator_ColumnVarNameInTable="columnDrawingTitle" msprop:Generator_ColumnPropNameInRow="DrawingTitle" msprop:Generator_ColumnPropNameInTable="DrawingTitleColumn" msprop:Generator_UserColumnName="DrawingTitle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_UserColumnName="Notes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SystemDescription" msprop:Generator_ColumnVarNameInTable="columnSystemDescription" msprop:Generator_ColumnPropNameInRow="SystemDescription" msprop:Generator_ColumnPropNameInTable="SystemDescriptionColumn" msprop:Generator_UserColumnName="SystemDescription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrawingType" msprop:Generator_ColumnVarNameInTable="columnDrawingType" msprop:Generator_ColumnPropNameInRow="DrawingType" msprop:Generator_ColumnPropNameInTable="DrawingTypeColumn" msprop:Generator_UserColumnName="DrawingType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LVLDesc" msprop:Generator_ColumnVarNameInTable="columnLVLDesc" msprop:Generator_ColumnPropNameInRow="LVLDesc" msprop:Generator_ColumnPropNameInTable="LVLDescColumn" msprop:Generator_UserColumnName="LVLDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TopLVL" msprop:Generator_ColumnVarNameInTable="columnTopLVL" msprop:Generator_ColumnPropNameInRow="TopLVL" msprop:Generator_ColumnPropNameInTable="TopLVLColumn" msprop:Generator_UserColumnName="TopLVL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TopLVLDesc" msprop:Generator_ColumnVarNameInTable="columnTopLVLDesc" msprop:Generator_ColumnPropNameInRow="TopLVLDesc" msprop:Generator_ColumnPropNameInTable="TopLVLDescColumn" msprop:Generator_UserColumnName="TopLVLDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LVLLVLDesc" msprop:Generator_ColumnVarNameInTable="columnLVLLVLDesc" msprop:Generator_ColumnPropNameInRow="LVLLVLDesc" msprop:Generator_ColumnPropNameInTable="LVLLVLDescColumn" msprop:Generator_UserColumnName="LVLLVLDesc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cancelled" msprop:Generator_ColumnVarNameInTable="columnCancelled" msprop:Generator_ColumnPropNameInRow="Cancelled" msprop:Generator_ColumnPropNameInTable="CancelledColumn" msprop:Generator_UserColumnName="Cancelled" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DeferToNextMDL" msprop:Generator_ColumnVarNameInTable="columnDeferToNextMDL" msprop:Generator_ColumnPropNameInRow="DeferToNextMDL" msprop:Generator_ColumnPropNameInTable="DeferToNextMDLColumn" msprop:Generator_UserColumnName="DeferToNextMDL" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ShowPreviousRev" msprop:Generator_ColumnVarNameInTable="columnShowPreviousRev" msprop:Generator_ColumnPropNameInRow="ShowPreviousRev" msprop:Generator_ColumnPropNameInTable="ShowPreviousRevColumn" msprop:Generator_UserColumnName="ShowPreviousRev" type="xs:boolean" minOccurs="0" />
+              <xs:element name="OverrideDRNDetails" msprop:Generator_ColumnVarNameInTable="columnOverrideDRNDetails" msprop:Generator_ColumnPropNameInRow="OverrideDRNDetails" msprop:Generator_ColumnPropNameInTable="OverrideDRNDetailsColumn" msprop:Generator_UserColumnName="OverrideDRNDetails" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ShowRemarks" msprop:Generator_ColumnVarNameInTable="columnShowRemarks" msprop:Generator_ColumnPropNameInRow="ShowRemarks" msprop:Generator_ColumnPropNameInTable="ShowRemarksColumn" msprop:Generator_UserColumnName="ShowRemarks" type="xs:boolean" minOccurs="0" />
+              <xs:element name="RemarksText" msprop:Generator_ColumnVarNameInTable="columnRemarksText" msprop:Generator_ColumnPropNameInRow="RemarksText" msprop:Generator_ColumnPropNameInTable="RemarksTextColumn" msprop:Generator_UserColumnName="RemarksText" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OverrideDRNText" msprop:Generator_ColumnVarNameInTable="columnOverrideDRNText" msprop:Generator_ColumnPropNameInRow="OverrideDRNText" msprop:Generator_ColumnPropNameInTable="OverrideDRNTextColumn" msprop:Generator_UserColumnName="OverrideDRNText" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShowPreviousRevText" msprop:Generator_ColumnVarNameInTable="columnShowPreviousRevText" msprop:Generator_ColumnPropNameInRow="ShowPreviousRevText" msprop:Generator_ColumnPropNameInTable="ShowPreviousRevTextColumn" msprop:Generator_UserColumnName="ShowPreviousRevText" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblLiveMDLDetail" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

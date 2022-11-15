@@ -61,7 +61,7 @@
               <xs:element name="DrawingNumber" msprop:Generator_ColumnVarNameInTable="columnDrawingNumber" msprop:Generator_ColumnPropNameInRow="DrawingNumber" msprop:Generator_ColumnPropNameInTable="DrawingNumberColumn" msprop:Generator_UserColumnName="DrawingNumber" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="50" />
+                    <xs:maxLength value="4000" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -189,6 +189,29 @@
                 </xs:simpleType>
               </xs:element>
               <xs:element name="ProductionError" msprop:Generator_ColumnVarNameInTable="columnProductionError" msprop:Generator_ColumnPropNameInRow="ProductionError" msprop:Generator_ColumnPropNameInTable="ProductionErrorColumn" msprop:Generator_UserColumnName="ProductionError" type="xs:boolean" minOccurs="0" />
+              <xs:element name="EstCompletionDate" msprop:Generator_ColumnVarNameInTable="columnEstCompletionDate" msprop:Generator_ColumnPropNameInRow="EstCompletionDate" msprop:Generator_ColumnPropNameInTable="EstCompletionDateColumn" msprop:Generator_UserColumnName="EstCompletionDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" msprop:Generator_UserColumnName="Comments" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EndItemType" msprop:Generator_ColumnVarNameInTable="columnEndItemType" msprop:Generator_ColumnPropNameInRow="EndItemType" msprop:Generator_ColumnPropNameInTable="EndItemTypeColumn" msprop:Generator_UserColumnName="EndItemType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PlannerNotes" msprop:Generator_ColumnVarNameInTable="columnPlannerNotes" msprop:Generator_ColumnPropNameInRow="PlannerNotes" msprop:Generator_ColumnPropNameInTable="PlannerNotesColumn" msprop:Generator_UserColumnName="PlannerNotes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PlannerSignOffDate" msprop:Generator_ColumnVarNameInTable="columnPlannerSignOffDate" msprop:Generator_ColumnPropNameInRow="PlannerSignOffDate" msprop:Generator_ColumnPropNameInTable="PlannerSignOffDateColumn" msprop:Generator_UserColumnName="PlannerSignOffDate" type="xs:dateTime" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

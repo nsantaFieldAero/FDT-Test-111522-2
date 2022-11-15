@@ -4,14 +4,36 @@
 
     Private Sub AdminScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        SqlConnection1.ConnectionString = sqlString
+
         Me.UsersDataAdapter.Fill(UsersDataset.tblUsers)
 
     End Sub
 
-    Private Sub GridControl1_Leave(sender As Object, e As EventArgs) Handles GridControl1.LostFocus
+
+    Private Sub GridControl1_Leave(sender As Object, e As EventArgs) Handles GridControl1.Leave
+        UsersDataAdapter.Update(Me.UsersDataset.tblUsers)
+    End Sub
+
+    Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
 
         UsersDataAdapter.Update(Me.UsersDataset.tblUsers)
 
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set QAManager = '' Where QAManager Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set MRB = '' Where MRB Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set ProductionManager = '' Where ProductionManager Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set ProgramManager = '' Where ProgramManager Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set DAO = '' Where DAO Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set Design = '' Where Design Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set QC = '' Where QC Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set NewNCR = '' Where NewNCR Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set CloseNCR = '' Where CloseNCR Is Null")
+        u.ExecuteSQL(SqlConnection1, "Update tblUsers Set SuperUser = '' Where SuperUser Is Null")
+
+    End Sub
+
+    Private Sub btnRefresh_Click(sender As Object, e As EventArgs) Handles btnRefresh.Click
+        Me.UsersDataAdapter.Fill(UsersDataset.tblUsers)
     End Sub
 
 

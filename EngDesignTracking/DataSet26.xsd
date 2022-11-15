@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet26" targetNamespace="http://tempuri.org/DataSet26.xsd" xmlns:mstns="http://tempuri.org/DataSet26.xsd" xmlns="http://tempuri.org/DataSet26.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet26" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet26" msprop:Generator_DataSetName="DataSet26">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDrawingCertFAAOMTApproval" msprop:Generator_TableClassName="tblDrawingCertFAAOMTApprovalDataTable" msprop:Generator_TableVarName="tabletblDrawingCertFAAOMTApproval" msprop:Generator_TablePropName="tblDrawingCertFAAOMTApproval" msprop:Generator_RowDeletingName="tblDrawingCertFAAOMTApprovalRowDeleting" msprop:Generator_RowChangingName="tblDrawingCertFAAOMTApprovalRowChanging" msprop:Generator_RowEvHandlerName="tblDrawingCertFAAOMTApprovalRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDrawingCertFAAOMTApprovalRowDeleted" msprop:Generator_UserTableName="tblDrawingCertFAAOMTApproval" msprop:Generator_RowChangedName="tblDrawingCertFAAOMTApprovalRowChanged" msprop:Generator_RowEvArgName="tblDrawingCertFAAOMTApprovalRowChangeEvent" msprop:Generator_RowClassName="tblDrawingCertFAAOMTApprovalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="DwgRecordID" msprop:Generator_ColumnVarNameInTable="columnDwgRecordID" msprop:Generator_ColumnPropNameInRow="DwgRecordID" msprop:Generator_ColumnPropNameInTable="DwgRecordIDColumn" msprop:Generator_UserColumnName="DwgRecordID" type="xs:int" minOccurs="0" />
+              <xs:element name="FAAOMTName" msprop:Generator_ColumnVarNameInTable="columnFAAOMTName" msprop:Generator_ColumnPropNameInRow="FAAOMTName" msprop:Generator_ColumnPropNameInTable="FAAOMTNameColumn" msprop:Generator_UserColumnName="FAAOMTName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FAAOMTSpecialty" msprop:Generator_ColumnVarNameInTable="columnFAAOMTSpecialty" msprop:Generator_ColumnPropNameInRow="FAAOMTSpecialty" msprop:Generator_ColumnPropNameInTable="FAAOMTSpecialtyColumn" msprop:Generator_UserColumnName="FAAOMTSpecialty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FAAOMTRecommendApproval" msprop:Generator_ColumnVarNameInTable="columnFAAOMTRecommendApproval" msprop:Generator_ColumnPropNameInRow="FAAOMTRecommendApproval" msprop:Generator_ColumnPropNameInTable="FAAOMTRecommendApprovalColumn" msprop:Generator_UserColumnName="FAAOMTRecommendApproval" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FAAOMTApproval" msprop:Generator_ColumnVarNameInTable="columnFAAOMTApproval" msprop:Generator_ColumnPropNameInRow="FAAOMTApproval" msprop:Generator_ColumnPropNameInTable="FAAOMTApprovalColumn" msprop:Generator_UserColumnName="FAAOMTApproval" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RequiredToApprove" msprop:Generator_ColumnVarNameInTable="columnRequiredToApprove" msprop:Generator_ColumnPropNameInRow="RequiredToApprove" msprop:Generator_ColumnPropNameInTable="RequiredToApproveColumn" msprop:Generator_UserColumnName="RequiredToApprove" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" msprop:Generator_UserColumnName="Comments" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDrawingCertFAAOMTApproval" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

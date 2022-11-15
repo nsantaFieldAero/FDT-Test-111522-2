@@ -346,6 +346,84 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="NextHigherAssembly" msprop:Generator_ColumnVarNameInTable="columnNextHigherAssembly" msprop:Generator_ColumnPropNameInRow="NextHigherAssembly" msprop:Generator_ColumnPropNameInTable="NextHigherAssemblyColumn" msprop:Generator_UserColumnName="NextHigherAssembly" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstimatedDurationHours" msprop:Generator_ColumnVarNameInTable="columnEstimatedDurationHours" msprop:Generator_ColumnPropNameInRow="EstimatedDurationHours" msprop:Generator_ColumnPropNameInTable="EstimatedDurationHoursColumn" msprop:Generator_UserColumnName="EstimatedDurationHours" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InstallationDrawing" msprop:Generator_ColumnVarNameInTable="columnInstallationDrawing" msprop:Generator_ColumnPropNameInRow="InstallationDrawing" msprop:Generator_ColumnPropNameInTable="InstallationDrawingColumn" msprop:Generator_UserColumnName="InstallationDrawing" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WhiteBoardNumber" msprop:Generator_ColumnVarNameInTable="columnWhiteBoardNumber" msprop:Generator_ColumnPropNameInRow="WhiteBoardNumber" msprop:Generator_ColumnPropNameInTable="WhiteBoardNumberColumn" msprop:Generator_UserColumnName="WhiteBoardNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DRNADCN" msprop:Generator_ColumnVarNameInTable="columnDRNADCN" msprop:Generator_ColumnPropNameInRow="DRNADCN" msprop:Generator_ColumnPropNameInTable="DRNADCNColumn" msprop:Generator_UserColumnName="DRNADCN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FAAProjectNo" msprop:Generator_ColumnVarNameInTable="columnFAAProjectNo" msprop:Generator_ColumnPropNameInRow="FAAProjectNo" msprop:Generator_ColumnPropNameInTable="FAAProjectNoColumn" msprop:Generator_UserColumnName="FAAProjectNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PSCPDocsRequired" msprop:Generator_ColumnVarNameInTable="columnPSCPDocsRequired" msprop:Generator_ColumnPropNameInRow="PSCPDocsRequired" msprop:Generator_ColumnPropNameInTable="PSCPDocsRequiredColumn" msprop:Generator_UserColumnName="PSCPDocsRequired" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CompanyFlightTestRequired" msprop:Generator_ColumnVarNameInTable="columnCompanyFlightTestRequired" msprop:Generator_ColumnPropNameInRow="CompanyFlightTestRequired" msprop:Generator_ColumnPropNameInTable="CompanyFlightTestRequiredColumn" msprop:Generator_UserColumnName="CompanyFlightTestRequired" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NewRework" msprop:Generator_ColumnVarNameInTable="columnNewRework" msprop:Generator_ColumnPropNameInRow="NewRework" msprop:Generator_ColumnPropNameInTable="NewReworkColumn" msprop:Generator_UserColumnName="NewRework" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DwgReqDate" msprop:Generator_ColumnVarNameInTable="columnDwgReqDate" msprop:Generator_ColumnPropNameInRow="DwgReqDate" msprop:Generator_ColumnPropNameInTable="DwgReqDateColumn" msprop:Generator_UserColumnName="DwgReqDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ForecastStartDate" msprop:Generator_ColumnVarNameInTable="columnForecastStartDate" msprop:Generator_ColumnPropNameInRow="ForecastStartDate" msprop:Generator_ColumnPropNameInTable="ForecastStartDateColumn" msprop:Generator_UserColumnName="ForecastStartDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Seq" msprop:Generator_ColumnVarNameInTable="columnSeq" msprop:Generator_ColumnPropNameInRow="Seq" msprop:Generator_ColumnPropNameInTable="SeqColumn" msprop:Generator_UserColumnName="Seq" type="xs:int" minOccurs="0" />
+              <xs:element name="Rev" msprop:Generator_ColumnVarNameInTable="columnRev" msprop:Generator_ColumnPropNameInRow="Rev" msprop:Generator_ColumnPropNameInTable="RevColumn" msprop:Generator_UserColumnName="Rev" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+              <xs:element name="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" msprop:Generator_UserColumnName="Active" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Updated" msprop:Generator_ColumnVarNameInTable="columnUpdated" msprop:Generator_ColumnPropNameInRow="Updated" msprop:Generator_ColumnPropNameInTable="UpdatedColumn" msprop:Generator_UserColumnName="Updated" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Expr1" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:int" />
+              <xs:element name="DwgRecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnDwgRecordID" msprop:Generator_ColumnPropNameInRow="DwgRecordID" msprop:Generator_ColumnPropNameInTable="DwgRecordIDColumn" msprop:Generator_UserColumnName="DwgRecordID" type="xs:int" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

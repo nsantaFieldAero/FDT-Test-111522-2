@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet40" targetNamespace="http://tempuri.org/DataSet40.xsd" xmlns:mstns="http://tempuri.org/DataSet40.xsd" xmlns="http://tempuri.org/DataSet40.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet40" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet40" msprop:Generator_UserDSName="DataSet40">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDrawings" msprop:Generator_TableClassName="tblDrawingsDataTable" msprop:Generator_TableVarName="tabletblDrawings" msprop:Generator_RowChangedName="tblDrawingsRowChanged" msprop:Generator_TablePropName="tblDrawings" msprop:Generator_RowDeletingName="tblDrawingsRowDeleting" msprop:Generator_RowChangingName="tblDrawingsRowChanging" msprop:Generator_RowEvHandlerName="tblDrawingsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDrawingsRowDeleted" msprop:Generator_RowClassName="tblDrawingsRow" msprop:Generator_UserTableName="tblDrawings" msprop:Generator_RowEvArgName="tblDrawingsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="ActualFinishDate" msprop:Generator_ColumnVarNameInTable="columnActualFinishDate" msprop:Generator_ColumnPropNameInRow="ActualFinishDate" msprop:Generator_ColumnPropNameInTable="ActualFinishDateColumn" msprop:Generator_UserColumnName="ActualFinishDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Drafter" msprop:Generator_ColumnVarNameInTable="columnDrafter" msprop:Generator_ColumnPropNameInRow="Drafter" msprop:Generator_ColumnPropNameInTable="DrafterColumn" msprop:Generator_UserColumnName="Drafter" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrafterComplete" msprop:Generator_ColumnVarNameInTable="columnDrafterComplete" msprop:Generator_ColumnPropNameInRow="DrafterComplete" msprop:Generator_ColumnPropNameInTable="DrafterCompleteColumn" msprop:Generator_UserColumnName="DrafterComplete" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DrafterSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnDrafterSignedOffBy" msprop:Generator_ColumnPropNameInRow="DrafterSignedOffBy" msprop:Generator_ColumnPropNameInTable="DrafterSignedOffByColumn" msprop:Generator_UserColumnName="DrafterSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Engineer" msprop:Generator_ColumnVarNameInTable="columnEngineer" msprop:Generator_ColumnPropNameInRow="Engineer" msprop:Generator_ColumnPropNameInTable="EngineerColumn" msprop:Generator_UserColumnName="Engineer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EngineerSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnEngineerSignedOffBy" msprop:Generator_ColumnPropNameInRow="EngineerSignedOffBy" msprop:Generator_ColumnPropNameInTable="EngineerSignedOffByColumn" msprop:Generator_UserColumnName="EngineerSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EngineerComplete" msprop:Generator_ColumnVarNameInTable="columnEngineerComplete" msprop:Generator_ColumnPropNameInRow="EngineerComplete" msprop:Generator_ColumnPropNameInTable="EngineerCompleteColumn" msprop:Generator_UserColumnName="EngineerComplete" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SrEngineer" msprop:Generator_ColumnVarNameInTable="columnSrEngineer" msprop:Generator_ColumnPropNameInRow="SrEngineer" msprop:Generator_ColumnPropNameInTable="SrEngineerColumn" msprop:Generator_UserColumnName="SrEngineer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SrEngineerSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnSrEngineerSignedOffBy" msprop:Generator_ColumnPropNameInRow="SrEngineerSignedOffBy" msprop:Generator_ColumnPropNameInTable="SrEngineerSignedOffByColumn" msprop:Generator_UserColumnName="SrEngineerSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SrEngineerComplete" msprop:Generator_ColumnVarNameInTable="columnSrEngineerComplete" msprop:Generator_ColumnPropNameInRow="SrEngineerComplete" msprop:Generator_ColumnPropNameInTable="SrEngineerCompleteColumn" msprop:Generator_UserColumnName="SrEngineerComplete" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ReleaserSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnReleaserSignedOffBy" msprop:Generator_ColumnPropNameInRow="ReleaserSignedOffBy" msprop:Generator_ColumnPropNameInTable="ReleaserSignedOffByColumn" msprop:Generator_UserColumnName="ReleaserSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Releaser" msprop:Generator_ColumnVarNameInTable="columnReleaser" msprop:Generator_ColumnPropNameInRow="Releaser" msprop:Generator_ColumnPropNameInTable="ReleaserColumn" msprop:Generator_UserColumnName="Releaser" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReleaserCompelte" msprop:Generator_ColumnVarNameInTable="columnReleaserCompelte" msprop:Generator_ColumnPropNameInRow="ReleaserCompelte" msprop:Generator_ColumnPropNameInTable="ReleaserCompelteColumn" msprop:Generator_UserColumnName="ReleaserCompelte" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CMSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnCMSignedOffBy" msprop:Generator_ColumnPropNameInRow="CMSignedOffBy" msprop:Generator_ColumnPropNameInTable="CMSignedOffByColumn" msprop:Generator_UserColumnName="CMSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Stress" msprop:Generator_ColumnVarNameInTable="columnStress" msprop:Generator_ColumnPropNameInRow="Stress" msprop:Generator_ColumnPropNameInTable="StressColumn" msprop:Generator_UserColumnName="Stress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StressComplete" msprop:Generator_ColumnVarNameInTable="columnStressComplete" msprop:Generator_ColumnPropNameInRow="StressComplete" msprop:Generator_ColumnPropNameInTable="StressCompleteColumn" msprop:Generator_UserColumnName="StressComplete" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StressSignedOffBy" msprop:Generator_ColumnVarNameInTable="columnStressSignedOffBy" msprop:Generator_ColumnPropNameInRow="StressSignedOffBy" msprop:Generator_ColumnPropNameInTable="StressSignedOffByColumn" msprop:Generator_UserColumnName="StressSignedOffBy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDrawings" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

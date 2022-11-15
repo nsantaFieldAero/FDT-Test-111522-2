@@ -30,7 +30,7 @@
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>101</ApplicationRevision>
+    <ApplicationRevision>240</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -86,6 +86,9 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>EngDesignTracking_4_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Hopstarter-Soft-Scraps-Document-Flow-Chart.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine">
       <HintPath>..\..\..\..\..\..\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
@@ -97,13 +100,14 @@
       <HintPath>..\..\..\..\..\..\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Shared.dll</HintPath>
     </Reference>
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Data.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -138,6 +142,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminScreen.Designer.vb">
+      <DependentUpon>AdminScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="basdeclares.vb" />
     <Compile Include="crEARR.vb">
       <AutoGen>True</AutoGen>
@@ -157,20 +167,182 @@
       <DependentUpon>crEARRBlankFinal.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="crMDLGridView.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crMDLGridView.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crMDLPrint.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crMDLPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="DataSet1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet19.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSet2.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet28.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet29.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet29.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSet3.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet30.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet31.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet32.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet33.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet34.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet35.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet36.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet37.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet38.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet39.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet39.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSet4.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -192,16 +364,69 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet7.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPrograms.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPrograms.xsd</DependentUpon>
+    </Compile>
     <Compile Include="dsRevLookup.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dsRevLookup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dtsPrograms.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsPrograms.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dtsPrograms.vb">
+      <DependentUpon>dtsPrograms.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertGrid.Designer.vb">
+      <DependentUpon>frmCertGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificationManager.Designer.vb">
+      <DependentUpon>frmCertificationManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificationManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificationStaff.Designer.vb">
+      <DependentUpon>frmCertificationStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificationStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertMassUpdate.Designer.vb">
+      <DependentUpon>frmCertMassUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertMassUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawingCertificationData.Designer.vb">
+      <DependentUpon>frmDrawingCertificationData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrawingCertificationData.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEARRApproval.Designer.vb">
@@ -222,10 +447,112 @@
     <Compile Include="frmEditRecord.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmEngWorkflow.Designer.vb">
+      <DependentUpon>frmEngWorkflow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEngWorkflow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEngWorkflowAdd.Designer.vb">
+      <DependentUpon>frmEngWorkflowAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEngWorkflowAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEngWorkflowBrowse.Designer.vb">
+      <DependentUpon>frmEngWorkflowBrowse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEngWorkflowBrowse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEngWorkflowChangeDrawingNumber.Designer.vb">
+      <DependentUpon>frmEngWorkflowChangeDrawingNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEngWorkflowChangeDrawingNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEngWorkflowGridEdit.Designer.vb">
+      <DependentUpon>frmEngWorkflowGridEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEngWorkflowGridEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEngWorkflowRevorDRN.Designer.vb">
+      <DependentUpon>frmEngWorkflowRevorDRN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEngWorkflowRevorDRN.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmGridLookUp.Designer.vb">
       <DependentUpon>frmGridLookUp.vb</DependentUpon>
     </Compile>
     <Compile Include="frmGridLookUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLiveMDL.Designer.vb">
+      <DependentUpon>frmLiveMDL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLiveMDL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLiveMDLCurrent.Designer.vb">
+      <DependentUpon>frmLiveMDLCurrent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLiveMDLCurrent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLiveMDLOptionsMenu.Designer.vb">
+      <DependentUpon>frmLiveMDLOptionsMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLiveMDLOptionsMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlovAssignmentNames.Designer.vb">
+      <DependentUpon>frmlovAssignmentNames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlovAssignmentNames.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlovDocumentType.Designer.vb">
+      <DependentUpon>frmlovDocumentType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlovDocumentType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlovDRNADCN.Designer.vb">
+      <DependentUpon>frmlovDRNADCN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlovDRNADCN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlovNewRework.Designer.vb">
+      <DependentUpon>frmlovNewRework.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlovNewRework.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlovPriority.Designer.vb">
+      <DependentUpon>frmlovPriority.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlovPriority.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlovSystemDescription.Designer.vb">
+      <DependentUpon>frmlovSystemDescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlovSystemDescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLovType.Designer.vb">
+      <DependentUpon>frmLovType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLovType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlovWhiteBoard.Designer.vb">
+      <DependentUpon>frmlovWhiteBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlovWhiteBoard.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.vb">
@@ -234,10 +561,40 @@
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmMDLAdd.Designer.vb">
+      <DependentUpon>frmMDLAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDLAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDLChange.Designer.vb">
+      <DependentUpon>frmMDLChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDLChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDLExceptions.Designer.vb">
+      <DependentUpon>frmMDLExceptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDLExceptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmNewDWGRequest.Designer.vb">
       <DependentUpon>frmNewDWGRequest.vb</DependentUpon>
     </Compile>
     <Compile Include="frmNewDWGRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPercentCompleteGuidance.Designer.vb">
+      <DependentUpon>frmPercentCompleteGuidance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPercentCompleteGuidance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectWorkflowSync.Designer.vb">
+      <DependentUpon>frmProjectWorkflowSync.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProjectWorkflowSync.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmViewReport.Designer.vb">
@@ -267,8 +624,22 @@
     <Compile Include="NewEARR.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Programs.Designer.vb">
+      <DependentUpon>Programs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Programs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersDataset.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminScreen.resx">
+      <DependentUpon>AdminScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="crEARR.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>crEARR.vb</LastGenOutput>
@@ -281,8 +652,31 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>crEARRBlankFinal.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="crMDLGridView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMDLGridView.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crMDLPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMDLPrint.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertGrid.resx">
+      <DependentUpon>frmCertGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificationManager.resx">
+      <DependentUpon>frmCertificationManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificationStaff.resx">
+      <DependentUpon>frmCertificationStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertMassUpdate.resx">
+      <DependentUpon>frmCertMassUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawingCertificationData.resx">
+      <DependentUpon>frmDrawingCertificationData.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEARRApproval.resx">
       <DependentUpon>frmEARRApproval.vb</DependentUpon>
@@ -293,14 +687,80 @@
     <EmbeddedResource Include="frmEditRecord.resx">
       <DependentUpon>frmEditRecord.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEngWorkflow.resx">
+      <DependentUpon>frmEngWorkflow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngWorkflowAdd.resx">
+      <DependentUpon>frmEngWorkflowAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngWorkflowBrowse.resx">
+      <DependentUpon>frmEngWorkflowBrowse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngWorkflowChangeDrawingNumber.resx">
+      <DependentUpon>frmEngWorkflowChangeDrawingNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngWorkflowGridEdit.resx">
+      <DependentUpon>frmEngWorkflowGridEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngWorkflowRevorDRN.resx">
+      <DependentUpon>frmEngWorkflowRevorDRN.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmGridLookUp.resx">
       <DependentUpon>frmGridLookUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLiveMDL.resx">
+      <DependentUpon>frmLiveMDL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLiveMDLCurrent.resx">
+      <DependentUpon>frmLiveMDLCurrent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLiveMDLOptionsMenu.resx">
+      <DependentUpon>frmLiveMDLOptionsMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlovAssignmentNames.resx">
+      <DependentUpon>frmlovAssignmentNames.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlovDocumentType.resx">
+      <DependentUpon>frmlovDocumentType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlovDRNADCN.resx">
+      <DependentUpon>frmlovDRNADCN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlovNewRework.resx">
+      <DependentUpon>frmlovNewRework.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlovPriority.resx">
+      <DependentUpon>frmlovPriority.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlovSystemDescription.resx">
+      <DependentUpon>frmlovSystemDescription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLovType.resx">
+      <DependentUpon>frmLovType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlovWhiteBoard.resx">
+      <DependentUpon>frmlovWhiteBoard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMDLAdd.resx">
+      <DependentUpon>frmMDLAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDLChange.resx">
+      <DependentUpon>frmMDLChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDLExceptions.resx">
+      <DependentUpon>frmMDLExceptions.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNewDWGRequest.resx">
       <DependentUpon>frmNewDWGRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPercentCompleteGuidance.resx">
+      <DependentUpon>frmPercentCompleteGuidance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProjectWorkflowSync.resx">
+      <DependentUpon>frmProjectWorkflowSync.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmViewReport.resx">
       <DependentUpon>frmViewReport.vb</DependentUpon>
@@ -315,6 +775,9 @@
     <EmbeddedResource Include="NewEARR.resx">
       <DependentUpon>NewEARR.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Programs.resx">
+      <DependentUpon>Programs.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="DataSet1.xsc">
@@ -328,6 +791,116 @@
     <None Include="DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
+    <None Include="DataSet10.xsc">
+      <DependentUpon>DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet10.xss">
+      <DependentUpon>DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet11.xsc">
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet11.xss">
+      <DependentUpon>DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet12.xsc">
+      <DependentUpon>DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet12.xss">
+      <DependentUpon>DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet13.xsc">
+      <DependentUpon>DataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet13.xss">
+      <DependentUpon>DataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet14.xsc">
+      <DependentUpon>DataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet14.xss">
+      <DependentUpon>DataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet15.xsc">
+      <DependentUpon>DataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet15.xss">
+      <DependentUpon>DataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet16.xsc">
+      <DependentUpon>DataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet16.xss">
+      <DependentUpon>DataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet17.xsc">
+      <DependentUpon>DataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet17.xss">
+      <DependentUpon>DataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet18.xsc">
+      <DependentUpon>DataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet18.xss">
+      <DependentUpon>DataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet19.xsc">
+      <DependentUpon>DataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet19.xss">
+      <DependentUpon>DataSet19.xsd</DependentUpon>
+    </None>
     <None Include="DataSet2.xsc">
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </None>
@@ -339,6 +912,116 @@
     <None Include="DataSet2.xss">
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </None>
+    <None Include="DataSet20.xsc">
+      <DependentUpon>DataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet20.xss">
+      <DependentUpon>DataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet21.xsc">
+      <DependentUpon>DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet21.xss">
+      <DependentUpon>DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet22.xsc">
+      <DependentUpon>DataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet22.xss">
+      <DependentUpon>DataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet23.xsc">
+      <DependentUpon>DataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet23.xss">
+      <DependentUpon>DataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet24.xsc">
+      <DependentUpon>DataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet24.xss">
+      <DependentUpon>DataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet25.xsc">
+      <DependentUpon>DataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet25.xss">
+      <DependentUpon>DataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet26.xsc">
+      <DependentUpon>DataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet26.xss">
+      <DependentUpon>DataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet27.xsc">
+      <DependentUpon>DataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet27.xss">
+      <DependentUpon>DataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet28.xsc">
+      <DependentUpon>DataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet28.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet28.xss">
+      <DependentUpon>DataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet29.xsc">
+      <DependentUpon>DataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet29.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet29.xss">
+      <DependentUpon>DataSet29.xsd</DependentUpon>
+    </None>
     <None Include="DataSet3.xsc">
       <DependentUpon>DataSet3.xsd</DependentUpon>
     </None>
@@ -349,6 +1032,116 @@
     </None>
     <None Include="DataSet3.xss">
       <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet30.xsc">
+      <DependentUpon>DataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet30.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet30.xss">
+      <DependentUpon>DataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet31.xsc">
+      <DependentUpon>DataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet31.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet31.xss">
+      <DependentUpon>DataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet32.xsc">
+      <DependentUpon>DataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet32.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet32.xss">
+      <DependentUpon>DataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet33.xsc">
+      <DependentUpon>DataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet33.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet33.xss">
+      <DependentUpon>DataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet34.xsc">
+      <DependentUpon>DataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet34.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet34.xss">
+      <DependentUpon>DataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet35.xsc">
+      <DependentUpon>DataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet35.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet35.xss">
+      <DependentUpon>DataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet36.xsc">
+      <DependentUpon>DataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet36.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet36.xss">
+      <DependentUpon>DataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet37.xsc">
+      <DependentUpon>DataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet37.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet37.xss">
+      <DependentUpon>DataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet38.xsc">
+      <DependentUpon>DataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet38.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet38.xss">
+      <DependentUpon>DataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet39.xsc">
+      <DependentUpon>DataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet39.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet39.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet39.xss">
+      <DependentUpon>DataSet39.xsd</DependentUpon>
     </None>
     <None Include="DataSet4.xsc">
       <DependentUpon>DataSet4.xsd</DependentUpon>
@@ -394,6 +1187,39 @@
     <None Include="DataSet7.xss">
       <DependentUpon>DataSet7.xsd</DependentUpon>
     </None>
+    <None Include="DataSet8.xsc">
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet8.xss">
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet9.xsc">
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet9.xss">
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="dsPrograms.xsc">
+      <DependentUpon>dsPrograms.xsd</DependentUpon>
+    </None>
+    <None Include="dsPrograms.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPrograms.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPrograms.xss">
+      <DependentUpon>dsPrograms.xsd</DependentUpon>
+    </None>
     <None Include="dsRevLookup.xsc">
       <DependentUpon>dsRevLookup.xsd</DependentUpon>
     </None>
@@ -404,6 +1230,17 @@
     </None>
     <None Include="dsRevLookup.xss">
       <DependentUpon>dsRevLookup.xsd</DependentUpon>
+    </None>
+    <None Include="dtsPrograms.xsc">
+      <DependentUpon>dtsPrograms.xsd</DependentUpon>
+    </None>
+    <None Include="dtsPrograms.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsPrograms.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dtsPrograms.xss">
+      <DependentUpon>dtsPrograms.xsd</DependentUpon>
     </None>
     <None Include="EngDesignTracking_1_TemporaryKey.pfx" />
     <None Include="EngDesignTracking_2_TemporaryKey.pfx" />
@@ -421,6 +1258,17 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="UsersDataset.xsc">
+      <DependentUpon>UsersDataset.xsd</DependentUpon>
+    </None>
+    <None Include="UsersDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsersDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UsersDataset.xss">
+      <DependentUpon>UsersDataset.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -440,12 +1288,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Utility\Utility.vbproj">
-      <Project>{23254088-fe9c-415f-b58e-4840b8656456}</Project>
-      <Name>Utility</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
@@ -459,6 +1301,77 @@
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-document-save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Add-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addrevision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\percentcomplete.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artdesigner-Webtoys-Question-mark.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Binassmax-Pry-Frente-Black-Special-2-Cross.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\percentcomplete1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.vbproj">
+      <Project>{23254088-fe9c-415f-b58e-4840b8656456}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Hopstarter-Soft-Scraps-Document-Flow-Chart.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

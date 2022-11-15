@@ -289,6 +289,22 @@ Partial Public Class dsPrograms
         
         Private columnActive As Global.System.Data.DataColumn
         
+        Private columnStandard As Global.System.Data.DataColumn
+        
+        Private columnLegacy As Global.System.Data.DataColumn
+        
+        Private columnProjectNumber As Global.System.Data.DataColumn
+        
+        Private columnACTNo As Global.System.Data.DataColumn
+        
+        Private columnPDFFolder As Global.System.Data.DataColumn
+        
+        Private columnShortForm As Global.System.Data.DataColumn
+        
+        Private columnDocNumbering As Global.System.Data.DataColumn
+        
+        Private columnProductGroup As Global.System.Data.DataColumn
+        
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub New()
@@ -349,6 +365,70 @@ Partial Public Class dsPrograms
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property StandardColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnStandard
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property LegacyColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnLegacy
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ProjectNumberColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnProjectNumber
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ACTNoColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnACTNo
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property PDFFolderColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPDFFolder
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ShortFormColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnShortForm
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property DocNumberingColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnDocNumbering
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ProductGroupColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnProductGroup
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -385,9 +465,9 @@ Partial Public Class dsPrograms
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Overloads Function AddtblProgramRow(ByVal ProgramName As String, ByVal Active As String) As tblProgramRow
+        Public Overloads Function AddtblProgramRow(ByVal ProgramName As String, ByVal Active As String, ByVal Standard As Boolean, ByVal Legacy As Boolean, ByVal ProjectNumber As Integer, ByVal ACTNo As String, ByVal PDFFolder As String, ByVal ShortForm As String, ByVal DocNumbering As String, ByVal ProductGroup As String) As tblProgramRow
             Dim rowtblProgramRow As tblProgramRow = CType(Me.NewRow,tblProgramRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, ProgramName, Active}
+            Dim columnValuesArray() As Object = New Object() {Nothing, ProgramName, Active, Standard, Legacy, ProjectNumber, ACTNo, PDFFolder, ShortForm, DocNumbering, ProductGroup}
             rowtblProgramRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowtblProgramRow)
             Return rowtblProgramRow
@@ -419,6 +499,14 @@ Partial Public Class dsPrograms
             Me.columnRecordID = MyBase.Columns("RecordID")
             Me.columnProgramName = MyBase.Columns("ProgramName")
             Me.columnActive = MyBase.Columns("Active")
+            Me.columnStandard = MyBase.Columns("Standard")
+            Me.columnLegacy = MyBase.Columns("Legacy")
+            Me.columnProjectNumber = MyBase.Columns("ProjectNumber")
+            Me.columnACTNo = MyBase.Columns("ACTNo")
+            Me.columnPDFFolder = MyBase.Columns("PDFFolder")
+            Me.columnShortForm = MyBase.Columns("ShortForm")
+            Me.columnDocNumbering = MyBase.Columns("DocNumbering")
+            Me.columnProductGroup = MyBase.Columns("ProductGroup")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -430,13 +518,32 @@ Partial Public Class dsPrograms
             MyBase.Columns.Add(Me.columnProgramName)
             Me.columnActive = New Global.System.Data.DataColumn("Active", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnActive)
+            Me.columnStandard = New Global.System.Data.DataColumn("Standard", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnStandard)
+            Me.columnLegacy = New Global.System.Data.DataColumn("Legacy", GetType(Boolean), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnLegacy)
+            Me.columnProjectNumber = New Global.System.Data.DataColumn("ProjectNumber", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnProjectNumber)
+            Me.columnACTNo = New Global.System.Data.DataColumn("ACTNo", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnACTNo)
+            Me.columnPDFFolder = New Global.System.Data.DataColumn("PDFFolder", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPDFFolder)
+            Me.columnShortForm = New Global.System.Data.DataColumn("ShortForm", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnShortForm)
+            Me.columnDocNumbering = New Global.System.Data.DataColumn("DocNumbering", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnDocNumbering)
+            Me.columnProductGroup = New Global.System.Data.DataColumn("ProductGroup", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnProductGroup)
             Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnRecordID}, true))
             Me.columnRecordID.AutoIncrement = true
             Me.columnRecordID.AllowDBNull = false
             Me.columnRecordID.ReadOnly = true
             Me.columnRecordID.Unique = true
-            Me.columnProgramName.MaxLength = 50
+            Me.columnProgramName.MaxLength = 200
             Me.columnActive.MaxLength = 50
+            Me.columnACTNo.MaxLength = 50
+            Me.columnPDFFolder.MaxLength = 2000
+            Me.columnShortForm.MaxLength = 200
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -624,6 +731,126 @@ Partial Public Class dsPrograms
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property Standard() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.StandardColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Standard' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.StandardColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property Legacy() As Boolean
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.LegacyColumn),Boolean)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Legacy' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.LegacyColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property ProjectNumber() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.ProjectNumberColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ProjectNumber' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.ProjectNumberColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property ACTNo() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.ACTNoColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ACTNo' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.ACTNoColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property PDFFolder() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.PDFFolderColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'PDFFolder' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.PDFFolderColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property ShortForm() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.ShortFormColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ShortForm' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.ShortFormColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property DocNumbering() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.DocNumberingColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'DocNumbering' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.DocNumberingColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property ProductGroup() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblProgram.ProductGroupColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ProductGroup' in table 'tblProgram' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblProgram.ProductGroupColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Function IsProgramNameNull() As Boolean
             Return Me.IsNull(Me.tabletblProgram.ProgramNameColumn)
         End Function
@@ -644,6 +871,102 @@ Partial Public Class dsPrograms
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetActiveNull()
             Me(Me.tabletblProgram.ActiveColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsStandardNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.StandardColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetStandardNull()
+            Me(Me.tabletblProgram.StandardColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsLegacyNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.LegacyColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetLegacyNull()
+            Me(Me.tabletblProgram.LegacyColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsProjectNumberNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.ProjectNumberColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetProjectNumberNull()
+            Me(Me.tabletblProgram.ProjectNumberColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsACTNoNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.ACTNoColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetACTNoNull()
+            Me(Me.tabletblProgram.ACTNoColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsPDFFolderNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.PDFFolderColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetPDFFolderNull()
+            Me(Me.tabletblProgram.PDFFolderColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsShortFormNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.ShortFormColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetShortFormNull()
+            Me(Me.tabletblProgram.ShortFormColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsDocNumberingNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.DocNumberingColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetDocNumberingNull()
+            Me(Me.tabletblProgram.DocNumberingColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsProductGroupNull() As Boolean
+            Return Me.IsNull(Me.tabletblProgram.ProductGroupColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetProductGroupNull()
+            Me(Me.tabletblProgram.ProductGroupColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     

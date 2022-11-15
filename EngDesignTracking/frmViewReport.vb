@@ -3,6 +3,8 @@
     Dim dsYo As New DataSet
     Public Report1 As crEARR
     Public Report2 As crEARRBlankFinal
+    Public Report3 As crMDLPrint
+
 
     Public ReportType As String
 
@@ -18,6 +20,12 @@
         ElseIf ReportType = "BLANKEARR" Then
             Me.CrystalReportViewer1.Zoom(100)
             CrystalReportViewer1.ReportSource = Report2
+        ElseIf ReportType = "MDLGridView" Then
+            Me.CrystalReportViewer1.Zoom(100)
+            daYo = New SqlClient.SqlDataAdapter(GlobalSqlString, SqlConnection2)
+            daYo.Fill(dsYo, "Data")
+            Report3.SetDataSource(dsYo.Tables("Data"))
+            CrystalReportViewer1.ReportSource = Report3
         End If
     End Sub
 End Class

@@ -2,6 +2,7 @@
     Dim da As SqlClient.SqlDataAdapter
     Dim ds As New DataSet
     Dim da1 As SqlClient.SqlDataAdapter
+    Dim isEARRSuperUser As String
 
     Private Sub btnExportGrid_Click(sender As Object, e As EventArgs) Handles btnExportGrid.Click
         GridControl1.ExportToXlsx("C:\Temp\ExportEARR.xlsx")
@@ -9,12 +10,13 @@
     End Sub
 
     Private Sub frmEARRGrid_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         SqlConnection2.ConnectionString = sqlString1
-        SqlConnection1.ConnectionString = sqlString1
+        'SqlConnection1.ConnectionString = sqlString
 
         'MsgBox(System.Environment.UserName)
 
-        da = New SqlClient.SqlDataAdapter("Select * from tblUsers Where Username = '" & User & "'", SqlConnection1)
+        da = New SqlClient.SqlDataAdapter("Select * from tblUsers Where Username = '" & User & "'", SqlConnection2)
         da.Fill(ds, "USERAUTHENTICATE")
         If ds.Tables("USERAUTHENTICATE").Rows.Count > 0 Then
             'If ds.Tables("USERAUTHENTICATE").Rows(0).Item("GridEdit") = "T" Then
@@ -24,7 +26,10 @@
             'End If
             EARRORIGNAME = ds.Tables("USERAUTHENTICATE").Rows(0).Item("SignedName")
             EARRREADONLY = ds.Tables("USERAUTHENTICATE").Rows(0).Item("ReadOnly")
+            EARRJaguarOnly = ds.Tables("USERAUTHENTICATE").Rows(0).Item("JaguarOnly")
+
             Search()
+
             ThingsToApprove()
             If EARRREADONLY = "-1" Then
 
@@ -36,17 +41,24 @@
         Else
             MsgBox("You are not setup as an authorized user.")
             Application.Exit()
-
-
         End If
+
 
         If ds.Tables("USERAUTHENTICATE").Rows(0).Item("EnterEARR") = False Then
             Me.btnSubmitNewDrawingRequest.Enabled = False
         End If
 
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("SuperUser") <> True Then
+            Me.FileToolStripMenuItem.Enabled = False
+        End If
+
+
         GridView1.BestFitColumns()
     End Sub
 
+    Public Function Jim()
+        MsgBox("Hey Jim:")
+    End Function
     Public Function Search()
         Dim strSwitch As String = "0"
         'Me.txtQuoteNo.Enabled = False
@@ -60,14 +72,12 @@
 
         Dim cmdSave As String
         SqlString = " Where RecordID = RecordID"
-
-
-
+        'SqlString = " Where RecordID = '6550'"
 
         SqlString = SqlString + " AND ProgramName = 'QCTEST'"
         strSwitch = 1
 
-            If chkShowCompletedEARRS.Checked = False Then
+        If chkShowCompletedEARRS.Checked = False Then
             SqlString = SqlString + " AND EARRStatus <> 'Complete' AND EARRStatus <> 'Aborted'"
         End If
 
@@ -76,6 +86,17 @@
 
 
             SqlString = SqlString + " OR ProgramName = 'Jaguar'"
+            'strSwitch = 1
+
+            If chkShowCompletedEARRS.Checked = False Then
+                SqlString = SqlString + " AND EARRStatus <> 'Complete' AND EARRStatus <> 'Aborted'"
+            End If
+        End If
+
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("CAE16190") = True Then
+
+
+            SqlString = SqlString + " OR ProgramName = '16190 - CAE'"
             'strSwitch = 1
 
             If chkShowCompletedEARRS.Checked = False Then
@@ -98,6 +119,51 @@
                 End If
             End If
         End If
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("MIT192181") = True Then
+
+
+            SqlString = SqlString + " OR ProgramName = '192181 – MIT ASTB'"
+            'strSwitch = 1
+
+            If chkShowCompletedEARRS.Checked = False Then
+                SqlString = SqlString + " AND EARRStatus <> 'Complete' AND EARRStatus <> 'Aborted'"
+            End If
+        End If
+
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("RepetitiveSale") = True Then
+
+
+            SqlString = SqlString + " OR ProgramName = 'Repetitive Sale'"
+            'strSwitch = 1
+
+            If chkShowCompletedEARRS.Checked = False Then
+                SqlString = SqlString + " AND EARRStatus <> 'Complete' AND EARRStatus <> 'Aborted'"
+            End If
+        End If
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("SCG1903") = True Then
+
+
+            SqlString = SqlString + " OR ProgramName = '192303 - SCG'"
+            'strSwitch = 1
+
+            If chkShowCompletedEARRS.Checked = False Then
+                SqlString = SqlString + " AND EARRStatus <> 'Complete' AND EARRStatus <> 'Aborted'"
+            End If
+        End If
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("Jaguar16082") = True Then
+            If strSwitch = 0 Then
+                SqlString = SqlString + " AND ProgramName = '16082 - Jaguar'"
+                strSwitch = 1
+                If chkShowCompletedEARRS.Checked = False Then
+                    SqlString = SqlString + " AND EARRStatus <> 'Complete'"
+                End If
+            Else
+                SqlString = SqlString + " OR ProgramName = '16082 - Jaguar'"
+                If chkShowCompletedEARRS.Checked = False Then
+                    SqlString = SqlString + " AND EARRStatus <> 'Complete'"
+                End If
+            End If
+        End If
 
         If ds.Tables("USERAUTHENTICATE").Rows(0).Item("Jaguar16082") = True Then
             If strSwitch = 0 Then
@@ -108,6 +174,34 @@
                 End If
             Else
                 SqlString = SqlString + " OR ProgramName = '16082 - Jaguar'"
+                If chkShowCompletedEARRS.Checked = False Then
+                    SqlString = SqlString + " AND EARRStatus <> 'Complete'"
+                End If
+            End If
+        End If
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("Jaguar2635") = True Then
+            If strSwitch = 0 Then
+                SqlString = SqlString + " AND ProgramName = '2635 - Jaguar'"
+                strSwitch = 1
+                If chkShowCompletedEARRS.Checked = False Then
+                    SqlString = SqlString + " AND EARRStatus <> 'Complete'"
+                End If
+            Else
+                SqlString = SqlString + " OR ProgramName = '2635 - Jaguar'"
+                If chkShowCompletedEARRS.Checked = False Then
+                    SqlString = SqlString + " AND EARRStatus <> 'Complete'"
+                End If
+            End If
+        End If
+        If ds.Tables("USERAUTHENTICATE").Rows(0).Item("MMSAC2640") = True Then
+            If strSwitch = 0 Then
+                SqlString = SqlString + " AND ProgramName = '2640 - Missionized Interior MMSA-C (G550)'"
+                strSwitch = 1
+                If chkShowCompletedEARRS.Checked = False Then
+                    SqlString = SqlString + " AND EARRStatus <> 'Complete'"
+                End If
+            Else
+                SqlString = SqlString + " OR ProgramName = '2640 - Missionized Interior MMSA-C (G550)'"
                 If chkShowCompletedEARRS.Checked = False Then
                     SqlString = SqlString + " AND EARRStatus <> 'Complete'"
                 End If
@@ -132,7 +226,7 @@
 
         cmdSave = Me.SqlDataAdapter1.SelectCommand.CommandText
         Me.SqlDataAdapter1.SelectCommand.CommandText() += SqlString
-
+        'Me.SqlDataAdapter1.SelectCommand.CommandText() = "Select DrawingRevision, Request, IncorpRedLineYes, IncorpRedLineNo, DrawingReqForConformityYes, DrawingReqForConformityNo, EARRResponseDate, OriginatorName, OriginatorDate, OriginatorSignedOff, ReplyInstructions, EffectivityAll, EffectivityOther, EffectivityOtherText, DeviationMinor, DeviationMajor, AdditionalEngReqNoAction, AdditionalEngReqUpdate, ACFTInterface, Manufacturability, ProductImprovement, DWGError, DesignError, LiaisonManagerName, LiaisonManagerSignOffDate, EngineeringManagerName, EngineeringManagerSignOffDate, LiaisonManagerNameBackup, EngineeringManagerNameBackup, Planner1, Planner2, QCName, QCSignOff, QCNameBackup, FabShop, QCNotes, ProductionError, EstCompletionDate, Comments, EndItemType, PlannerNotes, PlannerSignOffDate, Priority From tblEARR"
 
         ''If Me.cboSchoolYearEnrolledIn.Text = "2013" And Me.txtLastNameSearch.Text = "" And BackToPerson = 0 Then
         ''	Me.SqlDataAdapter1.SelectCommand.CommandText() = "SELECT * FROM vwStudents  A INNER JOIN tblStudents B ON  A.RecordID = B.RecordID INNER JOIN  tblClassEnrollment C ON B.RecordID = C.StudentID Where C.SchoolYear = '2013' ORDER BY C.StudentLast Asc"
@@ -195,9 +289,9 @@
     End Function
 
     Private Sub btnEARRApproval_Click(sender As Object, e As EventArgs) Handles btnEARRApproval.Click
+        EditEARR = Me.txtRecordID.Text
         Dim frmEARRApproval As New frmEARRApproval
         frmEARRApproval.Show()
-
     End Sub
 
     Private Sub btnRefresh_Click(sender As Object, e As EventArgs) Handles btnRefresh.Click
@@ -225,10 +319,6 @@
         Me.Close()
     End Sub
 
-    Private Sub GridControl1_Click(sender As Object, e As EventArgs) Handles GridControl1.Click
-
-    End Sub
-
     Private Sub btnExportForm_Click(sender As Object, e As EventArgs) Handles btnExportForm.Click
 
         Dim crReport As New crEARRBlankFinal
@@ -244,5 +334,15 @@
         frm.ReportType = "BLANKEARR"
         frm.Report2 = crReport
         frm.Show()
+    End Sub
+
+    Private Sub UsersToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles UsersToolStripMenuItem1.Click
+        Dim frmEARRRUsers As New frmEARRUsers
+        frmEARRUsers.Show()
+    End Sub
+
+    Private Sub SignOffUsersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SignOffUsersToolStripMenuItem.Click
+        Dim frmEARRRUsersSignOff As New frmEARRUsersSignOff
+        frmEARRUsersSignOff.Show()
     End Sub
 End Class

@@ -483,6 +483,24 @@ Partial Public Class DataSet2
         
         Private columnNextHigherAssembly As Global.System.Data.DataColumn
         
+        Private columnInstallationDrawing As Global.System.Data.DataColumn
+        
+        Private columnWhiteBoardNumber As Global.System.Data.DataColumn
+        
+        Private columnDRNADCN As Global.System.Data.DataColumn
+        
+        Private columnDwgReqDate As Global.System.Data.DataColumn
+        
+        Private columnCompanyFlightTestRequired As Global.System.Data.DataColumn
+        
+        Private columnPSCPDocsRequired As Global.System.Data.DataColumn
+        
+        Private columnFAAProjectNo As Global.System.Data.DataColumn
+        
+        Private columnNewRework As Global.System.Data.DataColumn
+        
+        Private columnADCN As Global.System.Data.DataColumn
+        
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub New()
@@ -1319,6 +1337,78 @@ Partial Public Class DataSet2
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property InstallationDrawingColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnInstallationDrawing
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property WhiteBoardNumberColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnWhiteBoardNumber
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property DRNADCNColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnDRNADCN
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property DwgReqDateColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnDwgReqDate
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property CompanyFlightTestRequiredColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCompanyFlightTestRequired
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property PSCPDocsRequiredColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnPSCPDocsRequired
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property FAAProjectNoColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnFAAProjectNo
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property NewReworkColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnNewRework
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property ADCNColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnADCN
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -1372,7 +1462,7 @@ Partial Public Class DataSet2
                     ByVal ActualFinishDate As Date,  _
                     ByVal ForecastFinishDate As Date,  _
                     ByVal PlannedFinishDate As Date,  _
-                    ByVal PercentComplete As String,  _
+                    ByVal PercentComplete As Integer,  _
                     ByVal DrawingFolderAssignDate As String,  _
                     ByVal DesignWIPDate As String,  _
                     ByVal Notes As String,  _
@@ -1453,9 +1543,18 @@ Partial Public Class DataSet2
                     ByVal WONumber As String,  _
                     ByVal ForecastStartDate As Date,  _
                     ByVal EstimatedDurationHours As String,  _
-                    ByVal NextHigherAssembly As String) As tblDrawingsRow
+                    ByVal NextHigherAssembly As String,  _
+                    ByVal InstallationDrawing As String,  _
+                    ByVal WhiteBoardNumber As String,  _
+                    ByVal DRNADCN As String,  _
+                    ByVal DwgReqDate As Date,  _
+                    ByVal CompanyFlightTestRequired As String,  _
+                    ByVal PSCPDocsRequired As String,  _
+                    ByVal FAAProjectNo As String,  _
+                    ByVal NewRework As String,  _
+                    ByVal ADCN As String) As tblDrawingsRow
             Dim rowtblDrawingsRow As tblDrawingsRow = CType(Me.NewRow,tblDrawingsRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, DocumentType, Priority, Location, Type, DwgRequestBy, DrawingNumber, DwgRequestDate, DrawingTitle, Program, DrawingType, SystemDescription, Status, LastActionDate, ActualFinishDate, ForecastFinishDate, PlannedFinishDate, PercentComplete, DrawingFolderAssignDate, DesignWIPDate, Notes, ModelTemplateDate, Drafter, DrafterComplete, Engineer, EngineerComplete, SrEngineer, SrEngineerComplete, Releaser, ReleaserCompelte, Flammability, FlammabilityComplete, Stress, StressComplete, DwgRevision, RefID, DrafterPlannedCompleteDate, EngineerPlannedCompleteDate, SrEngineerPlannedCompleteDate, FlammabilityPlannedCompleteDate, StressPlannedCompleteDate, ReleaserPlannedCompleteDate, Nothing, Expr2, Expr3, Expr4, Expr5, Expr6, Expr7, Expr8, Expr9, Expr10, Expr11, Expr12, Expr13, Expr14, Expr15, Expr16, Expr17, Expr18, Expr19, Expr20, Expr21, Expr22, Expr23, Expr24, Expr25, Expr26, Expr27, Expr28, Expr29, Expr30, Expr31, Expr32, Expr33, Expr34, Expr35, Expr36, Expr37, Expr38, Expr39, Expr40, Expr41, Expr42, Avionics, AvionicsComplete, AvionicsPlannedComplete, Mechanical, MechanicalComplete, MechanicalPlannedComplete, Expr43, Expr44, Expr45, Expr46, Expr47, Expr48, WONumber, ForecastStartDate, EstimatedDurationHours, NextHigherAssembly}
+            Dim columnValuesArray() As Object = New Object() {Nothing, DocumentType, Priority, Location, Type, DwgRequestBy, DrawingNumber, DwgRequestDate, DrawingTitle, Program, DrawingType, SystemDescription, Status, LastActionDate, ActualFinishDate, ForecastFinishDate, PlannedFinishDate, PercentComplete, DrawingFolderAssignDate, DesignWIPDate, Notes, ModelTemplateDate, Drafter, DrafterComplete, Engineer, EngineerComplete, SrEngineer, SrEngineerComplete, Releaser, ReleaserCompelte, Flammability, FlammabilityComplete, Stress, StressComplete, DwgRevision, RefID, DrafterPlannedCompleteDate, EngineerPlannedCompleteDate, SrEngineerPlannedCompleteDate, FlammabilityPlannedCompleteDate, StressPlannedCompleteDate, ReleaserPlannedCompleteDate, Nothing, Expr2, Expr3, Expr4, Expr5, Expr6, Expr7, Expr8, Expr9, Expr10, Expr11, Expr12, Expr13, Expr14, Expr15, Expr16, Expr17, Expr18, Expr19, Expr20, Expr21, Expr22, Expr23, Expr24, Expr25, Expr26, Expr27, Expr28, Expr29, Expr30, Expr31, Expr32, Expr33, Expr34, Expr35, Expr36, Expr37, Expr38, Expr39, Expr40, Expr41, Expr42, Avionics, AvionicsComplete, AvionicsPlannedComplete, Mechanical, MechanicalComplete, MechanicalPlannedComplete, Expr43, Expr44, Expr45, Expr46, Expr47, Expr48, WONumber, ForecastStartDate, EstimatedDurationHours, NextHigherAssembly, InstallationDrawing, WhiteBoardNumber, DRNADCN, DwgReqDate, CompanyFlightTestRequired, PSCPDocsRequired, FAAProjectNo, NewRework, ADCN}
             rowtblDrawingsRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowtblDrawingsRow)
             Return rowtblDrawingsRow
@@ -1584,6 +1683,15 @@ Partial Public Class DataSet2
             Me.columnForecastStartDate = MyBase.Columns("ForecastStartDate")
             Me.columnEstimatedDurationHours = MyBase.Columns("EstimatedDurationHours")
             Me.columnNextHigherAssembly = MyBase.Columns("NextHigherAssembly")
+            Me.columnInstallationDrawing = MyBase.Columns("InstallationDrawing")
+            Me.columnWhiteBoardNumber = MyBase.Columns("WhiteBoardNumber")
+            Me.columnDRNADCN = MyBase.Columns("DRNADCN")
+            Me.columnDwgReqDate = MyBase.Columns("DwgReqDate")
+            Me.columnCompanyFlightTestRequired = MyBase.Columns("CompanyFlightTestRequired")
+            Me.columnPSCPDocsRequired = MyBase.Columns("PSCPDocsRequired")
+            Me.columnFAAProjectNo = MyBase.Columns("FAAProjectNo")
+            Me.columnNewRework = MyBase.Columns("NewRework")
+            Me.columnADCN = MyBase.Columns("ADCN")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1623,7 +1731,7 @@ Partial Public Class DataSet2
             MyBase.Columns.Add(Me.columnForecastFinishDate)
             Me.columnPlannedFinishDate = New Global.System.Data.DataColumn("PlannedFinishDate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPlannedFinishDate)
-            Me.columnPercentComplete = New Global.System.Data.DataColumn("PercentComplete", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnPercentComplete = New Global.System.Data.DataColumn("PercentComplete", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnPercentComplete)
             Me.columnDrawingFolderAssignDate = New Global.System.Data.DataColumn("DrawingFolderAssignDate", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnDrawingFolderAssignDate)
@@ -1789,6 +1897,24 @@ Partial Public Class DataSet2
             MyBase.Columns.Add(Me.columnEstimatedDurationHours)
             Me.columnNextHigherAssembly = New Global.System.Data.DataColumn("NextHigherAssembly", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnNextHigherAssembly)
+            Me.columnInstallationDrawing = New Global.System.Data.DataColumn("InstallationDrawing", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnInstallationDrawing)
+            Me.columnWhiteBoardNumber = New Global.System.Data.DataColumn("WhiteBoardNumber", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnWhiteBoardNumber)
+            Me.columnDRNADCN = New Global.System.Data.DataColumn("DRNADCN", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnDRNADCN)
+            Me.columnDwgReqDate = New Global.System.Data.DataColumn("DwgReqDate", GetType(Date), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnDwgReqDate)
+            Me.columnCompanyFlightTestRequired = New Global.System.Data.DataColumn("CompanyFlightTestRequired", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCompanyFlightTestRequired)
+            Me.columnPSCPDocsRequired = New Global.System.Data.DataColumn("PSCPDocsRequired", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnPSCPDocsRequired)
+            Me.columnFAAProjectNo = New Global.System.Data.DataColumn("FAAProjectNo", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnFAAProjectNo)
+            Me.columnNewRework = New Global.System.Data.DataColumn("NewRework", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnNewRework)
+            Me.columnADCN = New Global.System.Data.DataColumn("ADCN", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnADCN)
             Me.Constraints.Add(New Global.System.Data.UniqueConstraint("Constraint1", New Global.System.Data.DataColumn() {Me.columnRecordID}, true))
             Me.columnRecordID.AutoIncrement = true
             Me.columnRecordID.AllowDBNull = false
@@ -1805,7 +1931,6 @@ Partial Public Class DataSet2
             Me.columnDrawingType.MaxLength = 100
             Me.columnSystemDescription.MaxLength = 2000
             Me.columnStatus.MaxLength = 100
-            Me.columnPercentComplete.MaxLength = 10
             Me.columnNotes.MaxLength = 2000
             Me.columnDrafter.MaxLength = 100
             Me.columnEngineer.MaxLength = 100
@@ -1867,6 +1992,14 @@ Partial Public Class DataSet2
             Me.columnExpr47.MaxLength = 100
             Me.columnExpr48.MaxLength = 100
             Me.columnWONumber.MaxLength = 50
+            Me.columnInstallationDrawing.MaxLength = 2000
+            Me.columnWhiteBoardNumber.MaxLength = 2
+            Me.columnDRNADCN.MaxLength = 200
+            Me.columnCompanyFlightTestRequired.MaxLength = 200
+            Me.columnPSCPDocsRequired.MaxLength = 4
+            Me.columnFAAProjectNo.MaxLength = 10
+            Me.columnNewRework.MaxLength = 200
+            Me.columnADCN.MaxLength = 200
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -2264,10 +2397,10 @@ Partial Public Class DataSet2
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property PercentComplete() As String
+        Public Property PercentComplete() As Integer
             Get
                 Try 
-                    Return CType(Me(Me.tabletblDrawings.PercentCompleteColumn),String)
+                    Return CType(Me(Me.tabletblDrawings.PercentCompleteColumn),Integer)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'PercentComplete' in table 'tblDrawings' is DBNull.", e)
                 End Try
@@ -3512,6 +3645,142 @@ Partial Public Class DataSet2
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property InstallationDrawing() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.InstallationDrawingColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'InstallationDrawing' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.InstallationDrawingColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property WhiteBoardNumber() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.WhiteBoardNumberColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'WhiteBoardNumber' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.WhiteBoardNumberColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property DRNADCN() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.DRNADCNColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'DRNADCN' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.DRNADCNColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property DwgReqDate() As Date
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.DwgReqDateColumn),Date)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'DwgReqDate' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.DwgReqDateColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property CompanyFlightTestRequired() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.CompanyFlightTestRequiredColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CompanyFlightTestRequired' in table 'tblDrawings' is DBNull"& _ 
+                            ".", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.CompanyFlightTestRequiredColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property PSCPDocsRequired() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.PSCPDocsRequiredColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'PSCPDocsRequired' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.PSCPDocsRequiredColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property FAAProjectNo() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.FAAProjectNoColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'FAAProjectNo' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.FAAProjectNoColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property NewRework() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.NewReworkColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'NewRework' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.NewReworkColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property ADCN() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tabletblDrawings.ADCNColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ADCN' in table 'tblDrawings' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tabletblDrawings.ADCNColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Function IsDocumentTypeNull() As Boolean
             Return Me.IsNull(Me.tabletblDrawings.DocumentTypeColumn)
         End Function
@@ -4684,6 +4953,114 @@ Partial Public Class DataSet2
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetNextHigherAssemblyNull()
             Me(Me.tabletblDrawings.NextHigherAssemblyColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsInstallationDrawingNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.InstallationDrawingColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetInstallationDrawingNull()
+            Me(Me.tabletblDrawings.InstallationDrawingColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsWhiteBoardNumberNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.WhiteBoardNumberColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetWhiteBoardNumberNull()
+            Me(Me.tabletblDrawings.WhiteBoardNumberColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsDRNADCNNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.DRNADCNColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetDRNADCNNull()
+            Me(Me.tabletblDrawings.DRNADCNColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsDwgReqDateNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.DwgReqDateColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetDwgReqDateNull()
+            Me(Me.tabletblDrawings.DwgReqDateColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsCompanyFlightTestRequiredNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.CompanyFlightTestRequiredColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetCompanyFlightTestRequiredNull()
+            Me(Me.tabletblDrawings.CompanyFlightTestRequiredColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsPSCPDocsRequiredNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.PSCPDocsRequiredColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetPSCPDocsRequiredNull()
+            Me(Me.tabletblDrawings.PSCPDocsRequiredColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsFAAProjectNoNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.FAAProjectNoColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetFAAProjectNoNull()
+            Me(Me.tabletblDrawings.FAAProjectNoColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsNewReworkNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.NewReworkColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetNewReworkNull()
+            Me(Me.tabletblDrawings.NewReworkColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function IsADCNNull() As Boolean
+            Return Me.IsNull(Me.tabletblDrawings.ADCNColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub SetADCNNull()
+            Me(Me.tabletblDrawings.ADCNColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     

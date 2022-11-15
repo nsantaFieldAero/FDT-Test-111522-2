@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLevelThree" targetNamespace="http://tempuri.org/dsLevelThree.xsd" xmlns:mstns="http://tempuri.org/dsLevelThree.xsd" xmlns="http://tempuri.org/dsLevelThree.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLevelThree" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLevelThree" msprop:Generator_DataSetName="dsLevelThree">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDocTypePrefixLevelThree" msprop:Generator_TableClassName="tblDocTypePrefixLevelThreeDataTable" msprop:Generator_TableVarName="tabletblDocTypePrefixLevelThree" msprop:Generator_TablePropName="tblDocTypePrefixLevelThree" msprop:Generator_RowDeletingName="tblDocTypePrefixLevelThreeRowDeleting" msprop:Generator_RowChangingName="tblDocTypePrefixLevelThreeRowChanging" msprop:Generator_RowEvHandlerName="tblDocTypePrefixLevelThreeRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDocTypePrefixLevelThreeRowDeleted" msprop:Generator_UserTableName="tblDocTypePrefixLevelThree" msprop:Generator_RowChangedName="tblDocTypePrefixLevelThreeRowChanged" msprop:Generator_RowEvArgName="tblDocTypePrefixLevelThreeRowChangeEvent" msprop:Generator_RowClassName="tblDocTypePrefixLevelThreeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="DocumentType" msprop:Generator_ColumnVarNameInTable="columnDocumentType" msprop:Generator_ColumnPropNameInRow="DocumentType" msprop:Generator_ColumnPropNameInTable="DocumentTypeColumn" msprop:Generator_UserColumnName="DocumentType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prefix" msprop:Generator_ColumnVarNameInTable="columnPrefix" msprop:Generator_ColumnPropNameInRow="Prefix" msprop:Generator_ColumnPropNameInTable="PrefixColumn" msprop:Generator_UserColumnName="Prefix" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NextPrefix" msprop:Generator_ColumnVarNameInTable="columnNextPrefix" msprop:Generator_ColumnPropNameInRow="NextPrefix" msprop:Generator_ColumnPropNameInTable="NextPrefixColumn" msprop:Generator_UserColumnName="NextPrefix" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Trailing" msprop:Generator_ColumnVarNameInTable="columnTrailing" msprop:Generator_ColumnPropNameInRow="Trailing" msprop:Generator_ColumnPropNameInTable="TrailingColumn" msprop:Generator_UserColumnName="Trailing" type="xs:int" minOccurs="0" />
+              <xs:element name="FirstPrefix" msprop:Generator_ColumnVarNameInTable="columnFirstPrefix" msprop:Generator_ColumnPropNameInRow="FirstPrefix" msprop:Generator_ColumnPropNameInTable="FirstPrefixColumn" msprop:Generator_UserColumnName="FirstPrefix" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PreviousPrefix" msprop:Generator_ColumnVarNameInTable="columnPreviousPrefix" msprop:Generator_ColumnPropNameInRow="PreviousPrefix" msprop:Generator_ColumnPropNameInTable="PreviousPrefixColumn" msprop:Generator_UserColumnName="PreviousPrefix" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastPrefix" msprop:Generator_ColumnVarNameInTable="columnLastPrefix" msprop:Generator_ColumnPropNameInRow="LastPrefix" msprop:Generator_ColumnPropNameInTable="LastPrefixColumn" msprop:Generator_UserColumnName="LastPrefix" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DrawingOrReport" msprop:Generator_ColumnVarNameInTable="columnDrawingOrReport" msprop:Generator_ColumnPropNameInRow="DrawingOrReport" msprop:Generator_ColumnPropNameInTable="DrawingOrReportColumn" msprop:Generator_UserColumnName="DrawingOrReport" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" msprop:Generator_UserColumnName="Active" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDocTypePrefixLevelThree" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
