@@ -44,6 +44,7 @@ Partial Class Aircrafts
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.txtRecordID = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DsAircrafts1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bsAircrafts, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -100,16 +101,20 @@ Partial Class Aircrafts
         'GridControl1
         '
         Me.GridControl1.DataSource = Me.bsAircrafts
-        Me.GridControl1.Location = New System.Drawing.Point(12, 12)
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.GridControl1.Location = New System.Drawing.Point(24, 23)
         Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1002, 510)
+        Me.GridControl1.Size = New System.Drawing.Size(2004, 981)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
         'GridView1
         '
         Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colRecordID, Me.colAircraft, Me.colProgramName, Me.colProgramNumber, Me.colProjectName, Me.colProjectNumber, Me.colLocation})
+        Me.GridView1.DetailHeight = 673
+        Me.GridView1.FixedLineWidth = 4
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         Me.GridView1.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Top
@@ -117,88 +122,116 @@ Partial Class Aircrafts
         'colRecordID
         '
         Me.colRecordID.FieldName = "RecordID"
+        Me.colRecordID.MinWidth = 40
         Me.colRecordID.Name = "colRecordID"
         Me.colRecordID.Visible = True
         Me.colRecordID.VisibleIndex = 0
+        Me.colRecordID.Width = 150
         '
         'colAircraft
         '
         Me.colAircraft.Caption = "Manufacturer"
         Me.colAircraft.FieldName = "Aircraft"
+        Me.colAircraft.MinWidth = 40
         Me.colAircraft.Name = "colAircraft"
         Me.colAircraft.Visible = True
         Me.colAircraft.VisibleIndex = 1
+        Me.colAircraft.Width = 150
         '
         'colProgramName
         '
         Me.colProgramName.Caption = "Model"
         Me.colProgramName.FieldName = "ProgramName"
+        Me.colProgramName.MinWidth = 40
         Me.colProgramName.Name = "colProgramName"
         Me.colProgramName.Visible = True
         Me.colProgramName.VisibleIndex = 2
+        Me.colProgramName.Width = 150
         '
         'colProgramNumber
         '
         Me.colProgramNumber.FieldName = "ProgramNumber"
+        Me.colProgramNumber.MinWidth = 40
         Me.colProgramNumber.Name = "colProgramNumber"
         Me.colProgramNumber.Visible = True
         Me.colProgramNumber.VisibleIndex = 3
+        Me.colProgramNumber.Width = 150
         '
         'colProjectName
         '
         Me.colProjectName.FieldName = "ProjectName"
+        Me.colProjectName.MinWidth = 40
         Me.colProjectName.Name = "colProjectName"
         Me.colProjectName.Visible = True
         Me.colProjectName.VisibleIndex = 4
+        Me.colProjectName.Width = 150
         '
         'colProjectNumber
         '
         Me.colProjectNumber.FieldName = "ProjectNumber"
+        Me.colProjectNumber.MinWidth = 40
         Me.colProjectNumber.Name = "colProjectNumber"
         Me.colProjectNumber.Visible = True
         Me.colProjectNumber.VisibleIndex = 5
+        Me.colProjectNumber.Width = 150
         '
         'colLocation
         '
         Me.colLocation.FieldName = "Location"
+        Me.colLocation.MinWidth = 40
         Me.colLocation.Name = "colLocation"
         Me.colLocation.Visible = True
         Me.colLocation.VisibleIndex = 6
+        Me.colLocation.Width = 150
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(315, 528)
+        Me.btnSave.Location = New System.Drawing.Point(630, 1015)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(113, 29)
+        Me.btnSave.Size = New System.Drawing.Size(226, 56)
         Me.btnSave.TabIndex = 1
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(493, 528)
+        Me.btnDelete.Location = New System.Drawing.Point(986, 1015)
+        Me.btnDelete.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(113, 29)
+        Me.btnDelete.Size = New System.Drawing.Size(226, 56)
         Me.btnDelete.TabIndex = 2
         Me.btnDelete.Text = "Delete Current"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'txtRecordID
         '
-        Me.txtRecordID.Location = New System.Drawing.Point(315, 252)
+        Me.txtRecordID.Location = New System.Drawing.Point(630, 485)
+        Me.txtRecordID.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.txtRecordID.Name = "txtRecordID"
-        Me.txtRecordID.Size = New System.Drawing.Size(100, 20)
+        Me.txtRecordID.Size = New System.Drawing.Size(196, 31)
         Me.txtRecordID.TabIndex = 3
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(691, 485)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(247, 60)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Aircrafts
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1026, 569)
+        Me.ClientSize = New System.Drawing.Size(2052, 1094)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.txtRecordID)
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Name = "Aircrafts"
         Me.Text = "Aircrafts"
         CType(Me.DsAircrafts1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -230,4 +263,5 @@ Partial Class Aircrafts
     Friend WithEvents colProjectNumber As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colLocation As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents txtRecordID As TextBox
+    Friend WithEvents Button1 As Button
 End Class
